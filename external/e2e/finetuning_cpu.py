@@ -15,7 +15,7 @@ model = torch.load(model_path, map_location="cpu")
 # Initialize the SymbolicTransformerRegressor with the model
 estimator = SymbolicTransformerRegressor(
     model=model,
-    max_input_points=10000,  # Example parameter; adjust based on your use case
+    max_input_points=200,  # Example parameter; adjust based on your use case
     n_trees_to_refine=10,
     rescale=True
 )
@@ -45,10 +45,10 @@ def train(estimator, train_samples, train_targets):
 
 # Sample Training Data (stay on CPU)
 # x1 (1000 x p), x2 (100 x p), y (100 x p)
-x1 = torch.randn(1000, 5)  # Replace with actual data
-y1 = torch.randn(1000, 1)  # Replace with actual data
-x2 = torch.randn(100, 5)   # Replace with actual data
-y2 = torch.randn(100, 1)   # Replace with actual data
+x1 = torch.randn(200, 5)  # Replace with actual data
+y1 = torch.randn(200, 1)  # Replace with actual data
+x2 = torch.randn(200, 5)   # Replace with actual data
+y2 = torch.randn(200, 1)   # Replace with actual data
 
 print("data loaded")
 
