@@ -18,5 +18,5 @@ module load cuda/11.2.2                  # Load CUDA module, adjust version to m
 # Activate the Conda environment
 eval "$(conda shell.bash hook)"
 conda activate srsd                    # Activate the conda environment (adjust name if needed)
-python finetuning.py
+python finetuning_cpu.py
 conda deactivate
