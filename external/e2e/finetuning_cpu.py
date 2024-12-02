@@ -5,6 +5,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from symbolicregression.model import SymbolicTransformerRegressor
 import sympy as sp
 import re
+import time
 
 # Load the model state_dict
 model_path = "resource/ckpt/model_original.pt"
@@ -62,13 +63,16 @@ n_epochs = 10
 criterion = nn.MSELoss()
 
 for epoch in range(n_epochs):
-    print(epoch)
+    
+    print("Epoch ", epoch)
+    start = time.clock()
     # Zero the parameter gradients
     optimizer.zero_grad()
 
     # Step 1: Generate a symbolic expression from x1 using the model
     sympy_expression = train(estimator, x1, y1)  # Generate the symbolic expression from x1 and y1
-
+    step1 = time.clock()
+    print("Step 1 Time: ", step1 - start)
     # Step 2: Evaluate the symbolic expression on x2 to get y_hat
     # Create a function from the sympy expression
     variables = sp.symbols('x0:%d' % x2.shape[1])
@@ -79,13 +83,17 @@ for epoch in range(n_epochs):
     y_hat_numpy = sympy_function(*x2_numpy.T)
     y_hat = torch.tensor(y_hat_numpy, dtype=torch.float32, requires_grad=True).to("cpu")
     y_hat = y_hat.view(-1, 1)  # Reshape to match y2 size (100, 1)
-
+    step2 = time.clock()
+    print("Step 2 Time: ", step2 - step1)
     # Step 3: Compute the loss between y_hat and y2 using MSE Loss
     loss = criterion(y_hat, y2)
-
+    step3 = time.clock()
+    print("Step 3 Time: ", step3 - step2)
     # Step 4: Backward pass and optimization
     loss.backward()
     optimizer.step()
+    step4 = time.clock()
+    print("Step 4 Time: ", step4 - step3)
 
     # Print loss for each epoch
     print(f"Epoch {epoch + 1}/{n_epochs}, Loss: {loss.item()}")
