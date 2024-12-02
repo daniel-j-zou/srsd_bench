@@ -8,6 +8,7 @@ import re
 
 # Load the model state_dict
 model_path = "resource/ckpt/model_original.pt"
+print(model_path)
 model = torch.load(model_path, map_location="cpu")
 
 # Initialize the SymbolicTransformerRegressor with the model
@@ -25,13 +26,6 @@ estimator.model.to("cpu")
 def e2e_w_transformer2sympy(eq_str, threshold=1e-2):
     eq_str_w_normalized_vars = re.sub(r'\bx_([0-9]*[0-9])\b', r'x\1', eq_str)
     sympy_expr = sp.parse_expr(eq_str_w_normalized_vars)
-    max_iterations = 10  # Limit to avoid infinite loop
-    for _ in range(max_iterations):
-        updated_expr = sympy_expr.xreplace({c: 0 for c in sympy_expr.atoms(sp.Number) if abs(float(c)) < threshold})
-        updated_expr = sp.simplify(updated_expr)
-        if sympy_expr == updated_expr:
-            break
-        sympy_expr = updated_expr
 
     return updated_expr
 
@@ -55,6 +49,8 @@ y1 = torch.randn(1000, 1)  # Replace with actual data
 x2 = torch.randn(100, 5)   # Replace with actual data
 y2 = torch.randn(100, 1)   # Replace with actual data
 
+print("data loaded")
+
 # Set model to training mode
 estimator.model.train()
 
@@ -66,6 +62,7 @@ n_epochs = 10
 criterion = nn.MSELoss()
 
 for epoch in range(n_epochs):
+    print(epoch)
     # Zero the parameter gradients
     optimizer.zero_grad()
 
