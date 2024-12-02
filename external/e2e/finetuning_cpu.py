@@ -27,7 +27,7 @@ def e2e_w_transformer2sympy(eq_str, threshold=1e-2):
     eq_str_w_normalized_vars = re.sub(r'\bx_([0-9]*[0-9])\b', r'x\1', eq_str)
     sympy_expr = sp.parse_expr(eq_str_w_normalized_vars)
 
-    return updated_expr
+    return sympy_expr
 
 # Function to train the model and generate a symbolic expression
 def train(estimator, train_samples, train_targets):
