@@ -80,7 +80,8 @@ for epoch in range(n_epochs):
     # Convert x2 to numpy to evaluate it using the sympy function
     x2_numpy = x2.detach().numpy()
     y_hat_numpy = sympy_function(*x2_numpy.T)
-    y_hat = torch.tensor(y_hat_numpy, dtype=torch.float32)
+    y_hat = torch.tensor(y_hat_numpy, dtype=torch.float32, requires_grad=True).to("cpu")
+    y_hat = y_hat.view(-1, 1)  # Reshape to match y2 size (100, 1)
 
     # Step 3: Compute the loss between y_hat and y2 using MSE Loss
     loss = criterion(y_hat, y2)
