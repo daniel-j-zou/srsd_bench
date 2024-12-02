@@ -1,0 +1,30 @@
+finetuning.py:11: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(model_path, map_location="cpu")
+Traceback (most recent call last):
+  File "finetuning.py", line 74, in <module>
+    sympy_expression = train(estimator, x1, y1)  # Generate the symbolic expression from x1 and y1
+  File "finetuning.py", line 41, in train
+    estimator.fit(train_samples, train_targets)
+  File "/home/zoudj/srsd-benchmark/external/e2e/symbolicregression/model/sklearn_wrapper.py", line 92, in fit
+    scaled_X.append(scaler.fit_transform(x))
+  File "/home/zoudj/srsd-benchmark/external/e2e/symbolicregression/model/utils_wrapper.py", line 97, in fit_transform
+    scaled_X = self.scaler.fit_transform(X)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/utils/_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/base.py", line 916, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/preprocessing/_data.py", line 839, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/preprocessing/_data.py", line 875, in partial_fit
+    X = self._validate_data(
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/base.py", line 605, in _validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/utils/validation.py", line 915, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/sklearn/utils/_array_api.py", line 380, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/torch/_tensor.py", line 1085, in __array__
+    return self.numpy().astype(dtype, copy=False)
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

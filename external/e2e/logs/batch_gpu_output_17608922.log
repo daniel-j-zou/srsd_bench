@@ -1,0 +1,47 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.12.1.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', val=None)
+Fitting
+Expression (((0.00331 + x_0) - (((0.14400000000000002 * x_0) - (-0.198 + (-0.0869 * x_1))) + (-0.892 + (9.999999999999999e-05 * x_0)))) * (0.06470000000000001 + (2.18 * sin((-0.00018999999999999998 + (0.0374 * x_1)))))) has forbidden control characters.
+problem with tree (((0.00331 + x_0) - (((0.14400000000000002 * x_0) - (-0.198 + (-0.0869 * x_1))) + (-0.892 + (9.999999999999999e-05 * x_0)))) * (0.06470000000000001 + (2.18 * sin((-0.00018999999999999998 + (0.0374 * x_1))))))
+Expression (((0.00331 + x_0) - (((0.14400000000000002 * x_0) - (-0.198 + (-0.0869 * x_1))) + (-0.892 + (9.999999999999999e-05 * x_0)))) * (0.06470000000000001 + (2.18 * sin((-0.00018999999999999998 + (0.0374 * x_1)))))) has forbidden control characters.
+problem with tree (((0.00331 + x_0) - (((0.14400000000000002 * x_0) - (-0.198 + (-0.0869 * x_1))) + (-0.892 + (9.999999999999999e-05 * x_0)))) * (0.06470000000000001 + (2.18 * sin((-0.00018999999999999998 + (0.0374 * x_1))))))
+(0.03229406103688172*x0 + 6.811775845032275e-5)*(30.99014086563886*x1 - 0.186891522830975)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.12.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', val=None)
+Fitting
+(21.28784511440485*x0 - 0.08222654176535539)*(545462.658*(0.000908366533864542 + 1/(-0.03605053589281685*x1 - 0.0002419684685020362))**2 - 2.42)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.12.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', val=None)
+Fitting
+(0.031904087834556386 - 0.0004289644060117567*x0)*(0.282441668843014*x1 + 0.003579701323266699) + (0.45026051127475171*x0 - 0.0042907766974777654)*(2.227457956175189*x1 - 0.00020740281335411792)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.14.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', val=None)
+Fitting
+Expression ((0.2 + (0.23600000000000002 * x_0)) * ((-0.060500000000000005 + (3.5300000000000002 * x_1)) - ((((-0.0033399999999999997 * x_1) * (-0.00174 + (-0.401 * x_0))) + (9.999999999999999e-05 + (6.1000000000000005 * arctan((-0.923 + (-0.00718 * x_1)))))) * (-0.00047999999999999996 + (-0.00977 * x_1))))) has forbidden control characters.
+problem with tree ((0.2 + (0.23600000000000002 * x_0)) * ((-0.060500000000000005 + (3.5300000000000002 * x_1)) - ((((-0.0033399999999999997 * x_1) * (-0.00174 + (-0.401 * x_0))) + (9.999999999999999e-05 + (6.1000000000000005 * arctan((-0.923 + (-0.00718 * x_1)))))) * (-0.00047999999999999996 + (-0.00977 * x_1)))))
+Expression ((0.2 + (0.23600000000000002 * x_0)) * ((-0.060500000000000005 + (3.5300000000000002 * x_1)) - ((((-0.0033399999999999997 * x_1) * (-0.00174 + (-0.401 * x_0))) + (9.999999999999999e-05 + (6.1000000000000005 * arctan((-0.923 + (-0.00718 * x_1)))))) * (-0.00047999999999999996 + (-0.00977 * x_1))))) has forbidden control characters.
+problem with tree ((0.2 + (0.23600000000000002 * x_0)) * ((-0.060500000000000005 + (3.5300000000000002 * x_1)) - ((((-0.0033399999999999997 * x_1) * (-0.00174 + (-0.401 * x_0))) + (9.999999999999999e-05 + (6.1000000000000005 * arctan((-0.923 + (-0.00718 * x_1)))))) * (-0.00047999999999999996 + (-0.00977 * x_1)))))
+(30.2975907251561*x0 + 0.00237467954289627)*(0.32325606120147186*x1 - 5.6069851875347493e-6)
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.14.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', val=None)
+Fitting
+(0.5633469694043639 - 275.24051164908308*x1)*(0.0004018516202708209*x0 + 0.00463946085648803)*(-4.4792226923812616*x1 - 0.0051713961208044067)
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.18.12.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', val=None)
+Fitting
+(0.00398084145359178*x0 + 0.001460428028751216)*(0.0402538174925429*x1 + 0.01522474530468457)*(41.50892974933303*x2 - 130.45675662988532)*(49.1*sin(0.9962143139839927*x2 - 4.5453621591172479) - 60.0)
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+slurmstepd: error: *** JOB 17608922 ON gl1012 CANCELLED AT 2024-12-01T21:05:58 DUE TO TIME LIMIT ***

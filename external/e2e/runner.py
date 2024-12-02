@@ -1,3 +1,5 @@
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 import argparse
 import os
 import pickle
@@ -35,7 +37,7 @@ def train(model, dataset_file_path):
     )
     print('Fitting')
     estimator.fit(train_samples, train_targets)
-    replace_ops = {'add': '+', 'mul': '*', 'sub': '-', 'pow': '**', 'inv': '1/'}
+    replace_ops = {'add': '+', 'mul': '*', 'sub': '-', 'pow': '**', 'inv': '1/', 'arctan':'atan'}
     eq_str = estimator.retrieve_tree(with_infos=True)['relabed_predicted_tree'].infix()
     for op, replace_op in replace_ops.items():
         eq_str = eq_str.replace(op, replace_op)
@@ -48,9 +50,20 @@ def save_obj(obj, file_path):
         pickle.dump(obj, fp)
 
 
-def e2e_w_transformer2sympy(eq_str):
+def e2e_w_transformer2sympy(eq_str, threshold = 1e-2):
     eq_str_w_normalized_vars = re.sub(r'\bx_([0-9]*[0-9])\b', r'x\1', eq_str)
-    return sympy.parse_expr(eq_str_w_normalized_vars)
+   # eq_str_w_normalized_vars = eq_str_w_normalized_vars.replace('arctan', 'atan')
+    sympy_expr = sympy.parse_expr(eq_str_w_normalized_vars)
+    while True:
+        print("Simplifying once")
+        print(sympy_expr)
+        updated_expr = sympy_expr.xreplace({c: 0 for c in sympy_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+        updated_expr = sympy.simplify(updated_expr)
+        print(updated_expr)
+        if sympy_expr == updated_expr: break
+        sympy_expr = updated_expr
+
+    return updated_expr
 
 
 def main(args):

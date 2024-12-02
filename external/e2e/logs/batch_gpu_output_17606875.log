@@ -1,0 +1,189 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.1.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', val=None)
+Fitting
+(0.03229406103688172*x0 + 6.811775845032275e-5)*(30.99014086563886*x1 - 0.186891522830975)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', val=None)
+Fitting
+-0.1628982930493589*x0 + (0.8206618551350276*x0 - 0.03510322610283834)*(736046.728*(0.878914405010438 + 1/(0.0083810478327015823*x1 - 9.1244260381619053e-5))**2 + 1.4000000000000001) - 9022678.4899488*(0.03319449287322761*x1 - 1)**3 - 0.01535078820214337
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', val=None)
+Fitting
+(0.72710987969368693*x0 - 0.00046902453173774359)*(1.375084044945483*x1 + 0.00015196332988938992)
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.14.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', val=None)
+Fitting
+(3.247584888186667*x0 - 5.264872873528281e-5)*(3.0169760089554937*x1 + 0.0010405293487132736)
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.14.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', val=None)
+Fitting
+(2.463350432260133e-5*x0 + 0.001221198950502712)*(141.481654697284*x1 + 0.19366202919506327)*(-2.656239209990126e-6*x0 + 143.06204802792003*x1 - 0.25907842091333362)
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.18.12.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', val=None)
+Fitting
+-0.0131367767968529*x0 + (-0.03367791869738646*x0 - 0.01175522112323528)*(0.402538174925429*x1 - 0.0177525469531542)*(62.2*sin(1.0515595536497701*x2 - 3.2951045012904283) + 0.06960000000000001) + 0.015780587505120987
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.18.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', val=None)
+Fitting
+(3.97 + 82.9/(0.081918759344690574*exp(32.962539719939954*(1 - 0.32100695384973642*x3)**2 - (0.027367413185519889*x2 + 0.8403518568728024)*(-37.9*arctan(-0.003931994590601108*x1 - 57.29164660054878) - 24.400000000000002)) + 2.9))*(-0.31492858111726527*x0 - 0.04964663259450318)*(0.0024607011279199437*x2 + 0.000786824018534396)*(0.55608344305242*x3 - 1.7689117979875865)*(12.926927961527351*(0.00047650818874956483*x0 + 1)**2*(x1 + 0.359220791068374)**2 + 0.005)*(cos(0.55608344305242*x3 - 1.7849117979875865) + 0.0015999999999999999)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.25.13.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', val=None)
+Fitting
+(0.0001063923549860303 - 1381.8605436929587*x0)*(-14.6*Abs(0.0678 - 0.127/(2159.881167952981*x1 + 0.004217049295853642)) - 0.342)
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.26.2.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', val=None)
+Fitting
+(0.0053261121925390531*(0.56062767634974466*x0 - 1)**2 - 0.00581)*(-68.95809148060515*x0 - 1.4694324169714768*x1 - 5.9469298794714534 + 88.60000000000001/((-0.79023104292592572*x1 - 0.0033571734821277038)*(0.020925671192563615*x1 + 0.6433532569961189)))
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.27.6.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', val=None)
+Fitting
+(-0.00216 + 0.00622/((-0.0018563407113758451*x1 - 0.0013651448457649226)*(-2.034290583490306*x1 + 100057.04180781033*exp(-155.7247757861956*x0 - 0.16905237850873713*x1 - 250.7087724932224*x2) + 70.9*sin(0.03797612043533592*x1 - 0.08869736361278297) + 31.30261259821405)))*(-2.739016995427247*x0 - 0.02973556265843551)
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.30.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', val=None)
+Fitting
+7.94*arctan((-392047101432.1561*x0 - 24.093046575527522*x2 + 41.913502253406687)*(2.2103712454612405*x2 + (-1.69080396177298*x1 + 0.019736711974182991*(-0.0017928574416345161*x1 - 1)**2 + 175.09575921295834)*(0.077827171552690284*x2 - 0.09090000000000001*sin(11031284837.868361*x0 - 2.2127522358233129) + 0.0050305243678261324) - 10.83954773167208)) - 10.700000000000001
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.47.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', val=None)
+Fitting
+(0.3 + 0.3/(0.37797249821785627*x2 + 0.1335943015543204))*(0.00019999999999999998*sqrt((76.269982207893739*x0 - 24.224711716861341)*(345418.238353004*x1 - 0.455152111818555)) + 0.001)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.10.9.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', val=None)
+Fitting
+(2265.7641011474676*x0 - 0.02858729988453726)*(441000.0*(1 + 0.00857142857142857/(0.0002779513833631498*x1 + 0.001028146236530839))**2 + 0.030000000000000002)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.13.17.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', val=None)
+Fitting
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression (((-0.00733 + x_0) * (-0.00133 + (9.999999999999999e-05 * sqrt((0.159 + (0.025900000000000003 * x_1)))))) * ((0.00552 + (0.00422 * cos(((1.78 + (0.0883 * sqrt((69.5 + (8.6 * sqrt((46.2 + (0.6920000000000001 * x_1)))))))) - (0.047200000000000006 + (-0.00991 * x_1)))))) * (0.00953 + (22.400000000000002 * 1/(((-1.9100000000000001 + (-29.400000000000002 * arctan(((-0.00035999999999999997 + (-0.40900000000000003 * sin((0.0131 + (-12.200000000000001 * x_1))))) - (-5.51 + (-5.74 * x_1)))))) - (13.700000000000001 + (0.09490000000000001 * ((-0.049 + (-0.332 * x_1)))**2)))))))) has forbidden control characters.
+problem with tree (((-0.00733 + x_0) * (-0.00133 + (9.999999999999999e-05 * sqrt((0.159 + (0.025900000000000003 * x_1)))))) * ((0.00552 + (0.00422 * cos(((1.78 + (0.0883 * sqrt((69.5 + (8.6 * sqrt((46.2 + (0.6920000000000001 * x_1)))))))) - (0.047200000000000006 + (-0.00991 * x_1)))))) * (0.00953 + (22.400000000000002 * 1/(((-1.9100000000000001 + (-29.400000000000002 * arctan(((-0.00035999999999999997 + (-0.40900000000000003 * sin((0.0131 + (-12.200000000000001 * x_1))))) - (-5.51 + (-5.74 * x_1)))))) - (13.700000000000001 + (0.09490000000000001 * ((-0.049 + (-0.332 * x_1)))**2))))))))
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression (((-0.00733 + x_0) * (-0.00133 + (9.999999999999999e-05 * sqrt((0.159 + (0.025900000000000003 * x_1)))))) * ((0.00552 + (0.00422 * cos(((1.78 + (0.0883 * sqrt((69.5 + (8.6 * sqrt((46.2 + (0.6920000000000001 * x_1)))))))) - (0.047200000000000006 + (-0.00991 * x_1)))))) * (0.00953 + (22.400000000000002 * 1/(((-1.9100000000000001 + (-29.400000000000002 * arctan(((-0.00035999999999999997 + (-0.40900000000000003 * sin((0.0131 + (-12.200000000000001 * x_1))))) - (-5.51 + (-5.74 * x_1)))))) - (13.700000000000001 + (0.09490000000000001 * ((-0.049 + (-0.332 * x_1)))**2)))))))) has forbidden control characters.
+problem with tree (((-0.00733 + x_0) * (-0.00133 + (9.999999999999999e-05 * sqrt((0.159 + (0.025900000000000003 * x_1)))))) * ((0.00552 + (0.00422 * cos(((1.78 + (0.0883 * sqrt((69.5 + (8.6 * sqrt((46.2 + (0.6920000000000001 * x_1)))))))) - (0.047200000000000006 + (-0.00991 * x_1)))))) * (0.00953 + (22.400000000000002 * 1/(((-1.9100000000000001 + (-29.400000000000002 * arctan(((-0.00035999999999999997 + (-0.40900000000000003 * sin((0.0131 + (-12.200000000000001 * x_1))))) - (-5.51 + (-5.74 * x_1)))))) - (13.700000000000001 + (0.09490000000000001 * ((-0.049 + (-0.332 * x_1)))**2))))))))
+(3.0e-5 + 0.07600000000000001/(0.9890000000000001 - 831.50224528249724*(0.3411330409573179*x1 + 1)**2))*(30.190617608600718*x0 - 0.00094044114542065926)*(-1.41659e-5*(-0.03081632653061224 - 1/(-3.060012823039068*x1 - 0.01125453440255319))**2 - 0.00407)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.15.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', val=None)
+Fitting
+-0.9560000000000001 - 8.31/(0.004 + 0.0033/(-0.0931*sin((0.0041437645107240805 - 1.0687825718855015e+23*x0)*(-274.37126098422878*x1 - 0.0096111711578675581)*(0.97202277772362518*((1 - 0.22164040700196015*x2)**2 - 0.073941678898352022)**2 - 0.019100000000000002)*(620.49369370885525*exp(0.04887409612821242*x2 - 0.0008774378060557783*exp(1.3375050471024276e+21*x0)) + 0.0594)) - 0.00039999999999999996))
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.15.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', val=None)
+Fitting
+(-5.39*sin(0.0356 - 7.140000000000001/(68.60000000000001*cos(0.00671 + 8.16/(0.019710998792355861*x1 - 0.4850932892238405)) - 0.07400000000000001)) - 0.0073)*(31.1*sin(1.75895521143708*exp(21.479815009976897*(1 - 0.33133036973858905*x2)**3*(1 - 0.32371044472895504*x2)**3) - 93.4) - 0.00497)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.2.42.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', val=None)
+Fitting
+(-0.9620000000000001 + 5.7/(4.0972852955266491*x4 - 0.02579458422142263))*(0.00579*arctan(3.9396973995448548*x4 - 0.58214863867444477) + 0.0043)*(Abs((2.559340136505086*x0 - 0.048606289010787194)*(3139.6823037096572*x3 - 0.10451984903235567)*(Abs(0.00247*Abs(3.2581297494235953*x4 - 7.706304924183766) - 0.17300000000000001) - 57.800000000000004)) + 0.00505)*(0.0002602070808256598*x1 - 0.00024846759896524*x2 - 0.0041366822695220973*x4 + 0.0017901559838760305)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.27.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', val=None)
+Fitting
+(-0.0051703795348247674*x0 - 0.0014416710182037888)*(-0.50977480127879426*x0 + 0.0021999999999999997*arctan(0.0014399999999999999 + 56.5/(58.1*Abs(1.4362165374513241*x0 - 2.043202494943392) - 0.152)) + 0.12047953127662154)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.27.18.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', val=None)
+Fitting
+-0.044800000000000006 + 13.8076416549987*exp(-7.2*sin(8.620000000000001*arctan(-0.7423916018366755*x0 + (0.2984384409830918 - 0.1379880042544256*x0)*(17.95457950094134*x0 - 29.83438778873562) + 1.874227750000001e-5*(0.004668769748089561*(0.8127543874750396 - x0)**3 - 1)**2 - 6.7347587970500332) + 89.10000000000001))
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.3.24.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', val=None)
+Fitting
+(-0.0027981604895562381*x0 - 1.3822188796742868e-5)*(-0.001735757309029538*x0 - 0.06308829130935866*(-0.4206876568684488*x1 - 1 + 0.64807791528929476/(0.0314267903081624*x1 + 8.726762278163684e-6))**2 + 0.007494153080746405)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.34.11.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', val=None)
+Fitting
+(0.00074017914229250959 - 1.3882202830477849*x0)*(30182965.6836226*x2 - 2.593099374658726e-5)*(-1.457562377999936e+159*((x3 - 9.3098546407027581e-26)**2 + 2.747001726570375e-55)**3 - 0.00859)*(80.0*Abs(0.0111 + 0.063/(3.1873648786330031e+27*x3 + 0.024271180811332389 + 0.0005/(0.13761488023256303*x0 + 3.7908108691980684))) + 2.87)*(26648854482.438839*x1 - 895060167737.0064*sqrt(-1.8016930535519829e-30*x0 - x3 + 5.7220915890593664e-28) + 0.085553331640402)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.34.29b.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt', val=None)
+Fitting
+-46.0*arctan(-0.00037 - 47.1/((27.939605794405556*x1 + (0.0049099999999999994 - 67.3*tan(3.1171172583034056e+21*x2 + 73.60000000000001*cos(13.015917677349726*x1 + 1.3029885313606976e+23*x2 - 0.020277898955763504) - 3.5660826492100509))*(0.05238343633285576 - 0.15015999589944835*x1)*(5.5399522774965468 - 1.4621961332632909e+20*x2) - 0.001568071769063508)*(6.640000000000001*cos(5.2700000000000005 + 0.00381/(2.989346153445412 - 78.963995167824192*x0)) + 0.08300000000000001 + 1/(0.47405035267654581 - 0.10105304227424199*x0)))) - 0.0063999999999999994
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.38.14.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt', val=None)
+Fitting
+(0.00539 + 1/(4.05243926244256*x1 + 3.9087039538502369))*(0.2792115210660681*x0 - 0.003838011276115855)*(0.447*arctan(0.259761356722568*x1 - 0.5502090765581999) + 7.0600000000000005)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.38.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt', val=None)
+Fitting
+(0.054000000000000006 + 0.0222/(2.6446579827232756*x3 + 82.22868756655171))*(-255.69248961537966*x2 - 0.039085290325052051)*(0.00313*cos(0.40445828400553163*x0 + 6.969715018189569) - 0.004079999999999999)*(2.33*Abs((0.0042 - 0.083/(0.08760000000000001 - 0.00021776874556820714*exp(-27.075094012276363*x2)))*(0.783 - 53.2/(-2861.610031708119*x1 + 0.076798097587658192*x2 + 84.708584257477178))) + 0.06620000000000001)*(Abs((0.0941 + 95.60000000000001/(3.9769292973282337*x3 - 0.0201164412756141))*(3.395197537620544*x1 - 0.0035797188973578963)) + 0.0357)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.4.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt', val=None)
+Fitting
+(0.0009389414211453633 - 19.76713450856472*x0)*(11.200000000000001 - 3816727383862.36*exp(-0.08950000000000001*Abs(63.0*arctan(-35.15309023247335*x1 - 0.563422172453504) - 0.0844)))
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 71, in main
+    save_obj(sympy_eq, eq_file_path)
+  File "runner.py", line 50, in save_obj
+    pickle.dump(obj, fp)
+_pickle.PicklingError: Can't pickle arctan: attribute lookup arctan on __main__ failed
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.8.31.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt', val=None)
+Fitting
+(2.655139118382912e-6*x0 + 9.008944958223434e-5)*(9.89642762306358e-6*x0 + 0.07947578794844288)*(1.838482692577258e-5*x0 - 0.00012619881122604349)
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-iii.12.43.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt', val=None)
+Fitting
+0.14191916387328417*x0 + 0.84128275493565956 - 7.54/(184.5467569864385*(2.570345821121581e-6*x0 - 1)**2 + 0.00682) - 0.08710000000000001/(0.0050999999999999995 - 0.04990000000000001/(8.67 + 31.3/(3.5 + 9.32/(1.5*sin((0.016880106600351868 - 0.0013180698757764476*x0)*(-0.29185832963621344*x0 - 72.790119252779232)) - 4.68))))
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-iii.15.27.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt', val=None)
+Fitting
+(1.274683924209901*x0 - 0.03224322640811085)*(72900.0*(1 + 0.1/((0.7000000000000001 - 0.58449766637013843*exp(-0.03155921621543379*x1))*(2443759.468740926*x2 + 0.0008385678757682209)))**2 + 0.030000000000000002)
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-iii.7.38.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt', val=None)
+Fitting
+(2.52485410492209e-5 - 13.678297279879289*x1)*(-42050979665.074614*x0 - 0.003994777470542895)*(3.369684586974772e+22*exp(4024879.4822285703*x0) - 32.0)

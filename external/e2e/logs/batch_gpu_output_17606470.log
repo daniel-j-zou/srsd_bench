@@ -1,0 +1,150 @@
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+/var/spool/slurmd.spool/job17606470/slurm_script: line 33: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606470/slurm_script: line 34: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument

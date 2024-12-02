@@ -1,0 +1,571 @@
+/var/spool/slurmd.spool/job17606406/slurm_script: line 19: activate: No such file or directory
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.1.txt', test='/test/feynman-i.12.1.txt', train='/train/feynman-i.12.1.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.12.1.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.4.txt', test='/test/feynman-i.12.4.txt', train='/train/feynman-i.12.4.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.12.4.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.5.txt', test='/test/feynman-i.12.5.txt', train='/train/feynman-i.12.5.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.12.5.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.14.3.txt', test='/test/feynman-i.14.3.txt', train='/train/feynman-i.14.3.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.14.3.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.14.4.txt', test='/test/feynman-i.14.4.txt', train='/train/feynman-i.14.4.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.14.4.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.18.12.txt', test='/test/feynman-i.18.12.txt', train='/train/feynman-i.18.12.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.18.12.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.18.16.txt', test='/test/feynman-i.18.16.txt', train='/train/feynman-i.18.16.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.18.16.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.25.13.txt', test='/test/feynman-i.25.13.txt', train='/train/feynman-i.25.13.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.25.13.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.26.2.txt', test='/test/feynman-i.26.2.txt', train='/train/feynman-i.26.2.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.26.2.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.27.6.txt', test='/test/feynman-i.27.6.txt', train='/train/feynman-i.27.6.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.27.6.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.30.5.txt', test='/test/feynman-i.30.5.txt', train='/train/feynman-i.30.5.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.30.5.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.43.16.txt', test='/test/feynman-i.43.16.txt', train='/train/feynman-i.43.16.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.43.16.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.47.23.txt', test='/test/feynman-i.47.23.txt', train='/train/feynman-i.47.23.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-i.47.23.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.10.9.txt', test='/test/feynman-ii.10.9.txt', train='/train/feynman-ii.10.9.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.10.9.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.13.17.txt', test='/test/feynman-ii.13.17.txt', train='/train/feynman-ii.13.17.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.13.17.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.15.4.txt', test='/test/feynman-ii.15.4.txt', train='/train/feynman-ii.15.4.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.15.4.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.15.5.txt', test='/test/feynman-ii.15.5.txt', train='/train/feynman-ii.15.5.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.15.5.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.2.42.txt', test='/test/feynman-ii.2.42.txt', train='/train/feynman-ii.2.42.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.2.42.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.27.16.txt', test='/test/feynman-ii.27.16.txt', train='/train/feynman-ii.27.16.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.27.16.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.27.18.txt', test='/test/feynman-ii.27.18.txt', train='/train/feynman-ii.27.18.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.27.18.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.3.24.txt', test='/test/feynman-ii.3.24.txt', train='/train/feynman-ii.3.24.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.3.24.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.34.11.txt', test='/test/feynman-ii.34.11.txt', train='/train/feynman-ii.34.11.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.34.11.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.34.29b.txt', test='/test/feynman-ii.34.29b.txt', train='/train/feynman-ii.34.29b.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.34.29b.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.38.14.txt', test='/test/feynman-ii.38.14.txt', train='/train/feynman-ii.38.14.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.38.14.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.38.3.txt', test='/test/feynman-ii.38.3.txt', train='/train/feynman-ii.38.3.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.38.3.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.4.23.txt', test='/test/feynman-ii.4.23.txt', train='/train/feynman-ii.4.23.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.4.23.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-ii.8.31.txt', test='/test/feynman-ii.8.31.txt', train='/train/feynman-ii.8.31.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-ii.8.31.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-iii.12.43.txt', test='/test/feynman-iii.12.43.txt', train='/train/feynman-iii.12.43.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-iii.12.43.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-iii.15.27.txt', test='/test/feynman-iii.15.27.txt', train='/train/feynman-iii.15.27.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-iii.15.27.txt not found.
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-iii.7.38.txt', test='/test/feynman-iii.7.38.txt', train='/train/feynman-iii.7.38.txt', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/feynman-iii.7.38.txt not found.

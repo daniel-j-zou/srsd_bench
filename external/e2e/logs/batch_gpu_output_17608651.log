@@ -1,0 +1,291 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.12.1.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.12.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.12.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.14.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.14.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.18.12.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.18.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.25.13.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.26.2.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.27.6.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.30.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-i.47.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.10.9.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', val=None)
+Fitting
+Expression ((-0.373 + (-69.5 * ((60.5 + (0.0073 * sin(((-0.0015999999999999999 + (0.923 * x_0)) * ((-8.0 + (9.999999999999999e-05 * x_1)) - (0.00015999999999999999 + (-5.36 * x_0))))))))**2)) * ((-0.646 + (-0.6970000000000001 * abs((0.058 + (-48.6 * abs(((0.0332 + (28.2 * 1/((0.8500000000000001 + x_1)))) * (-0.0825 + (0.00229 * x_1))))))))) * (0.0531 + (6.76 * x_0)))) has forbidden control characters.
+problem with tree ((-0.373 + (-69.5 * ((60.5 + (0.0073 * sin(((-0.0015999999999999999 + (0.923 * x_0)) * ((-8.0 + (9.999999999999999e-05 * x_1)) - (0.00015999999999999999 + (-5.36 * x_0))))))))**2)) * ((-0.646 + (-0.6970000000000001 * abs((0.058 + (-48.6 * abs(((0.0332 + (28.2 * 1/((0.8500000000000001 + x_1)))) * (-0.0825 + (0.00229 * x_1))))))))) * (0.0531 + (6.76 * x_0))))
+Expression ((-0.373 + (-69.5 * ((60.5 + (0.0073 * sin(((-0.0015999999999999999 + (0.923 * x_0)) * ((-8.0 + (9.999999999999999e-05 * x_1)) - (0.00015999999999999999 + (-5.36 * x_0))))))))**2)) * ((-0.646 + (-0.6970000000000001 * abs((0.058 + (-48.6 * abs(((0.0332 + (28.2 * 1/((0.8500000000000001 + x_1)))) * (-0.0825 + (0.00229 * x_1))))))))) * (0.0531 + (6.76 * x_0)))) has forbidden control characters.
+problem with tree ((-0.373 + (-69.5 * ((60.5 + (0.0073 * sin(((-0.0015999999999999999 + (0.923 * x_0)) * ((-8.0 + (9.999999999999999e-05 * x_1)) - (0.00015999999999999999 + (-5.36 * x_0))))))))**2)) * ((-0.646 + (-0.6970000000000001 * abs((0.058 + (-48.6 * abs(((0.0332 + (28.2 * 1/((0.8500000000000001 + x_1)))) * (-0.0825 + (0.00229 * x_1))))))))) * (0.0531 + (6.76 * x_0))))
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.13.17.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', val=None)
+Fitting
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression ((((-0.00485 + x_0) * (-0.00475 + (0.0014 * x_1))) * (0.329 + (0.06580000000000001 * x_1))) * (-7.000000000000001e-05 + (0.00805 * 1/((-46.2 + (-57.5 * x_1)))))) has forbidden control characters.
+problem with tree ((((-0.00485 + x_0) * (-0.00475 + (0.0014 * x_1))) * (0.329 + (0.06580000000000001 * x_1))) * (-7.000000000000001e-05 + (0.00805 * 1/((-46.2 + (-57.5 * x_1))))))
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression ((((-0.00485 + x_0) * (-0.00475 + (0.0014 * x_1))) * (0.329 + (0.06580000000000001 * x_1))) * (-7.000000000000001e-05 + (0.00805 * 1/((-46.2 + (-57.5 * x_1)))))) has forbidden control characters.
+problem with tree ((((-0.00485 + x_0) * (-0.00475 + (0.0014 * x_1))) * (0.329 + (0.06580000000000001 * x_1))) * (-7.000000000000001e-05 + (0.00805 * 1/((-46.2 + (-57.5 * x_1))))))
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.15.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.15.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.2.42.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.27.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.27.18.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.3.24.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-no_constants/srsd-feynman_easy/feynman-ii.34.11.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 84, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 76, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 58, in e2e_w_transformer2sympy
+    updated_expr = sympy_expr.xreplace({c: 0 for c in simplified_expr.atoms(sympy.Number) if abs(float(c)) < threshold})
+NameError: name 'simplified_expr' is not defined
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+slurmstepd: error: *** JOB 17608651 ON gl1012 CANCELLED AT 2024-12-01T20:58:58 DUE TO TIME LIMIT ***

@@ -1,0 +1,20 @@
+/var/spool/slurmd.spool/job17606388/slurm_script: line 19: activate: No such file or directory
+Namespace(ckpt='./resource/ckpt/model_original.pt', out='./e2e-sr_w_transformer-results/srsd-feynman_easy/feynman-i.12.1_output.txt-est_eq.pkl', test='/test/*', train='/train/*', val=None)
+Traceback (most recent call last):
+  File "runner.py", line 76, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 67, in main
+    eq_str = train(model, args.train)
+  File "runner.py", line 31, in train
+    train_samples, train_targets = load_dataset(dataset_file_path)
+  File "runner.py", line 26, in load_dataset
+    tabular_dataset = np.loadtxt(dataset_file_path, delimiter=delimiter)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 1356, in loadtxt
+    arr = _read(fname, dtype=dtype, comment=comment, delimiter=delimiter,
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/npyio.py", line 975, in _read
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/home/zoudj/.conda/envs/srsd/lib/python3.8/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise FileNotFoundError(f"{path} not found.")
+FileNotFoundError: /train/* not found.

@@ -1,0 +1,180 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+/var/spool/slurmd.spool/job17606481/slurm_script: line 34: TRAIN_FILE: command not found
+/var/spool/slurmd.spool/job17606481/slurm_script: line 35: TEST_FILE: command not found
+usage: runner.py [-h] --ckpt CKPT [--train TRAIN] [--val VAL] --test TEST
+                 --out OUT
+runner.py: error: argument --train: expected one argument

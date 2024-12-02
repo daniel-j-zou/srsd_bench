@@ -1,0 +1,210 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+  File "runner.py", line 59
+    print(sympy_expr)
+                    ^
+TabError: inconsistent use of tabs and spaces in indentation
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt

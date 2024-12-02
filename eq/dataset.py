@@ -6,12 +6,14 @@ import random
 import numpy as np
 import sympy
 import torch
-from torch._six import string_classes
+string_classes = str
+import torchvision.datasets
+
 from torch.utils.data import Dataset
 from torch.utils.data._utils.collate import np_str_obj_array_pattern, default_collate_err_msg_format
 from torchdistill.common.constant import def_logger
 from torchdistill.common.file_util import get_file_path_list
-from torchdistill.datasets.collator import register_collate_func
+from torchdistill.datasets.registry import register_collate_func
 from torchdistill.datasets.registry import register_dataset
 
 from eq.conversion import sympy2sequence
