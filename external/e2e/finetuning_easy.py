@@ -127,7 +127,7 @@ estimator.model.train()
 optimizer = optim.Adam(estimator.model.parameters(), lr=1e-5)
 
 # Training Loop
-n_epochs = 10
+n_epochs = 1
 criterion = nn.MSELoss()
 clip_value = 1.0
 
