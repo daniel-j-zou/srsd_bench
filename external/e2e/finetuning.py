@@ -34,8 +34,8 @@ def e2e_w_transformer2sympy(eq_str, threshold=1e-2):
 # Function to train the model and generate a symbolic expression
 def train(estimator, train_samples, train_targets):
     # Ensure data is on GPU
-    train_samples = train_samples.to("cuda")
-    train_targets = train_targets.to("cuda")
+    train_samples = train_samples.to("cpu")
+    train_targets = train_targets.to("cpu")
 
     # Fit the estimator (train_samples and train_targets are on GPU)
     estimator.fit(train_samples, train_targets)
