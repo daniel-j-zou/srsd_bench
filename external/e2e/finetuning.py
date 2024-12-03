@@ -110,3 +110,8 @@ for epoch in range(n_epochs):
 
     # Print loss for each epoch
     print(f"Epoch {epoch + 1}/{n_epochs}, Loss: {loss.item()}")
+    # Save the entire model every 5 epochs
+    if (epoch + 1) % 5 == 0:
+        save_path = f"resource/ckpt/model_test_epoch{epoch + 1}.pt"
+        torch.save(estimator.model, save_path)
+        print(f"Model saved to {save_path}")
