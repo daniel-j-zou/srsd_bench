@@ -191,7 +191,7 @@ for epoch in range(n_epochs):
 
             # Print time for each example
             example_end = time.perf_counter()
-            print(f"Example {filename} Time: {example_end - example_start:.4f} seconds")
+            print(f"Example {filename} Time: {example_end - example_start:.4f} seconds", flush=True)
 
     # Print loss for each epoch
     avg_loss = total_loss / 30
