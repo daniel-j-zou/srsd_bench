@@ -1,0 +1,28 @@
+finetuning_cpu.py:12: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(model_path, map_location="cpu")
+resource/ckpt/model_original.pt
+data loaded
+0
+Epoch 1/10, Loss: 1.8518928289413452
+1
+Epoch 2/10, Loss: 1.5813124179840088
+2
+Expression (-9.999999999999999e-05 + (0.777 * 1/(((0.0049499999999999995 + (-0.808 * tan(((0.802 + (93.2 * x_2)) + (((-0.00662 + (-83.7 * x_1)) * (-0.113 + (-0.006889999999999999 * x_3))) - (-0.14400000000000002 + (2.0 * x_1))))))) + ((0.00822 + (-0.09540000000000001 * abs((1.86 + (-5.0200000000000005 * x_0))))) - (-0.00615 + (0.012900000000000002 * x_4))))))) has forbidden control characters.
+problem with tree (-9.999999999999999e-05 + (0.777 * 1/(((0.0049499999999999995 + (-0.808 * tan(((0.802 + (93.2 * x_2)) + (((-0.00662 + (-83.7 * x_1)) * (-0.113 + (-0.006889999999999999 * x_3))) - (-0.14400000000000002 + (2.0 * x_1))))))) + ((0.00822 + (-0.09540000000000001 * abs((1.86 + (-5.0200000000000005 * x_0))))) - (-0.00615 + (0.012900000000000002 * x_4)))))))
+Expression (-9.999999999999999e-05 + (0.777 * 1/(((0.0049499999999999995 + (-0.808 * tan(((0.802 + (93.2 * x_2)) + (((-0.00662 + (-83.7 * x_1)) * (-0.113 + (-0.006889999999999999 * x_3))) - (-0.14400000000000002 + (2.0 * x_1))))))) + ((0.00822 + (-0.09540000000000001 * abs((1.86 + (-5.0200000000000005 * x_0))))) - (-0.00615 + (0.012900000000000002 * x_4))))))) has forbidden control characters.
+problem with tree (-9.999999999999999e-05 + (0.777 * 1/(((0.0049499999999999995 + (-0.808 * tan(((0.802 + (93.2 * x_2)) + (((-0.00662 + (-83.7 * x_1)) * (-0.113 + (-0.006889999999999999 * x_3))) - (-0.14400000000000002 + (2.0 * x_1))))))) + ((0.00822 + (-0.09540000000000001 * abs((1.86 + (-5.0200000000000005 * x_0))))) - (-0.00615 + (0.012900000000000002 * x_4)))))))
+Epoch 3/10, Loss: 1.6479287147521973
+3
+Epoch 4/10, Loss: 1.8150172233581543
+4
+Epoch 5/10, Loss: 1.5437290668487549
+5
+Epoch 6/10, Loss: 3.452305316925049
+6
+Epoch 7/10, Loss: 2.74269437789917
+7
+Epoch 8/10, Loss: 1.0964460372924805
+8
+Epoch 9/10, Loss: 1.7835551500320435
+9
+Epoch 10/10, Loss: 1.6238216161727905

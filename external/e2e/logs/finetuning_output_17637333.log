@@ -1,0 +1,68 @@
+finetuning_cpu.py:13: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(model_path, map_location="cpu")
+<lambdifygenerated-8>:2: RuntimeWarning: overflow encountered in exp
+  return -0.22684186552067701*x1 - 0.0068634294285795884*x2 - 0.9880000000000001*sin(95.17276491178627*x1 + 5.6988760027252613) - 0.754*sin(0.2064464779632907*exp(80.71549094155211*x3) + 0.00017999999999999998) - 0.734*sin((64.394886547330388 - 0.58152698682678754*x2)*(abs(0.9779778980894488*x4 + 0.06777103666968771) - 0.00898)*(43.1*abs(0.004519462960919097*x0 + 0.76722959849437869*x1 - 6.2446219939934948) - 0.756) + 7.9*cos(0.9370533039283384*x3 - 0.0338065930441421) - 5.82) + 0.36481166150730653
+<lambdifygenerated-8>:2: RuntimeWarning: invalid value encountered in sin
+  return -0.22684186552067701*x1 - 0.0068634294285795884*x2 - 0.9880000000000001*sin(95.17276491178627*x1 + 5.6988760027252613) - 0.754*sin(0.2064464779632907*exp(80.71549094155211*x3) + 0.00017999999999999998) - 0.734*sin((64.394886547330388 - 0.58152698682678754*x2)*(abs(0.9779778980894488*x4 + 0.06777103666968771) - 0.00898)*(43.1*abs(0.004519462960919097*x0 + 0.76722959849437869*x1 - 6.2446219939934948) - 0.756) + 7.9*cos(0.9370533039283384*x3 - 0.0338065930441421) - 5.82) + 0.36481166150730653
+resource/ckpt/model_original.pt
+data loaded
+Epoch  0
+Step 1 Time:  9.972340051084757
+Step 2 Time:  0.02181563712656498
+Step 3 Time:  0.002323579043149948
+Step 4 Time:  0.12564200349152088
+Epoch 1/10, Loss: 2.554616928100586
+Epoch  1
+Step 1 Time:  11.0806985180825
+Step 2 Time:  0.012191498652100563
+Step 3 Time:  0.0017821993678808212
+Step 4 Time:  0.0011793021112680435
+Epoch 2/10, Loss: 1.3549472093582153
+Epoch  2
+Step 1 Time:  9.138674275949597
+Step 2 Time:  0.009251348674297333
+Step 3 Time:  0.0002241283655166626
+Step 4 Time:  0.0013439767062664032
+Epoch 3/10, Loss: 2.9931671619415283
+Epoch  3
+Step 1 Time:  10.077516194432974
+Step 2 Time:  0.01077057234942913
+Step 3 Time:  0.00016397424042224884
+Step 4 Time:  0.0006499327719211578
+Epoch 4/10, Loss: 1.5155863761901855
+Epoch  4
+Step 1 Time:  10.491330435499549
+Step 2 Time:  0.008178867399692535
+Step 3 Time:  0.00024853646755218506
+Step 4 Time:  0.0012457668781280518
+Epoch 5/10, Loss: 71.24765014648438
+Epoch  5
+Step 1 Time:  10.668241547420621
+Step 2 Time:  0.006784392520785332
+Step 3 Time:  0.00021363981068134308
+Step 4 Time:  0.0013308171182870865
+Epoch 6/10, Loss: 2.449667453765869
+Epoch  6
+Step 1 Time:  9.87333757802844
+Step 2 Time:  0.011205054819583893
+Step 3 Time:  0.00018647871911525726
+Step 4 Time:  0.0009940601885318756
+Epoch 7/10, Loss: 2.582559108734131
+Epoch  7
+Step 1 Time:  9.915433969348669
+Step 2 Time:  0.009533775970339775
+Step 3 Time:  0.000158628448843956
+Step 4 Time:  0.0008461903780698776
+Epoch 8/10, Loss: nan
+Epoch  8
+Step 1 Time:  8.439920196309686
+Step 2 Time:  0.00784100592136383
+Step 3 Time:  0.0001499820500612259
+Step 4 Time:  0.000612359493970871
+Epoch 9/10, Loss: 5.3871002197265625
+Epoch  9
+Step 1 Time:  8.29393688030541
+Step 2 Time:  0.009435411542654037
+Step 3 Time:  0.00016782432794570923
+Step 4 Time:  0.0010105390101671219
+Epoch 10/10, Loss: 1.9866855144500732
