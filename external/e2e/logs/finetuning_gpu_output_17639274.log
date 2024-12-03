@@ -1,0 +1,103 @@
+finetuning.py:13: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(model_path, map_location="cpu")
+Loading model from: resource/ckpt/model_original.pt
+Epoch 1/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  9.903202019631863
+Step 1 Time:  5.15221993252635
+Step 2 Time:  0.023652037605643272
+Step 3 Time:  0.45054623298346996
+Step 4 Time:  0.22671428881585598
+Epoch 1/10, Loss: 1.7817187309265137
+Epoch 2/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  9.115235632285476
+Step 1 Time:  3.1324666123837233
+Step 2 Time:  0.00930173322558403
+Step 3 Time:  0.0025084856897592545
+Step 4 Time:  0.0024833176285028458
+Epoch 2/10, Loss: 18.305763244628906
+Epoch 3/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  10.36574119888246
+Step 1 Time:  3.441577460616827
+Step 2 Time:  0.0077402833849191666
+Step 3 Time:  0.00026822835206985474
+Step 4 Time:  0.00243353471159935
+Epoch 3/10, Loss: 1.4017903804779053
+Epoch 4/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  9.842271864414215
+Step 1 Time:  3.49453192576766
+Step 2 Time:  0.012857971712946892
+Step 3 Time:  0.0002015531063079834
+Step 4 Time:  0.002174481749534607
+Epoch 4/10, Loss: 1.1849653720855713
+Epoch 5/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  10.203402375802398
+Step 1 Time:  3.298023259267211
+Step 2 Time:  0.013186663389205933
+Step 3 Time:  0.0003465469926595688
+Step 4 Time:  0.004007883369922638
+Epoch 5/10, Loss: 0.9313784837722778
+Model saved to resource/ckpt/model_test_epoch5.pt
+Epoch 6/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  4.09804636053741
+Step 1 Time:  3.129978533834219
+Step 2 Time:  0.00937727466225624
+Step 3 Time:  0.00024599209427833557
+Step 4 Time:  0.002818820998072624
+Epoch 6/10, Loss: 0.9848009943962097
+Epoch 7/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  12.55605279468
+Expression ((-0.912 + (-8.620000000000001 * sin((29.3 + (-8.16 * sin(((0.0327 + (55.9 * x_0)) + (-0.054700000000000006 + (35.0 * x_2))))))))) * (9.999999999999999e-05 + (0.253 * sin(((-0.00483 + (0.09960000000000001 * x_3)) + (-78.3 + (9.99 * ((((0.06060000000000001 + (0.061000000000000006 * 1/((-0.0704 + x_4)))) * (30.2 + (3.84 * x_1))) - (-7.78 + (-0.08560000000000001 * x_1))))**2))))))) has forbidden control characters.
+problem with tree ((-0.912 + (-8.620000000000001 * sin((29.3 + (-8.16 * sin(((0.0327 + (55.9 * x_0)) + (-0.054700000000000006 + (35.0 * x_2))))))))) * (9.999999999999999e-05 + (0.253 * sin(((-0.00483 + (0.09960000000000001 * x_3)) + (-78.3 + (9.99 * ((((0.06060000000000001 + (0.061000000000000006 * 1/((-0.0704 + x_4)))) * (30.2 + (3.84 * x_1))) - (-7.78 + (-0.08560000000000001 * x_1))))**2)))))))
+Expression ((-0.912 + (-8.620000000000001 * sin((29.3 + (-8.16 * sin(((0.0327 + (55.9 * x_0)) + (-0.054700000000000006 + (35.0 * x_2))))))))) * (9.999999999999999e-05 + (0.253 * sin(((-0.00483 + (0.09960000000000001 * x_3)) + (-78.3 + (9.99 * ((((0.06060000000000001 + (0.061000000000000006 * 1/((-0.0704 + x_4)))) * (30.2 + (3.84 * x_1))) - (-7.78 + (-0.08560000000000001 * x_1))))**2))))))) has forbidden control characters.
+problem with tree ((-0.912 + (-8.620000000000001 * sin((29.3 + (-8.16 * sin(((0.0327 + (55.9 * x_0)) + (-0.054700000000000006 + (35.0 * x_2))))))))) * (9.999999999999999e-05 + (0.253 * sin(((-0.00483 + (0.09960000000000001 * x_3)) + (-78.3 + (9.99 * ((((0.06060000000000001 + (0.061000000000000006 * 1/((-0.0704 + x_4)))) * (30.2 + (3.84 * x_1))) - (-7.78 + (-0.08560000000000001 * x_1))))**2)))))))
+Step 1 Time:  3.2667130921036005
+Step 2 Time:  0.007561130449175835
+Step 3 Time:  0.0001995973289012909
+Step 4 Time:  0.0022707562893629074
+Epoch 7/10, Loss: 1.8675156831741333
+Epoch 8/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  10.09952823445201
+Step 1 Time:  3.53138561360538
+Step 2 Time:  0.010645093396306038
+Step 3 Time:  0.0001971069723367691
+Step 4 Time:  0.002260865643620491
+Epoch 8/10, Loss: 2.6824698448181152
+Epoch 9/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  5.084173772484064
+Expression ((-0.007719999999999999 + (0.0021 * sin((-0.0045899999999999995 + x_1)))) * ((-0.0369 + (-0.323 * sqrt((67.9 + (-0.006379999999999999 * x_0))))) - ((9.999999999999999e-05 + (52.300000000000004 * sin((-0.617 + (-36.0 * 1/((-0.343 + (0.06330000000000001 * x_2)))))))) * (3.62 + (0.05040000000000001 * 1/((-0.04650000000000001 + (-0.3 * x_4)))))))) has forbidden control characters.
+problem with tree ((-0.007719999999999999 + (0.0021 * sin((-0.0045899999999999995 + x_1)))) * ((-0.0369 + (-0.323 * sqrt((67.9 + (-0.006379999999999999 * x_0))))) - ((9.999999999999999e-05 + (52.300000000000004 * sin((-0.617 + (-36.0 * 1/((-0.343 + (0.06330000000000001 * x_2)))))))) * (3.62 + (0.05040000000000001 * 1/((-0.04650000000000001 + (-0.3 * x_4))))))))
+Expression ((-0.007719999999999999 + (0.0021 * sin((-0.0045899999999999995 + x_1)))) * ((-0.0369 + (-0.323 * sqrt((67.9 + (-0.006379999999999999 * x_0))))) - ((9.999999999999999e-05 + (52.300000000000004 * sin((-0.617 + (-36.0 * 1/((-0.343 + (0.06330000000000001 * x_2)))))))) * (3.62 + (0.05040000000000001 * 1/((-0.04650000000000001 + (-0.3 * x_4)))))))) has forbidden control characters.
+problem with tree ((-0.007719999999999999 + (0.0021 * sin((-0.0045899999999999995 + x_1)))) * ((-0.0369 + (-0.323 * sqrt((67.9 + (-0.006379999999999999 * x_0))))) - ((9.999999999999999e-05 + (52.300000000000004 * sin((-0.617 + (-36.0 * 1/((-0.343 + (0.06330000000000001 * x_2)))))))) * (3.62 + (0.05040000000000001 * 1/((-0.04650000000000001 + (-0.3 * x_4))))))))
+Step 1 Time:  3.5549777932465076
+Step 2 Time:  0.009091274812817574
+Step 3 Time:  0.000308159738779068
+Step 4 Time:  0.0036930348724126816
+Epoch 9/10, Loss: 1.5967402458190918
+Epoch 10/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  7.337688513100147
+Step 1 Time:  3.147455543279648
+Step 2 Time:  0.01102261058986187
+Step 3 Time:  0.00019866228103637695
+Step 4 Time:  0.00237237848341465
+Epoch 10/10, Loss: 1.6077431440353394
+Model saved to resource/ckpt/model_test_epoch10.pt

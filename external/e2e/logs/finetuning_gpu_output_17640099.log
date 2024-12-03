@@ -1,0 +1,188 @@
+Starting job 17640099 at Mon Dec  2 23:29:12 EST 2024
+Loading CUDA module...
+Activating conda environment...
+# packages in environment at /home/zoudj/.conda/envs/srsd:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+ca-certificates           2024.11.26           h06a4308_0  
+certifi                   2024.8.30                pypi_0    pypi
+charset-normalizer        3.4.0                    pypi_0    pypi
+cython                    3.0.11                   pypi_0    pypi
+filelock                  3.16.1                   pypi_0    pypi
+fsspec                    2024.10.0                pypi_0    pypi
+huggingface-hub           0.26.3                   pypi_0    pypi
+idna                      3.10                     pypi_0    pypi
+jinja2                    3.1.4                    pypi_0    pypi
+joblib                    1.4.2                    pypi_0    pypi
+ld_impl_linux-64          2.40                 h12ee557_0  
+libffi                    3.4.4                h6a678d5_1  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+markupsafe                2.1.5                    pypi_0    pypi
+mpmath                    1.3.0                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0  
+networkx                  3.1                      pypi_0    pypi
+numexpr                   2.8.6                    pypi_0    pypi
+numpy                     1.24.4                   pypi_0    pypi
+nvidia-cublas-cu12        12.1.3.1                 pypi_0    pypi
+nvidia-cuda-cupti-cu12    12.1.105                 pypi_0    pypi
+nvidia-cuda-nvrtc-cu12    12.1.105                 pypi_0    pypi
+nvidia-cuda-runtime-cu12  12.1.105                 pypi_0    pypi
+nvidia-cudnn-cu12         9.1.0.70                 pypi_0    pypi
+nvidia-cufft-cu12         11.0.2.54                pypi_0    pypi
+nvidia-curand-cu12        10.3.2.106               pypi_0    pypi
+nvidia-cusolver-cu12      11.4.5.107               pypi_0    pypi
+nvidia-cusparse-cu12      12.1.0.106               pypi_0    pypi
+nvidia-nccl-cu12          2.20.5                   pypi_0    pypi
+nvidia-nvjitlink-cu12     12.6.85                  pypi_0    pypi
+nvidia-nvtx-cu12          12.1.105                 pypi_0    pypi
+openssl                   3.0.15               h5eee18b_0  
+packaging                 24.2                     pypi_0    pypi
+pandas                    2.0.3                    pypi_0    pypi
+pillow                    10.4.0                   pypi_0    pypi
+pip                       24.3.1                   pypi_0    pypi
+python                    3.8.20               he870216_0  
+python-dateutil           2.9.0.post0              pypi_0    pypi
+python-graphviz           0.20.3                   pypi_0    pypi
+pytz                      2024.2                   pypi_0    pypi
+pyyaml                    6.0.2                    pypi_0    pypi
+readline                  8.2                  h5eee18b_0  
+regex                     2024.11.6                pypi_0    pypi
+requests                  2.32.3                   pypi_0    pypi
+safetensors               0.4.5                    pypi_0    pypi
+scikit-learn              1.3.2                    pypi_0    pypi
+scipy                     1.10.1                   pypi_0    pypi
+setuptools                75.1.0           py38h06a4308_0  
+six                       1.16.0                   pypi_0    pypi
+sqlite                    3.45.3               h5eee18b_0  
+sympy                     1.13.3                   pypi_0    pypi
+threadpoolctl             3.5.0                    pypi_0    pypi
+tk                        8.6.14               h39e8969_0  
+tokenizers                0.20.3                   pypi_0    pypi
+torch                     2.4.1                    pypi_0    pypi
+torchdistill              1.1.1                    pypi_0    pypi
+torchvision               0.19.1                   pypi_0    pypi
+tqdm                      4.67.1                   pypi_0    pypi
+transformers              4.46.3                   pypi_0    pypi
+triton                    3.0.0                    pypi_0    pypi
+typing-extensions         4.12.2                   pypi_0    pypi
+tzdata                    2024.2                   pypi_0    pypi
+urllib3                   2.2.3                    pypi_0    pypi
+wheel                     0.44.0           py38h06a4308_0  
+xz                        5.4.6                h5eee18b_1  
+zlib                      1.2.13               h5eee18b_1  
+zss                       1.2.0                    pypi_0    pypi
+Printing the content of finetuning_easy.py:
+Python version and path being used:
+Python 3.8.20
+/home/zoudj/.conda/envs/srsd/bin/python
+# conda environments:
+#
+cnsr                     /home/zoudj/.conda/envs/cnsr
+dso_cheml                /home/zoudj/.conda/envs/dso_cheml
+dsoenv                   /home/zoudj/.conda/envs/dsoenv
+endtoend                 /home/zoudj/.conda/envs/endtoend
+srsd                  *  /home/zoudj/.conda/envs/srsd
+transfer                 /home/zoudj/.conda/envs/transfer
+base                     /sw/pkgs/arc/python3.10-anaconda/2023.03
+
+Running Python script...
+finetuning.py:14: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model = torch.load(model_path, map_location="cpu")
+Importing libraries...
+Loading model from: resource/ckpt/model_original.pt
+Epoch 1/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  3.2824593354016542
+Step 1 Time:  4.553952846676111
+Step 2 Time:  0.01394474133849144
+Step 3 Time:  0.02511100471019745
+Step 4 Time:  0.017797354608774185
+Epoch 1/10, Loss: 1.8399920463562012
+Epoch 2/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  6.400409307330847
+Step 1 Time:  3.2037039566785097
+Step 2 Time:  0.010080035775899887
+Step 3 Time:  0.0003403797745704651
+Step 4 Time:  0.0030437204986810684
+Epoch 2/10, Loss: 1.5531139373779297
+Epoch 3/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  8.627017892897129
+Step 1 Time:  4.343945866450667
+Step 2 Time:  0.00557895191013813
+Step 3 Time:  0.0002934299409389496
+Step 4 Time:  0.003303276374936104
+Epoch 3/10, Loss: 2.4410152435302734
+Epoch 4/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  5.052770812064409
+Step 1 Time:  4.447578825056553
+Step 2 Time:  0.009132124483585358
+Step 3 Time:  0.00030182115733623505
+Step 4 Time:  0.002093074843287468
+Epoch 4/10, Loss: 2.3514750003814697
+Epoch 5/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  4.4624010398983955
+Step 1 Time:  3.1911482643336058
+Step 2 Time:  0.004953380674123764
+Step 3 Time:  0.0002621728926897049
+Step 4 Time:  0.0029277633875608444
+Epoch 5/10, Loss: 2.4410152435302734
+Model saved to resource/ckpt/model_test_epoch5.pt
+Epoch 6/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  4.278707757592201
+Step 1 Time:  4.085392843931913
+Step 2 Time:  0.010448060929775238
+Step 3 Time:  0.00026102736592292786
+Step 4 Time:  0.00258515402674675
+Epoch 6/10, Loss: 2.2560346126556396
+Epoch 7/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  3.1116801165044308
+Step 1 Time:  4.460559852421284
+Step 2 Time:  0.009766768664121628
+Step 3 Time:  0.00027716532349586487
+Step 4 Time:  0.00298910029232502
+Epoch 7/10, Loss: 1.5304919481277466
+Epoch 8/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  3.245339374989271
+Step 1 Time:  4.145793562754989
+Step 2 Time:  0.005841316655278206
+Step 3 Time:  0.0002612769603729248
+Step 4 Time:  0.0024939198046922684
+Epoch 8/10, Loss: 1.4092159271240234
+Epoch 9/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  3.2005998864769936
+Step 1 Time:  4.348297068849206
+Step 2 Time:  0.011305568739771843
+Step 3 Time:  0.0002487599849700928
+Step 4 Time:  0.002087235450744629
+Epoch 9/10, Loss: 1.8358408212661743
+Epoch 10/10
+Generating training data...
+Data generation complete.
+Step 0 Time:  3.0530276130884886
+Step 1 Time:  3.4170945547521114
+Step 2 Time:  0.004780862480401993
+Step 3 Time:  0.00019250810146331787
+Step 4 Time:  0.00238722562789917
+Epoch 10/10, Loss: 2.4410152435302734
+Model saved to resource/ckpt/model_test_epoch10.pt

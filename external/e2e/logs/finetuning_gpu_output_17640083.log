@@ -1,4 +1,8 @@
-print("Importing Libraries", flush = True)
+Starting job 17640083 at Mon Dec  2 23:26:06 EST 2024
+Loading CUDA module...
+Activating conda environment...
+Printing the content of finetuning_easy.py:
+print("Importing Libraries")
 import os
 import numpy as np
 import torch
@@ -168,6 +172,21 @@ for epoch in range(n_epochs):
 
     # Save the entire model every 5 epochs
     if (epoch + 1) % 5 == 0:
-        save_path = f"resource/ckpt/model_easy_epoch{epoch + 1}.pt"
+        save_path = f"resource/ckpt/model_test_epoch{epoch + 1}.pt"
         torch.save(estimator.model, save_path)
         print(f"Model saved to {save_path}")
+Python version and path being used:
+Python 3.8.20
+/home/zoudj/.conda/envs/srsd/bin/python
+# conda environments:
+#
+cnsr                     /home/zoudj/.conda/envs/cnsr
+dso_cheml                /home/zoudj/.conda/envs/dso_cheml
+dsoenv                   /home/zoudj/.conda/envs/dsoenv
+endtoend                 /home/zoudj/.conda/envs/endtoend
+srsd                  *  /home/zoudj/.conda/envs/srsd
+transfer                 /home/zoudj/.conda/envs/transfer
+base                     /sw/pkgs/arc/python3.10-anaconda/2023.03
+
+Running Python script...
+slurmstepd: error: *** JOB 17640083 ON gl1014 CANCELLED AT 2024-12-02T23:28:57 ***
