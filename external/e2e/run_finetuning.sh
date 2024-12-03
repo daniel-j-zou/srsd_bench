@@ -8,7 +8,7 @@
 #SBATCH --ntasks=1                          # Number of tasks
 #SBATCH --gres=gpu:1                        # Request 1 GPU
 #SBATCH --cpus-per-task=2                   # Number of CPU cores per task
-#SBATCH --mem=8G                           # Total memory per node
+#SBATCH --mem=4G                           # Total memory per node
 #SBATCH --time=00:20:00                     # Time limit (adjust if needed)
 #SBATCH --output=logs/finetuning_gpu_output_%j.log    # Standard output and error log file (%j will be replaced by job ID)
 

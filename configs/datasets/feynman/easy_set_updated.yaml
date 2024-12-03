@@ -1,0 +1,150 @@
+FeynmanICh12Eq1:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh12Eq4:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh12Eq5:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh14Eq3:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh14Eq4:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh18Eq12:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh18Eq16:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh25Eq13:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh26Eq2:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh27Eq6:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh30Eq5:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh43Eq16:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanICh47Eq23:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh10Eq9:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh13Eq17:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh15Eq4:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh15Eq5:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh27Eq16:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh27Eq18:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh2Eq42:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh34Eq11:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh34Eq29b:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh38Eq14:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh38Eq3:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh3Eq24:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh4Eq23:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIICh8Eq31:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIIICh12Eq43:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIIICh15Eq27:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
+FeynmanIIICh7Eq38:
+  kwargs: null
+  output_dir: ./external/e2e/resource/datasets/
+  output_ext: .txt
+  sample_size: 400
