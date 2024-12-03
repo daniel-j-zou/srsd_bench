@@ -67,6 +67,7 @@ optimizer = optim.Adam(estimator.model.parameters(), lr=1e-5)
 # Training Loop
 n_epochs = 10
 criterion = nn.MSELoss()
+clip_value = 1.0
 
 for epoch in range(n_epochs):
     print(f"Epoch {epoch + 1}/{n_epochs}")
@@ -102,6 +103,7 @@ for epoch in range(n_epochs):
 
     # Step 4: Backward pass and optimization
     loss.backward()
+    torch.nn.utils.clip_grad_norm_(estimator.model.parameters(), clip_value)
     optimizer.step()
     step4 = time.perf_counter()
     print("Step 4 Time: ", step4 - step3)
