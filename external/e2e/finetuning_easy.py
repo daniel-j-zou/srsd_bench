@@ -1,14 +1,46 @@
 print("Importing Libraries", flush = True)
-import os
-import numpy as np
-import torch
-import torch.optim as optim
-import torch.nn as nn
-import sympy as sp
-import re
 import time
-from symbolicregression.model import SymbolicTransformerRegressor
-import subprocess
+
+# Profiling library imports
+
+def profile_import(module_name, import_statement):
+    start = time.time()
+    exec(import_statement)
+    end = time.time()
+    print(f"Imported {module_name} in {end - start:.4f} seconds", flush=True)
+
+print("Importing Libraries", flush=True)
+
+# Import os
+profile_import("os", "import os")
+
+# Import numpy as np
+profile_import("numpy", "import numpy as np")
+
+# Import torch
+profile_import("torch", "import torch")
+
+# Import torch.optim as optim
+profile_import("torch.optim", "import torch.optim as optim")
+
+# Import torch.nn as nn
+profile_import("torch.nn", "import torch.nn as nn")
+
+# Import sympy as sp
+profile_import("sympy", "import sympy as sp")
+
+# Import re
+profile_import("re", "import re")
+
+# Import time
+profile_import("time", "import time")
+
+# Import SymbolicTransformerRegressor from symbolicregression.model
+profile_import("SymbolicTransformerRegressor", "from symbolicregression.model import SymbolicTransformerRegressor")
+
+# Import subprocess
+profile_import("subprocess", "import subprocess")
+
 
 # Load the model state_dict
 model_path = "resource/ckpt/model_original.pt"
