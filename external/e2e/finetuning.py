@@ -5,6 +5,7 @@ import sympy as sp
 import re
 import time
 from symbolicregression.model import SymbolicTransformerRegressor
+import subprocess
 
 # Load the model state_dict
 model_path = "resource/ckpt/model_original.pt"
@@ -50,13 +51,37 @@ def train(estimator, train_samples, train_targets):
     return sympy_eq
 
 
+def generate_training_data():
+    """Generate training data by running dataset_generator.py in the specified directory."""
+    command = [
+        "python",
+        "dataset_generator.py",
+        "--config",
+        "configs/datasets/feynman/easy_set_updated.yaml",
+        "--train",
+        "1.0",
+        "--val",
+        "0.0",
+        "--test",
+        "1.0",
+    ]
+    working_dir = "../../"  # Directory where the script should be executed
+
+    print("Generating training data...")
+    result = subprocess.run(command, cwd=working_dir, capture_output=True, text=True)
+
+    if result.returncode != 0:
+        raise RuntimeError(f"Data generation failed: {result.stderr}")
+
+    print("Data generation complete.")
+    # Load the generated data if necessary
+    # Example: Read data files from working_dir or a specific output folder
+
 # Sample Training Data (stay on CPU initially)
 x1 = torch.randn(200, 5)  # Replace with actual data
 y1 = torch.randn(200, 1)  # Replace with actual data
 x2 = torch.randn(200, 5)  # Replace with actual data
 y2 = torch.randn(200, 1)  # Replace with actual data
-
-print("Data loaded.")
 
 # Set model to training mode
 estimator.model.train()
@@ -73,13 +98,19 @@ for epoch in range(n_epochs):
     print(f"Epoch {epoch + 1}/{n_epochs}")
     start = time.perf_counter()
 
+    # Step 0: Generate training data
+    generate_training_data()
+    step0 = time.perf_counter()
+    print("Step 0 Time: ", step0 - start)
+
+
     # Zero the parameter gradients
     optimizer.zero_grad()
 
     # Step 1: Generate a symbolic expression from x1 using the model
     sympy_expression = train(estimator, x1, y1)  # x1, y1 remain on CPU initially
     step1 = time.perf_counter()
-    print("Step 1 Time: ", step1 - start)
+    print("Step 1 Time: ", step1 - step0)
 
     # Step 2: Evaluate the symbolic expression on x2 to get y_hat
     # Convert x2 to CPU numpy for sympy evaluation
