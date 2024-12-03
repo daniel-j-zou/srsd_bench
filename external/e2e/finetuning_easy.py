@@ -44,6 +44,8 @@ profile_import("SymbolicTransformerRegressor", "from symbolicregression.model im
 # Import subprocess
 profile_import("subprocess", "import subprocess", globals_dict)
 
+from interruptingcow import timeout
+
 
 # Load the model state_dict
 model_path = "resource/ckpt/model_original.pt"
@@ -164,7 +166,12 @@ for epoch in range(n_epochs):
             optimizer.zero_grad()
 
             # Step 1: Generate a symbolic expression from x1 using the model
-            sympy_expression = train(estimator, x1, y1)
+            try:
+                with timeout(10, exception=RuntimeError):
+                    sympy_expression = train(estimator, x1, y1)
+            except RuntimeError:
+                print(f"Timeout occurred for example {filename}")
+                continue
 
             # Step 2: Evaluate the symbolic expression on x2 to get y_hat
             # Convert x2 to CPU numpy for sympy evaluation
