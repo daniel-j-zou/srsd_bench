@@ -126,12 +126,12 @@ def generate_training_data():
 estimator.model.train()
 
 # Define optimizer
-optimizer = optim.Adam(estimator.model.parameters(), lr=1e-5)
+optimizer = optim.Adam(estimator.model.parameters(), lr=1e-6)
 
 # Training Loop
 n_epochs = 1
 criterion = nn.MSELoss()
-clip_value = 1.0
+clip_value = 1
 
 train_dir = "resource/datasets/train"
 test_dir = "resource/datasets/test"
