@@ -12,7 +12,7 @@
 #SBATCH --output=logs/finetuning_output_%j.log    # Standard output and error log file (%j will be replaced by job ID)
 
 # Load necessary modules
-#module load cuda/11.2.2                  # Load CUDA module, adjust version to match cluster setup
+module load cuda/11.2.2                  # Load CUDA module, adjust version to match cluster setup
 
 # Activate the Conda environment
 eval "$(conda shell.bash hook)"
