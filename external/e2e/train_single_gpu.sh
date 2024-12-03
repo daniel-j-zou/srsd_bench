@@ -9,7 +9,7 @@
 #SBATCH --gres=gpu:1                        # Request 1 GPU
 #SBATCH --cpus-per-task=4                   # Number of CPU cores per task
 #SBATCH --mem=2G                           # Total memory per node
-#SBATCH --time=05:20:00                     # Time limit (adjust if needed)
+#SBATCH --time=01:00:00                     # Time limit (adjust if needed)
 #SBATCH --output=logs/batch_gpu_output_%j.log    # Standard output and error log file (%j will be replaced by job ID)
 
 # Load necessary modules
@@ -20,12 +20,12 @@ eval "$(conda shell.bash hook)"
 conda activate srsd                    # Activate the conda environment (adjust name if needed)
 
 # Define checkpoint file
-CKPT_FILE=./resource/ckpt/model_original.pt
+CKPT_FILE=./resource/ckpt/model_easy_epoch5.pt
 
 # Iterate over dataset groups: easy, medium, hard
-for group_name in easy medium hard; do
+for group_name in easy; do
     # Define output directory
-    OUT_DIR=./e2e-no_constants/srsd-feynman_${group_name}
+    OUT_DIR=./e2e-epoch5_lr6/srsd-feynman_${group_name}
     mkdir -p ${OUT_DIR}                     # Create the output directory if it doesn't exist
 
     # Iterate over all training files in the dataset group
@@ -36,7 +36,7 @@ for group_name in easy medium hard; do
 	TEST_FILE=${filepath}
 	echo ${filepath}
         # Run runner.py with a timeout of 5 minutes for each dataset file
-        timeout 10m python runner.py --train ${TRAIN_FILE} --test ${TEST_FILE} --ckpt ${CKPT_FILE} --out ${OUT_DIR}/${FILE_NAME}
+        timeout 5m python runner.py --train ${TRAIN_FILE} --test ${TEST_FILE} --ckpt ${CKPT_FILE} --out ${OUT_DIR}/${FILE_NAME}
         echo ${filepath}   
     done
 done

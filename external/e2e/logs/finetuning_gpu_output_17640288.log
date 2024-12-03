@@ -102,3 +102,4 @@ Imported re in 0.0000 seconds
 Imported time in 0.0000 seconds
 Imported SymbolicTransformerRegressor in 0.9169 seconds
 Imported subprocess in 0.0000 seconds
+slurmstepd: error: *** JOB 17640288 ON gl1014 CANCELLED AT 2024-12-03T00:07:43 DUE TO TIME LIMIT ***

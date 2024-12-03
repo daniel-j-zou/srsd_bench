@@ -129,9 +129,9 @@ estimator.model.train()
 optimizer = optim.Adam(estimator.model.parameters(), lr=1e-6)
 
 # Training Loop
-n_epochs = 10
+n_epochs = 100
 criterion = nn.MSELoss()
-clip_value = 1
+clip_value = 0.1
 
 train_dir = "resource/datasets/train"
 test_dir = "resource/datasets/test"
@@ -209,7 +209,7 @@ for epoch in range(n_epochs):
     print(f"Epoch {epoch + 1} Time: {epoch_end - epoch_start:.4f} seconds")
 
     # Save the entire model every 5 epochs
-    if (epoch + 1) % 5 == 0:
-        save_path = f"resource/ckpt/model_easy_epoch{epoch + 1}.pt"
+    if (epoch + 1) % 10 == 0:
+        save_path = f"resource/ckpt/model_easy_epoch{epoch + 1}_gc01.pt"
         torch.save(estimator.model, save_path)
         print(f"Model saved to {save_path}")

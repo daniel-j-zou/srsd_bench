@@ -1,0 +1,472 @@
+Starting job 17648029 at Tue Dec  3 01:22:58 EST 2024
+Loading CUDA module...
+Activating conda environment...
+# packages in environment at /home/zoudj/.conda/envs/srsd:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+ca-certificates           2024.11.26           h06a4308_0  
+certifi                   2024.8.30                pypi_0    pypi
+charset-normalizer        3.4.0                    pypi_0    pypi
+cython                    3.0.11                   pypi_0    pypi
+filelock                  3.16.1                   pypi_0    pypi
+fsspec                    2024.10.0                pypi_0    pypi
+huggingface-hub           0.26.3                   pypi_0    pypi
+idna                      3.10                     pypi_0    pypi
+interruptingcow           0.8                      pypi_0    pypi
+jinja2                    3.1.4                    pypi_0    pypi
+joblib                    1.4.2                    pypi_0    pypi
+ld_impl_linux-64          2.40                 h12ee557_0  
+libffi                    3.4.4                h6a678d5_1  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+markupsafe                2.1.5                    pypi_0    pypi
+mpmath                    1.3.0                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0  
+networkx                  3.1                      pypi_0    pypi
+numexpr                   2.8.6                    pypi_0    pypi
+numpy                     1.24.4                   pypi_0    pypi
+nvidia-cublas-cu12        12.1.3.1                 pypi_0    pypi
+nvidia-cuda-cupti-cu12    12.1.105                 pypi_0    pypi
+nvidia-cuda-nvrtc-cu12    12.1.105                 pypi_0    pypi
+nvidia-cuda-runtime-cu12  12.1.105                 pypi_0    pypi
+nvidia-cudnn-cu12         9.1.0.70                 pypi_0    pypi
+nvidia-cufft-cu12         11.0.2.54                pypi_0    pypi
+nvidia-curand-cu12        10.3.2.106               pypi_0    pypi
+nvidia-cusolver-cu12      11.4.5.107               pypi_0    pypi
+nvidia-cusparse-cu12      12.1.0.106               pypi_0    pypi
+nvidia-nccl-cu12          2.20.5                   pypi_0    pypi
+nvidia-nvjitlink-cu12     12.6.85                  pypi_0    pypi
+nvidia-nvtx-cu12          12.1.105                 pypi_0    pypi
+openssl                   3.0.15               h5eee18b_0  
+packaging                 24.2                     pypi_0    pypi
+pandas                    2.0.3                    pypi_0    pypi
+pillow                    10.4.0                   pypi_0    pypi
+pip                       24.3.1                   pypi_0    pypi
+python                    3.8.20               he870216_0  
+python-dateutil           2.9.0.post0              pypi_0    pypi
+python-graphviz           0.20.3                   pypi_0    pypi
+pytz                      2024.2                   pypi_0    pypi
+pyyaml                    6.0.2                    pypi_0    pypi
+readline                  8.2                  h5eee18b_0  
+regex                     2024.11.6                pypi_0    pypi
+requests                  2.32.3                   pypi_0    pypi
+safetensors               0.4.5                    pypi_0    pypi
+scikit-learn              1.3.2                    pypi_0    pypi
+scipy                     1.10.1                   pypi_0    pypi
+setuptools                75.1.0           py38h06a4308_0  
+six                       1.16.0                   pypi_0    pypi
+sqlite                    3.45.3               h5eee18b_0  
+sympy                     1.13.3                   pypi_0    pypi
+threadpoolctl             3.5.0                    pypi_0    pypi
+tk                        8.6.14               h39e8969_0  
+tokenizers                0.20.3                   pypi_0    pypi
+torch                     2.4.1                    pypi_0    pypi
+torchdistill              1.1.1                    pypi_0    pypi
+torchvision               0.19.1                   pypi_0    pypi
+tqdm                      4.67.1                   pypi_0    pypi
+transformers              4.46.3                   pypi_0    pypi
+triton                    3.0.0                    pypi_0    pypi
+typing-extensions         4.12.2                   pypi_0    pypi
+tzdata                    2024.2                   pypi_0    pypi
+urllib3                   2.2.3                    pypi_0    pypi
+wheel                     0.44.0           py38h06a4308_0  
+xz                        5.4.6                h5eee18b_1  
+zlib                      1.2.13               h5eee18b_1  
+zss                       1.2.0                    pypi_0    pypi
+Printing the content of finetuning_easy.py:
+Python version and path being used:
+Python 3.8.20
+/home/zoudj/.conda/envs/srsd/bin/python
+# conda environments:
+#
+cnsr                     /home/zoudj/.conda/envs/cnsr
+dso_cheml                /home/zoudj/.conda/envs/dso_cheml
+dsoenv                   /home/zoudj/.conda/envs/dsoenv
+endtoend                 /home/zoudj/.conda/envs/endtoend
+srsd                  *  /home/zoudj/.conda/envs/srsd
+transfer                 /home/zoudj/.conda/envs/transfer
+base                     /sw/pkgs/arc/python3.10-anaconda/2023.03
+
+Running Python script...
+Importing Libraries
+Importing Libraries
+Imported os in 0.0000 seconds
+Imported numpy in 1.1564 seconds
+Imported torch in 5.7544 seconds
+Imported torch.optim in 0.0000 seconds
+Imported torch.nn in 0.0000 seconds
+Imported sympy in 2.5017 seconds
+Imported re in 0.0000 seconds
+Imported time in 0.0000 seconds
+Imported SymbolicTransformerRegressor in 5.3176 seconds
+Imported subprocess in 0.0000 seconds
+Loading model from: resource/ckpt/model_original.pt
+Epoch 1/100
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 3.2777 seconds
+Example feynman-ii.15.4.txt Time: 3.3714 seconds
+Example feynman-i.27.6.txt Time: 2.8088 seconds
+Example feynman-i.18.12.txt Time: 2.1600 seconds
+Example feynman-iii.7.38.txt Time: 2.3774 seconds
+Example feynman-ii.38.14.txt Time: 1.7340 seconds
+Example feynman-ii.10.9.txt Time: 2.4759 seconds
+Example feynman-ii.27.18.txt Time: 2.4650 seconds
+Expression (((0.035100000000000006 + arctan((-0.0011799999999999998 + x_0))) * (-0.0114 + (7.000000000000001e-05 * sqrt((29.8 + (0.0205 * x_1)))))) * (0.0936 + (0.0616 * 1/((-0.06280000000000001 + (0.00467 * ((8.47 + (-0.0946 * sqrt((91.4 + (0.0036799999999999997 * exp((-0.06820000000000001 + (-9.05 * x_1)))))))))**2)))))) has forbidden control characters.
+problem with tree (((0.035100000000000006 + arctan((-0.0011799999999999998 + x_0))) * (-0.0114 + (7.000000000000001e-05 * sqrt((29.8 + (0.0205 * x_1)))))) * (0.0936 + (0.0616 * 1/((-0.06280000000000001 + (0.00467 * ((8.47 + (-0.0946 * sqrt((91.4 + (0.0036799999999999997 * exp((-0.06820000000000001 + (-9.05 * x_1)))))))))**2))))))
+Expression ((0.00213 + (-0.00142 * arctan(((-6.22 + (-7.63 * x_1)) * (-2.47 + (-0.012 * x_0)))))) * (9.999999999999999e-05 + (0.00273 * x_0))) has forbidden control characters.
+problem with tree ((0.00213 + (-0.00142 * arctan(((-6.22 + (-7.63 * x_1)) * (-2.47 + (-0.012 * x_0)))))) * (9.999999999999999e-05 + (0.00273 * x_0)))
+Expression (((0.035100000000000006 + arctan((-0.0011799999999999998 + x_0))) * (-0.0114 + (7.000000000000001e-05 * sqrt((29.8 + (0.0205 * x_1)))))) * (0.0936 + (0.0616 * 1/((-0.06280000000000001 + (0.00467 * ((8.47 + (-0.0946 * sqrt((91.4 + (0.0036799999999999997 * exp((-0.06820000000000001 + (-9.05 * x_1)))))))))**2)))))) has forbidden control characters.
+problem with tree (((0.035100000000000006 + arctan((-0.0011799999999999998 + x_0))) * (-0.0114 + (7.000000000000001e-05 * sqrt((29.8 + (0.0205 * x_1)))))) * (0.0936 + (0.0616 * 1/((-0.06280000000000001 + (0.00467 * ((8.47 + (-0.0946 * sqrt((91.4 + (0.0036799999999999997 * exp((-0.06820000000000001 + (-9.05 * x_1)))))))))**2))))))
+Expression ((0.00213 + (-0.00142 * arctan(((-6.22 + (-7.63 * x_1)) * (-2.47 + (-0.012 * x_0)))))) * (9.999999999999999e-05 + (0.00273 * x_0))) has forbidden control characters.
+problem with tree ((0.00213 + (-0.00142 * arctan(((-6.22 + (-7.63 * x_1)) * (-2.47 + (-0.012 * x_0)))))) * (9.999999999999999e-05 + (0.00273 * x_0)))
+Example feynman-ii.13.17.txt Time: 2.3604 seconds
+Example feynman-i.47.23.txt Time: 2.5033 seconds
+Example feynman-i.30.5.txt Time: 3.2439 seconds
+Example feynman-ii.15.5.txt Time: 3.1518 seconds
+Expression (((-0.08 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_0))) * ((0.001 + (0.0010999999999999998 * x_1)) * (0.9 + (0.9 * abs(((0.9 + (0.9 * x_0)) * (0.01 + (-9.0 * 1/(((0.006 + (0.006999999999999999 * x_3)) * (0.4 + (-0.2 * x_1)))))))))))) has forbidden control characters.
+problem with tree (((-0.08 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_0))) * ((0.001 + (0.0010999999999999998 * x_1)) * (0.9 + (0.9 * abs(((0.9 + (0.9 * x_0)) * (0.01 + (-9.0 * 1/(((0.006 + (0.006999999999999999 * x_3)) * (0.4 + (-0.2 * x_1))))))))))))
+Expression (((-0.08 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_0))) * ((0.001 + (0.0010999999999999998 * x_1)) * (0.9 + (0.9 * abs(((0.9 + (0.9 * x_0)) * (0.01 + (-9.0 * 1/(((0.006 + (0.006999999999999999 * x_3)) * (0.4 + (-0.2 * x_1)))))))))))) has forbidden control characters.
+problem with tree (((-0.08 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_0))) * ((0.001 + (0.0010999999999999998 * x_1)) * (0.9 + (0.9 * abs(((0.9 + (0.9 * x_0)) * (0.01 + (-9.0 * 1/(((0.006 + (0.006999999999999999 * x_3)) * (0.4 + (-0.2 * x_1))))))))))))
+Example feynman-ii.38.3.txt Time: 3.3985 seconds
+Example feynman-ii.27.16.txt Time: 1.1081 seconds
+Example feynman-i.14.3.txt Time: 2.0683 seconds
+Example feynman-iii.15.27.txt Time: 2.7098 seconds
+Example feynman-i.12.1.txt Time: 1.5951 seconds
+Example feynman-i.18.16.txt Time: 2.8390 seconds
+Example feynman-i.12.5.txt Time: 1.5437 seconds
+Example feynman-ii.3.24.txt Time: 1.9782 seconds
+Example feynman-ii.34.11.txt Time: 3.1354 seconds
+Expression (((0.08960000000000001 + 1/((-0.009519999999999999 + (-0.00249 * exp((-0.00243 + (87.0 * x_0))))))) + (((-2.71 + x_1) * (-0.501 + (4.46 * cos((-0.023700000000000002 + (0.0027199999999999998 * 1/((-0.595 + (-0.677 * x_1))))))))) * (0.0568 + (0.014300000000000002 * x_2)))) * (-9.999999999999999e-05 + (-0.639 * tan((0.006529999999999999 + (-0.0551 * ((-9.74 + (-67.2 * x_3)))**2)))))) has forbidden control characters.
+problem with tree (((0.08960000000000001 + 1/((-0.009519999999999999 + (-0.00249 * exp((-0.00243 + (87.0 * x_0))))))) + (((-2.71 + x_1) * (-0.501 + (4.46 * cos((-0.023700000000000002 + (0.0027199999999999998 * 1/((-0.595 + (-0.677 * x_1))))))))) * (0.0568 + (0.014300000000000002 * x_2)))) * (-9.999999999999999e-05 + (-0.639 * tan((0.006529999999999999 + (-0.0551 * ((-9.74 + (-67.2 * x_3)))**2))))))
+Expression (((0.08960000000000001 + 1/((-0.009519999999999999 + (-0.00249 * exp((-0.00243 + (87.0 * x_0))))))) + (((-2.71 + x_1) * (-0.501 + (4.46 * cos((-0.023700000000000002 + (0.0027199999999999998 * 1/((-0.595 + (-0.677 * x_1))))))))) * (0.0568 + (0.014300000000000002 * x_2)))) * (-9.999999999999999e-05 + (-0.639 * tan((0.006529999999999999 + (-0.0551 * ((-9.74 + (-67.2 * x_3)))**2)))))) has forbidden control characters.
+problem with tree (((0.08960000000000001 + 1/((-0.009519999999999999 + (-0.00249 * exp((-0.00243 + (87.0 * x_0))))))) + (((-2.71 + x_1) * (-0.501 + (4.46 * cos((-0.023700000000000002 + (0.0027199999999999998 * 1/((-0.595 + (-0.677 * x_1))))))))) * (0.0568 + (0.014300000000000002 * x_2)))) * (-9.999999999999999e-05 + (-0.639 * tan((0.006529999999999999 + (-0.0551 * ((-9.74 + (-67.2 * x_3)))**2))))))
+Example feynman-i.43.16.txt Time: 3.1285 seconds
+Example feynman-ii.4.23.txt Time: 2.7015 seconds
+Example feynman-i.25.13.txt Time: 2.1393 seconds
+Example feynman-i.12.4.txt Time: 2.0228 seconds
+Example feynman-ii.34.29b.txt Time: 2.8703 seconds
+Example feynman-i.26.2.txt Time: 2.6222 seconds
+Example feynman-ii.2.42.txt Time: 3.3094 seconds
+Example feynman-iii.12.43.txt Time: 2.4915 seconds
+Example feynman-ii.8.31.txt Time: 1.8211 seconds
+Epoch 1/100, Loss: inf
+Epoch 1 Time: 82.5127 seconds
+Epoch 2/100
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 2.1516 seconds
+Example feynman-ii.15.4.txt Time: 2.7130 seconds
+Example feynman-i.27.6.txt Time: 3.0787 seconds
+Example feynman-i.18.12.txt Time: 2.3315 seconds
+Example feynman-iii.7.38.txt Time: 2.4678 seconds
+Example feynman-ii.38.14.txt Time: 1.8872 seconds
+Example feynman-ii.10.9.txt Time: 2.4083 seconds
+Example feynman-ii.27.18.txt Time: 2.4577 seconds
+Expression ((1e-05 + (1e-05 * 1/((0.9 + x_1)))) * ((9.999999999999999e-05 + (0.2 * x_0)) * (0.07 + (0.001 * exp((-3.0 + (-11.9 * x_1))))))) has forbidden control characters.
+problem with tree ((1e-05 + (1e-05 * 1/((0.9 + x_1)))) * ((9.999999999999999e-05 + (0.2 * x_0)) * (0.07 + (0.001 * exp((-3.0 + (-11.9 * x_1)))))))
+Expression ((0.06860000000000001 + (-0.008329999999999999 * 1/((-0.00207 + (-0.023000000000000003 * sqrt((72.7 + (0.00262 * 1/((0.008969999999999999 + (4.92 * x_0))))))))))) * ((-0.00081 + (-0.48900000000000005 * x_0)) * (((0.169 + ((-0.00049 + (-57.800000000000004 * tan((0.00481 + (0.29000000000000004 * 1/((-8.69 + (-8.77 * x_1)))))))))**2) * (0.00033 + (0.0050999999999999995 * 1/((-0.018600000000000002 + (-55.2 * ((8.24 + (6e-05 * x_0)))**2)))))) * (-0.020900000000000002 + (-7.000000000000001e-05 * x_1))))) has forbidden control characters.
+problem with tree ((0.06860000000000001 + (-0.008329999999999999 * 1/((-0.00207 + (-0.023000000000000003 * sqrt((72.7 + (0.00262 * 1/((0.008969999999999999 + (4.92 * x_0))))))))))) * ((-0.00081 + (-0.48900000000000005 * x_0)) * (((0.169 + ((-0.00049 + (-57.800000000000004 * tan((0.00481 + (0.29000000000000004 * 1/((-8.69 + (-8.77 * x_1)))))))))**2) * (0.00033 + (0.0050999999999999995 * 1/((-0.018600000000000002 + (-55.2 * ((8.24 + (6e-05 * x_0)))**2)))))) * (-0.020900000000000002 + (-7.000000000000001e-05 * x_1)))))
+Expression ((1e-05 + (1e-05 * 1/((0.9 + x_1)))) * ((9.999999999999999e-05 + (0.2 * x_0)) * (0.07 + (0.001 * exp((-3.0 + (-11.9 * x_1))))))) has forbidden control characters.
+problem with tree ((1e-05 + (1e-05 * 1/((0.9 + x_1)))) * ((9.999999999999999e-05 + (0.2 * x_0)) * (0.07 + (0.001 * exp((-3.0 + (-11.9 * x_1)))))))
+Expression ((0.06860000000000001 + (-0.008329999999999999 * 1/((-0.00207 + (-0.023000000000000003 * sqrt((72.7 + (0.00262 * 1/((0.008969999999999999 + (4.92 * x_0))))))))))) * ((-0.00081 + (-0.48900000000000005 * x_0)) * (((0.169 + ((-0.00049 + (-57.800000000000004 * tan((0.00481 + (0.29000000000000004 * 1/((-8.69 + (-8.77 * x_1)))))))))**2) * (0.00033 + (0.0050999999999999995 * 1/((-0.018600000000000002 + (-55.2 * ((8.24 + (6e-05 * x_0)))**2)))))) * (-0.020900000000000002 + (-7.000000000000001e-05 * x_1))))) has forbidden control characters.
+problem with tree ((0.06860000000000001 + (-0.008329999999999999 * 1/((-0.00207 + (-0.023000000000000003 * sqrt((72.7 + (0.00262 * 1/((0.008969999999999999 + (4.92 * x_0))))))))))) * ((-0.00081 + (-0.48900000000000005 * x_0)) * (((0.169 + ((-0.00049 + (-57.800000000000004 * tan((0.00481 + (0.29000000000000004 * 1/((-8.69 + (-8.77 * x_1)))))))))**2) * (0.00033 + (0.0050999999999999995 * 1/((-0.018600000000000002 + (-55.2 * ((8.24 + (6e-05 * x_0)))**2)))))) * (-0.020900000000000002 + (-7.000000000000001e-05 * x_1)))))
+Example feynman-ii.13.17.txt Time: 2.5064 seconds
+Example feynman-i.47.23.txt Time: 2.7706 seconds
+Example feynman-i.30.5.txt Time: 3.3318 seconds
+Example feynman-ii.15.5.txt Time: 3.3606 seconds
+Example feynman-ii.38.3.txt Time: 3.2198 seconds
+Example feynman-ii.27.16.txt Time: 1.9114 seconds
+Example feynman-i.14.3.txt Time: 2.0230 seconds
+Example feynman-iii.15.27.txt Time: 2.6339 seconds
+Example feynman-i.12.1.txt Time: 1.4657 seconds
+Expression ((9.999999999999999e-05 + (-41.0 * x_3)) * ((-0.00149 + (0.0835 * ((((0.8180000000000001 + x_1) * (-0.035500000000000004 + (-0.036000000000000004 * x_2))) * ((0.008459999999999999 + (0.5710000000000001 * 1/((-3.2600000000000002 + (0.0971 * sqrt((0.371 + (0.0212 * x_3)))))))) - (((0.00886 + (-2.67 * x_3)) + (-0.33 + (-31.2 * sqrt((62.6 + (6.93 * abs((-0.171 + (0.502 * x_0))))))))) - (2.46 + (0.030400000000000003 * x_2))))))**2)) * ((0.048 + (0.8580000000000001 * 1/((87.3 + (0.0674 * ((-7.66 + (2.0100000000000002 * x_2)))**2))))) * (-0.07050000000000001 + (78.9 * 1/((5.51 + (0.628 * ((-0.054000000000000006 + (14.200000000000001 * x_3)))**2)))))))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (-41.0 * x_3)) * ((-0.00149 + (0.0835 * ((((0.8180000000000001 + x_1) * (-0.035500000000000004 + (-0.036000000000000004 * x_2))) * ((0.008459999999999999 + (0.5710000000000001 * 1/((-3.2600000000000002 + (0.0971 * sqrt((0.371 + (0.0212 * x_3)))))))) - (((0.00886 + (-2.67 * x_3)) + (-0.33 + (-31.2 * sqrt((62.6 + (6.93 * abs((-0.171 + (0.502 * x_0))))))))) - (2.46 + (0.030400000000000003 * x_2))))))**2)) * ((0.048 + (0.8580000000000001 * 1/((87.3 + (0.0674 * ((-7.66 + (2.0100000000000002 * x_2)))**2))))) * (-0.07050000000000001 + (78.9 * 1/((5.51 + (0.628 * ((-0.054000000000000006 + (14.200000000000001 * x_3)))**2))))))))
+Expression ((9.999999999999999e-05 + (-41.0 * x_3)) * ((-0.00149 + (0.0835 * ((((0.8180000000000001 + x_1) * (-0.035500000000000004 + (-0.036000000000000004 * x_2))) * ((0.008459999999999999 + (0.5710000000000001 * 1/((-3.2600000000000002 + (0.0971 * sqrt((0.371 + (0.0212 * x_3)))))))) - (((0.00886 + (-2.67 * x_3)) + (-0.33 + (-31.2 * sqrt((62.6 + (6.93 * abs((-0.171 + (0.502 * x_0))))))))) - (2.46 + (0.030400000000000003 * x_2))))))**2)) * ((0.048 + (0.8580000000000001 * 1/((87.3 + (0.0674 * ((-7.66 + (2.0100000000000002 * x_2)))**2))))) * (-0.07050000000000001 + (78.9 * 1/((5.51 + (0.628 * ((-0.054000000000000006 + (14.200000000000001 * x_3)))**2)))))))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (-41.0 * x_3)) * ((-0.00149 + (0.0835 * ((((0.8180000000000001 + x_1) * (-0.035500000000000004 + (-0.036000000000000004 * x_2))) * ((0.008459999999999999 + (0.5710000000000001 * 1/((-3.2600000000000002 + (0.0971 * sqrt((0.371 + (0.0212 * x_3)))))))) - (((0.00886 + (-2.67 * x_3)) + (-0.33 + (-31.2 * sqrt((62.6 + (6.93 * abs((-0.171 + (0.502 * x_0))))))))) - (2.46 + (0.030400000000000003 * x_2))))))**2)) * ((0.048 + (0.8580000000000001 * 1/((87.3 + (0.0674 * ((-7.66 + (2.0100000000000002 * x_2)))**2))))) * (-0.07050000000000001 + (78.9 * 1/((5.51 + (0.628 * ((-0.054000000000000006 + (14.200000000000001 * x_3)))**2))))))))
+Example feynman-i.18.16.txt Time: 3.9570 seconds
+Example feynman-i.12.5.txt Time: 1.5351 seconds
+Example feynman-ii.3.24.txt Time: 2.1028 seconds
+Example feynman-ii.34.11.txt Time: 2.8895 seconds
+Example feynman-i.43.16.txt Time: 3.4971 seconds
+Example feynman-ii.4.23.txt Time: 2.7500 seconds
+Example feynman-i.25.13.txt Time: 2.4075 seconds
+Example feynman-i.12.4.txt Time: 2.6613 seconds
+Example feynman-ii.34.29b.txt Time: 2.8460 seconds
+Example feynman-i.26.2.txt Time: 2.5462 seconds
+Example feynman-ii.2.42.txt Time: 3.9310 seconds
+Example feynman-iii.12.43.txt Time: 2.9153 seconds
+Example feynman-ii.8.31.txt Time: 1.4072 seconds
+Epoch 2/100, Loss: inf
+Epoch 2 Time: 82.3813 seconds
+Epoch 3/100
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 1.9928 seconds
+Example feynman-ii.15.4.txt Time: 3.2487 seconds
+Example feynman-i.27.6.txt Time: 2.9768 seconds
+Example feynman-i.18.12.txt Time: 2.8795 seconds
+Example feynman-iii.7.38.txt Time: 2.4691 seconds
+Example feynman-ii.38.14.txt Time: 2.3441 seconds
+Example feynman-ii.10.9.txt Time: 2.7202 seconds
+Example feynman-ii.27.18.txt Time: 2.7602 seconds
+Expression ((9.999999999999999e-05 + (0.005529999999999999 * x_0)) * (2e-05 + (0.252 * exp((-11.3 + (-5.94 * x_1)))))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (0.005529999999999999 * x_0)) * (2e-05 + (0.252 * exp((-11.3 + (-5.94 * x_1))))))
+Expression ((9.999999999999999e-05 + (0.005529999999999999 * x_0)) * (2e-05 + (0.252 * exp((-11.3 + (-5.94 * x_1)))))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (0.005529999999999999 * x_0)) * (2e-05 + (0.252 * exp((-11.3 + (-5.94 * x_1))))))
+Example feynman-ii.13.17.txt Time: 2.5314 seconds
+Example feynman-i.47.23.txt Time: 2.2139 seconds
+Example feynman-i.30.5.txt Time: 3.1006 seconds
+Expression (((-0.08220000000000001 + sin(((6.8500000000000005 + (0.08510000000000001 * arctan((20.7 + (77.0 * arctan((-22.3 + (8.69 * x_2)))))))) * (-36.800000000000004 + (0.0066099999999999996 * 1/(((1.55 + (50.2 * abs((-9.999999999999999e-05 + (-0.00467 * 1/((59.2 + (-3.96 * x_0)))))))) * (-0.00633 + (0.0333 * x_1))))))))) * (-0.48200000000000004 + (85.7 * cos((7.88 + (0.461 * arctan(((58.6 + (3.45 * x_1)) * (-27.400000000000002 + (32.9 * x_0)))))))))) * (-5.33 + (-0.00465 * x_0))) has forbidden control characters.
+problem with tree (((-0.08220000000000001 + sin(((6.8500000000000005 + (0.08510000000000001 * arctan((20.7 + (77.0 * arctan((-22.3 + (8.69 * x_2)))))))) * (-36.800000000000004 + (0.0066099999999999996 * 1/(((1.55 + (50.2 * abs((-9.999999999999999e-05 + (-0.00467 * 1/((59.2 + (-3.96 * x_0)))))))) * (-0.00633 + (0.0333 * x_1))))))))) * (-0.48200000000000004 + (85.7 * cos((7.88 + (0.461 * arctan(((58.6 + (3.45 * x_1)) * (-27.400000000000002 + (32.9 * x_0)))))))))) * (-5.33 + (-0.00465 * x_0)))
+Expression (((-0.08220000000000001 + sin(((6.8500000000000005 + (0.08510000000000001 * arctan((20.7 + (77.0 * arctan((-22.3 + (8.69 * x_2)))))))) * (-36.800000000000004 + (0.0066099999999999996 * 1/(((1.55 + (50.2 * abs((-9.999999999999999e-05 + (-0.00467 * 1/((59.2 + (-3.96 * x_0)))))))) * (-0.00633 + (0.0333 * x_1))))))))) * (-0.48200000000000004 + (85.7 * cos((7.88 + (0.461 * arctan(((58.6 + (3.45 * x_1)) * (-27.400000000000002 + (32.9 * x_0)))))))))) * (-5.33 + (-0.00465 * x_0))) has forbidden control characters.
+problem with tree (((-0.08220000000000001 + sin(((6.8500000000000005 + (0.08510000000000001 * arctan((20.7 + (77.0 * arctan((-22.3 + (8.69 * x_2)))))))) * (-36.800000000000004 + (0.0066099999999999996 * 1/(((1.55 + (50.2 * abs((-9.999999999999999e-05 + (-0.00467 * 1/((59.2 + (-3.96 * x_0)))))))) * (-0.00633 + (0.0333 * x_1))))))))) * (-0.48200000000000004 + (85.7 * cos((7.88 + (0.461 * arctan(((58.6 + (3.45 * x_1)) * (-27.400000000000002 + (32.9 * x_0)))))))))) * (-5.33 + (-0.00465 * x_0)))
+Example feynman-ii.15.5.txt Time: 2.9943 seconds
+Example feynman-ii.38.3.txt Time: 3.3604 seconds
+Example feynman-ii.27.16.txt Time: 1.5633 seconds
+Example feynman-i.14.3.txt Time: 1.4719 seconds
+Example feynman-iii.15.27.txt Time: 2.9491 seconds
+Example feynman-i.12.1.txt Time: 1.7548 seconds
+Example feynman-i.18.16.txt Time: 2.9062 seconds
+Example feynman-i.12.5.txt Time: 1.4169 seconds
+Example feynman-ii.3.24.txt Time: 2.4751 seconds
+Example feynman-ii.34.11.txt Time: 3.0616 seconds
+Example feynman-i.43.16.txt Time: 3.3416 seconds
+Expression ((-0.9650000000000001 + (9.13 * x_0)) * ((7.86 + (-9.999999999999999e-05 * x_0)) * ((-7.44 + (0.784 * ((0.00547 + (25.1 * sqrt((45.2 + (-98.7 * 1/((-0.923 + (-1.04 * x_1)))))))))**3)) - (-23.7 + (-56.5 * (((-0.93 + (0.00274 * sqrt((53.0 + x_1)))) * ((0.865 + (-0.00699 * x_1)) + (-0.07200000000000001 + (-3.71 * x_0)))))**3))))) has forbidden control characters.
+problem with tree ((-0.9650000000000001 + (9.13 * x_0)) * ((7.86 + (-9.999999999999999e-05 * x_0)) * ((-7.44 + (0.784 * ((0.00547 + (25.1 * sqrt((45.2 + (-98.7 * 1/((-0.923 + (-1.04 * x_1)))))))))**3)) - (-23.7 + (-56.5 * (((-0.93 + (0.00274 * sqrt((53.0 + x_1)))) * ((0.865 + (-0.00699 * x_1)) + (-0.07200000000000001 + (-3.71 * x_0)))))**3)))))
+Expression ((-0.9650000000000001 + (9.13 * x_0)) * ((7.86 + (-9.999999999999999e-05 * x_0)) * ((-7.44 + (0.784 * ((0.00547 + (25.1 * sqrt((45.2 + (-98.7 * 1/((-0.923 + (-1.04 * x_1)))))))))**3)) - (-23.7 + (-56.5 * (((-0.93 + (0.00274 * sqrt((53.0 + x_1)))) * ((0.865 + (-0.00699 * x_1)) + (-0.07200000000000001 + (-3.71 * x_0)))))**3))))) has forbidden control characters.
+problem with tree ((-0.9650000000000001 + (9.13 * x_0)) * ((7.86 + (-9.999999999999999e-05 * x_0)) * ((-7.44 + (0.784 * ((0.00547 + (25.1 * sqrt((45.2 + (-98.7 * 1/((-0.923 + (-1.04 * x_1)))))))))**3)) - (-23.7 + (-56.5 * (((-0.93 + (0.00274 * sqrt((53.0 + x_1)))) * ((0.865 + (-0.00699 * x_1)) + (-0.07200000000000001 + (-3.71 * x_0)))))**3)))))
+Example feynman-ii.4.23.txt Time: 2.7220 seconds
+Expression ((9.999999999999999e-05 + (-0.04 * x_0)) * (-6.0 + (-3.4 * 1/((0.09400000000000001 + (0.10700000000000001 * x_1)))))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (-0.04 * x_0)) * (-6.0 + (-3.4 * 1/((0.09400000000000001 + (0.10700000000000001 * x_1))))))
+Example feynman-i.25.13.txt Time: 1.6396 seconds
+Example feynman-i.12.4.txt Time: 2.2896 seconds
+Example feynman-ii.34.29b.txt Time: 3.0385 seconds
+Example feynman-i.26.2.txt Time: 2.5016 seconds
+Example feynman-ii.2.42.txt Time: 3.2071 seconds
+Example feynman-iii.12.43.txt Time: 2.6772 seconds
+Expression ((9.999999999999999e-05 + (0.00011999999999999999 * x_0)) * (0.0024 + (0.0024 * x_0))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (0.00011999999999999999 * x_0)) * (0.0024 + (0.0024 * x_0)))
+Expression ((9.999999999999999e-05 + (0.00011999999999999999 * x_0)) * (0.0024 + (0.0024 * x_0))) has forbidden control characters.
+problem with tree ((9.999999999999999e-05 + (0.00011999999999999999 * x_0)) * (0.0024 + (0.0024 * x_0)))
+Example feynman-ii.8.31.txt Time: 1.6174 seconds
+Epoch 3/100, Loss: inf
+Epoch 3 Time: 82.9604 seconds
+Epoch 4/100
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 2.3843 seconds
+Example feynman-ii.15.4.txt Time: 3.3079 seconds
+Example feynman-i.27.6.txt Time: 3.1364 seconds
+Example feynman-i.18.12.txt Time: 2.7197 seconds
+Example feynman-iii.7.38.txt Time: 2.0319 seconds
+Example feynman-ii.38.14.txt Time: 1.7730 seconds
+Example feynman-ii.10.9.txt Time: 2.3133 seconds
+Example feynman-ii.27.18.txt Time: 2.6813 seconds
+Expression ((1e-05 + (0.002 * x_0)) * (9.999999999999999e-05 + (9.999999999999999e-05 * exp((-3.0 + (-8.0 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (0.002 * x_0)) * (9.999999999999999e-05 + (9.999999999999999e-05 * exp((-3.0 + (-8.0 * x_1))))))
+Expression (((-0.0014299999999999998 + 1/((-0.00802 + (-0.9500000000000001 * (((-0.29300000000000004 + (-2.25 * x_1)) - ((-3.95 + (0.6970000000000001 * x_1)) * (6.25 + (7.38 * x_1)))))**2)))) * (-7.000000000000001e-05 + (-0.0123 * x_0))) * (0.01 + (-63.5 * ((-0.00857 + (0.00622 * x_0)))**3))) has forbidden control characters.
+problem with tree (((-0.0014299999999999998 + 1/((-0.00802 + (-0.9500000000000001 * (((-0.29300000000000004 + (-2.25 * x_1)) - ((-3.95 + (0.6970000000000001 * x_1)) * (6.25 + (7.38 * x_1)))))**2)))) * (-7.000000000000001e-05 + (-0.0123 * x_0))) * (0.01 + (-63.5 * ((-0.00857 + (0.00622 * x_0)))**3)))
+Expression ((1e-05 + (0.002 * x_0)) * (9.999999999999999e-05 + (9.999999999999999e-05 * exp((-3.0 + (-8.0 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (0.002 * x_0)) * (9.999999999999999e-05 + (9.999999999999999e-05 * exp((-3.0 + (-8.0 * x_1))))))
+Expression (((-0.0014299999999999998 + 1/((-0.00802 + (-0.9500000000000001 * (((-0.29300000000000004 + (-2.25 * x_1)) - ((-3.95 + (0.6970000000000001 * x_1)) * (6.25 + (7.38 * x_1)))))**2)))) * (-7.000000000000001e-05 + (-0.0123 * x_0))) * (0.01 + (-63.5 * ((-0.00857 + (0.00622 * x_0)))**3))) has forbidden control characters.
+problem with tree (((-0.0014299999999999998 + 1/((-0.00802 + (-0.9500000000000001 * (((-0.29300000000000004 + (-2.25 * x_1)) - ((-3.95 + (0.6970000000000001 * x_1)) * (6.25 + (7.38 * x_1)))))**2)))) * (-7.000000000000001e-05 + (-0.0123 * x_0))) * (0.01 + (-63.5 * ((-0.00857 + (0.00622 * x_0)))**3)))
+Example feynman-ii.13.17.txt Time: 1.9363 seconds
+Example feynman-i.47.23.txt Time: 2.9574 seconds
+Example feynman-i.30.5.txt Time: 3.4202 seconds
+Example feynman-ii.15.5.txt Time: 3.1963 seconds
+Expression (((0.009 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_1))) * (0.01 + (0.9 * abs(((0.060000000000000005 + (0.07 * x_0)) * (0.2 + (-0.9 * 1/(((0.8 + (0.9400000000000001 * x_3)) * (0.01 + (-0.002 * x_0))))))))))) has forbidden control characters.
+problem with tree (((0.009 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_1))) * (0.01 + (0.9 * abs(((0.060000000000000005 + (0.07 * x_0)) * (0.2 + (-0.9 * 1/(((0.8 + (0.9400000000000001 * x_3)) * (0.01 + (-0.002 * x_0)))))))))))
+Expression (((0.009 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_1))) * (0.01 + (0.9 * abs(((0.060000000000000005 + (0.07 * x_0)) * (0.2 + (-0.9 * 1/(((0.8 + (0.9400000000000001 * x_3)) * (0.01 + (-0.002 * x_0))))))))))) has forbidden control characters.
+problem with tree (((0.009 + x_2) * (9.999999999999999e-05 + (9.999999999999999e-05 * x_1))) * (0.01 + (0.9 * abs(((0.060000000000000005 + (0.07 * x_0)) * (0.2 + (-0.9 * 1/(((0.8 + (0.9400000000000001 * x_3)) * (0.01 + (-0.002 * x_0)))))))))))
+Example feynman-ii.38.3.txt Time: 3.1909 seconds
+Example feynman-ii.27.16.txt Time: 1.7267 seconds
+Example feynman-i.14.3.txt Time: 1.1013 seconds
+Example feynman-iii.15.27.txt Time: 3.3229 seconds
+Example feynman-i.12.1.txt Time: 1.4678 seconds
+Example feynman-i.18.16.txt Time: 3.0886 seconds
+Example feynman-i.12.5.txt Time: 1.2831 seconds
+Example feynman-ii.3.24.txt Time: 2.3891 seconds
+Example feynman-ii.34.11.txt Time: 3.0278 seconds
+Expression ((0.00165 + (79.3 * sin((-3.46 + (-0.9730000000000001 * exp((57.1 + (0.00035999999999999997 * ((-3.2600000000000002 + (-4.82 * ((((-0.00217 * x_2) * (-4.7700000000000005 + (0.00415 * x_2))) + (-9.66 + (-0.007379999999999999 * (((-0.00777 + (0.0018399999999999998 * x_0)) * ((-9.999999999999999e-05 + (0.0753 * abs((-6.3500000000000005 * x_1)))) + (-0.911 + (-0.93 * x_3)))))**3))))**2)))**2)))))))) * ((0.0921 + (-0.065 * cos(((-0.00543 + (-9.1 * x_0)) - ((-0.056900000000000006 + (0.0030499999999999998 * x_1)) * (-3.93 + (-35.1 * x_3))))))) + (0.0689 + (-0.00928 * 1/((0.05670000000000001 + (1.2 * x_0))))))) has forbidden control characters.
+problem with tree ((0.00165 + (79.3 * sin((-3.46 + (-0.9730000000000001 * exp((57.1 + (0.00035999999999999997 * ((-3.2600000000000002 + (-4.82 * ((((-0.00217 * x_2) * (-4.7700000000000005 + (0.00415 * x_2))) + (-9.66 + (-0.007379999999999999 * (((-0.00777 + (0.0018399999999999998 * x_0)) * ((-9.999999999999999e-05 + (0.0753 * abs((-6.3500000000000005 * x_1)))) + (-0.911 + (-0.93 * x_3)))))**3))))**2)))**2)))))))) * ((0.0921 + (-0.065 * cos(((-0.00543 + (-9.1 * x_0)) - ((-0.056900000000000006 + (0.0030499999999999998 * x_1)) * (-3.93 + (-35.1 * x_3))))))) + (0.0689 + (-0.00928 * 1/((0.05670000000000001 + (1.2 * x_0)))))))
+Expression ((0.00165 + (79.3 * sin((-3.46 + (-0.9730000000000001 * exp((57.1 + (0.00035999999999999997 * ((-3.2600000000000002 + (-4.82 * ((((-0.00217 * x_2) * (-4.7700000000000005 + (0.00415 * x_2))) + (-9.66 + (-0.007379999999999999 * (((-0.00777 + (0.0018399999999999998 * x_0)) * ((-9.999999999999999e-05 + (0.0753 * abs((-6.3500000000000005 * x_1)))) + (-0.911 + (-0.93 * x_3)))))**3))))**2)))**2)))))))) * ((0.0921 + (-0.065 * cos(((-0.00543 + (-9.1 * x_0)) - ((-0.056900000000000006 + (0.0030499999999999998 * x_1)) * (-3.93 + (-35.1 * x_3))))))) + (0.0689 + (-0.00928 * 1/((0.05670000000000001 + (1.2 * x_0))))))) has forbidden control characters.
+problem with tree ((0.00165 + (79.3 * sin((-3.46 + (-0.9730000000000001 * exp((57.1 + (0.00035999999999999997 * ((-3.2600000000000002 + (-4.82 * ((((-0.00217 * x_2) * (-4.7700000000000005 + (0.00415 * x_2))) + (-9.66 + (-0.007379999999999999 * (((-0.00777 + (0.0018399999999999998 * x_0)) * ((-9.999999999999999e-05 + (0.0753 * abs((-6.3500000000000005 * x_1)))) + (-0.911 + (-0.93 * x_3)))))**3))))**2)))**2)))))))) * ((0.0921 + (-0.065 * cos(((-0.00543 + (-9.1 * x_0)) - ((-0.056900000000000006 + (0.0030499999999999998 * x_1)) * (-3.93 + (-35.1 * x_3))))))) + (0.0689 + (-0.00928 * 1/((0.05670000000000001 + (1.2 * x_0)))))))
+Example feynman-i.43.16.txt Time: 3.6924 seconds
+Example feynman-ii.4.23.txt Time: 2.7658 seconds
+Example feynman-i.25.13.txt Time: 2.0744 seconds
+Example feynman-i.12.4.txt Time: 2.4692 seconds
+Example feynman-ii.34.29b.txt Time: 3.1600 seconds
+Example feynman-i.26.2.txt Time: 2.3841 seconds
+Example feynman-ii.2.42.txt Time: 3.3680 seconds
+Example feynman-iii.12.43.txt Time: 2.5053 seconds
+Example feynman-ii.8.31.txt Time: 1.3549 seconds
+Epoch 4/100, Loss: inf
+Epoch 4 Time: 79.9994 seconds
+Epoch 5/100
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 1.9374 seconds
+Example feynman-ii.15.4.txt Time: 3.1046 seconds
+Example feynman-i.27.6.txt Time: 2.9385 seconds
+Example feynman-i.18.12.txt Time: 2.3094 seconds
+Example feynman-iii.7.38.txt Time: 2.3281 seconds
+Example feynman-ii.38.14.txt Time: 2.2771 seconds
+Example feynman-ii.10.9.txt Time: 2.8176 seconds
+Example feynman-ii.27.18.txt Time: 2.1015 seconds
+Expression ((1e-05 + (9.999999999999999e-05 * 1/((0.9 + x_1)))) * ((0.003 + (-0.030000000000000002 * x_0)) * (-0.08 + (-0.001 * exp((-2.0 + (-11.0 * x_1))))))) has forbidden control characters.
+problem with tree ((1e-05 + (9.999999999999999e-05 * 1/((0.9 + x_1)))) * ((0.003 + (-0.030000000000000002 * x_0)) * (-0.08 + (-0.001 * exp((-2.0 + (-11.0 * x_1)))))))
+Expression ((1e-05 + (9.999999999999999e-05 * 1/((0.9 + x_1)))) * ((0.003 + (-0.030000000000000002 * x_0)) * (-0.08 + (-0.001 * exp((-2.0 + (-11.0 * x_1))))))) has forbidden control characters.
+problem with tree ((1e-05 + (9.999999999999999e-05 * 1/((0.9 + x_1)))) * ((0.003 + (-0.030000000000000002 * x_0)) * (-0.08 + (-0.001 * exp((-2.0 + (-11.0 * x_1)))))))
+Example feynman-ii.13.17.txt Time: 2.4257 seconds
+Example feynman-i.47.23.txt Time: 2.9537 seconds
+Example feynman-i.30.5.txt Time: 3.2024 seconds
+Timeout occurred for example feynman-ii.15.5.txt
+Example feynman-ii.38.3.txt Time: 3.4156 seconds
+Example feynman-ii.27.16.txt Time: 1.1887 seconds
+Example feynman-i.14.3.txt Time: 1.1947 seconds
+Example feynman-iii.15.27.txt Time: 3.0659 seconds
+Example feynman-i.12.1.txt Time: 1.5607 seconds
+Example feynman-i.18.16.txt Time: 3.4330 seconds
+Example feynman-i.12.5.txt Time: 1.6029 seconds
+Example feynman-ii.3.24.txt Time: 2.0950 seconds
+Example feynman-ii.34.11.txt Time: 3.2794 seconds
+Expression ((0.00861 + (5.8500000000000005 * 1/(((0.17 + (94.60000000000001 * cos((-8.790000000000001 + (0.07390000000000001 * exp(((-0.527 + (15.200000000000001 * 1/((0.006699999999999999 * x_3)))) + (-4.18 + (-85.5 * x_1))))))))) - (7.000000000000001e-05 + (-7.49 * x_2)))))) * (0.333 + (-98.9 * cos((-0.0412 + (-0.05450000000000001 * 1/((0.00257 + (0.029 * cos((53.0 + (-0.044000000000000004 * x_0)))))))))))) has forbidden control characters.
+problem with tree ((0.00861 + (5.8500000000000005 * 1/(((0.17 + (94.60000000000001 * cos((-8.790000000000001 + (0.07390000000000001 * exp(((-0.527 + (15.200000000000001 * 1/((0.006699999999999999 * x_3)))) + (-4.18 + (-85.5 * x_1))))))))) - (7.000000000000001e-05 + (-7.49 * x_2)))))) * (0.333 + (-98.9 * cos((-0.0412 + (-0.05450000000000001 * 1/((0.00257 + (0.029 * cos((53.0 + (-0.044000000000000004 * x_0))))))))))))
+Expression ((0.00861 + (5.8500000000000005 * 1/(((0.17 + (94.60000000000001 * cos((-8.790000000000001 + (0.07390000000000001 * exp(((-0.527 + (15.200000000000001 * 1/((0.006699999999999999 * x_3)))) + (-4.18 + (-85.5 * x_1))))))))) - (7.000000000000001e-05 + (-7.49 * x_2)))))) * (0.333 + (-98.9 * cos((-0.0412 + (-0.05450000000000001 * 1/((0.00257 + (0.029 * cos((53.0 + (-0.044000000000000004 * x_0)))))))))))) has forbidden control characters.
+problem with tree ((0.00861 + (5.8500000000000005 * 1/(((0.17 + (94.60000000000001 * cos((-8.790000000000001 + (0.07390000000000001 * exp(((-0.527 + (15.200000000000001 * 1/((0.006699999999999999 * x_3)))) + (-4.18 + (-85.5 * x_1))))))))) - (7.000000000000001e-05 + (-7.49 * x_2)))))) * (0.333 + (-98.9 * cos((-0.0412 + (-0.05450000000000001 * 1/((0.00257 + (0.029 * cos((53.0 + (-0.044000000000000004 * x_0))))))))))))
+Timeout occurred for example feynman-i.43.16.txt
+Example feynman-ii.4.23.txt Time: 2.6154 seconds
+Example feynman-i.25.13.txt Time: 1.6143 seconds
+Example feynman-i.12.4.txt Time: 2.0148 seconds
+Example feynman-ii.34.29b.txt Time: 2.9294 seconds
+Example feynman-i.26.2.txt Time: 2.2780 seconds
+Expression ((((-0.0038399999999999997 + sqrt((0.0098 + (43.1 * exp((-9.34 + (-9.08 * x_4))))))) * (0.0689 + (0.05840000000000001 * x_3))) * ((-0.0033599999999999997 + (0.788 * abs(((82.5 + (-0.035800000000000005 * ((22.1 + (-2.84 * x_1)))**2)) - ((0.648 + (-0.00722 * x_4)) + (9.88 + (-61.800000000000004 * x_0))))))) * ((-2.7 + (-68.2 * x_2)) - (-7.140000000000001 + (-79.5 * x_1))))) * (0.00413 + (-0.06060000000000001 * 1/((0.006549999999999999 + (-0.263 * ((0.0863 + (-0.00033 * exp((9.88 + (7.000000000000001e-05 * x_1))))))**2)))))) has forbidden control characters.
+problem with tree ((((-0.0038399999999999997 + sqrt((0.0098 + (43.1 * exp((-9.34 + (-9.08 * x_4))))))) * (0.0689 + (0.05840000000000001 * x_3))) * ((-0.0033599999999999997 + (0.788 * abs(((82.5 + (-0.035800000000000005 * ((22.1 + (-2.84 * x_1)))**2)) - ((0.648 + (-0.00722 * x_4)) + (9.88 + (-61.800000000000004 * x_0))))))) * ((-2.7 + (-68.2 * x_2)) - (-7.140000000000001 + (-79.5 * x_1))))) * (0.00413 + (-0.06060000000000001 * 1/((0.006549999999999999 + (-0.263 * ((0.0863 + (-0.00033 * exp((9.88 + (7.000000000000001e-05 * x_1))))))**2))))))
+Expression ((((-0.0038399999999999997 + sqrt((0.0098 + (43.1 * exp((-9.34 + (-9.08 * x_4))))))) * (0.0689 + (0.05840000000000001 * x_3))) * ((-0.0033599999999999997 + (0.788 * abs(((82.5 + (-0.035800000000000005 * ((22.1 + (-2.84 * x_1)))**2)) - ((0.648 + (-0.00722 * x_4)) + (9.88 + (-61.800000000000004 * x_0))))))) * ((-2.7 + (-68.2 * x_2)) - (-7.140000000000001 + (-79.5 * x_1))))) * (0.00413 + (-0.06060000000000001 * 1/((0.006549999999999999 + (-0.263 * ((0.0863 + (-0.00033 * exp((9.88 + (7.000000000000001e-05 * x_1))))))**2)))))) has forbidden control characters.
+problem with tree ((((-0.0038399999999999997 + sqrt((0.0098 + (43.1 * exp((-9.34 + (-9.08 * x_4))))))) * (0.0689 + (0.05840000000000001 * x_3))) * ((-0.0033599999999999997 + (0.788 * abs(((82.5 + (-0.035800000000000005 * ((22.1 + (-2.84 * x_1)))**2)) - ((0.648 + (-0.00722 * x_4)) + (9.88 + (-61.800000000000004 * x_0))))))) * ((-2.7 + (-68.2 * x_2)) - (-7.140000000000001 + (-79.5 * x_1))))) * (0.00413 + (-0.06060000000000001 * 1/((0.006549999999999999 + (-0.263 * ((0.0863 + (-0.00033 * exp((9.88 + (7.000000000000001e-05 * x_1))))))**2))))))
+Example feynman-ii.2.42.txt Time: 3.4018 seconds
+Example feynman-iii.12.43.txt Time: 2.5179 seconds
+Expression (((0.7150000000000001 + x_0) * (0.00274 + (0.0029 * x_0))) * (7.000000000000001e-05 + (0.00696 * ((-0.055900000000000005 + (-0.006189999999999999 * x_0)))**2))) has forbidden control characters.
+problem with tree (((0.7150000000000001 + x_0) * (0.00274 + (0.0029 * x_0))) * (7.000000000000001e-05 + (0.00696 * ((-0.055900000000000005 + (-0.006189999999999999 * x_0)))**2)))
+Expression (((0.7150000000000001 + x_0) * (0.00274 + (0.0029 * x_0))) * (7.000000000000001e-05 + (0.00696 * ((-0.055900000000000005 + (-0.006189999999999999 * x_0)))**2))) has forbidden control characters.
+problem with tree (((0.7150000000000001 + x_0) * (0.00274 + (0.0029 * x_0))) * (7.000000000000001e-05 + (0.00696 * ((-0.055900000000000005 + (-0.006189999999999999 * x_0)))**2)))
+Example feynman-ii.8.31.txt Time: 1.5924 seconds
+Epoch 5/100, Loss: inf
+Epoch 5 Time: 113.8018 seconds
+Epoch 6/100
+Generating training data...
+Data generation complete.
+Expression ((((x_0 + ((0.137 + (-0.045500000000000006 * x_0)) - (0.531 + (70.4 * x_0)))) + ((-0.056900000000000006 + (0.36200000000000004 * x_0)) + (-64.2 + (-0.0043 * x_0)))) * (9.999999999999999e-05 + (-0.00568 * x_1))) * (0.0017 + (5.44 * abs((0.06430000000000001 + (-53.800000000000004 * x_1)))))) has forbidden control characters.
+problem with tree ((((x_0 + ((0.137 + (-0.045500000000000006 * x_0)) - (0.531 + (70.4 * x_0)))) + ((-0.056900000000000006 + (0.36200000000000004 * x_0)) + (-64.2 + (-0.0043 * x_0)))) * (9.999999999999999e-05 + (-0.00568 * x_1))) * (0.0017 + (5.44 * abs((0.06430000000000001 + (-53.800000000000004 * x_1))))))
+Expression ((((x_0 + ((0.137 + (-0.045500000000000006 * x_0)) - (0.531 + (70.4 * x_0)))) + ((-0.056900000000000006 + (0.36200000000000004 * x_0)) + (-64.2 + (-0.0043 * x_0)))) * (9.999999999999999e-05 + (-0.00568 * x_1))) * (0.0017 + (5.44 * abs((0.06430000000000001 + (-53.800000000000004 * x_1)))))) has forbidden control characters.
+problem with tree ((((x_0 + ((0.137 + (-0.045500000000000006 * x_0)) - (0.531 + (70.4 * x_0)))) + ((-0.056900000000000006 + (0.36200000000000004 * x_0)) + (-64.2 + (-0.0043 * x_0)))) * (9.999999999999999e-05 + (-0.00568 * x_1))) * (0.0017 + (5.44 * abs((0.06430000000000001 + (-53.800000000000004 * x_1))))))
+Example feynman-i.14.4.txt Time: 1.5735 seconds
+Example feynman-ii.15.4.txt Time: 2.9749 seconds
+Expression ((0.00045 + (-0.9560000000000001 * 1/((-0.39 + (-0.0075899999999999995 * (((-7.1000000000000005 + (-6.1000000000000005 * x_1)) - (-0.055200000000000006 + (-0.604 * x_2))))**2))))) * ((0.00283 + (0.00188 * x_0)) * (0.067 + (0.0023 * abs(((1.28 + (-88.10000000000001 * cos((9.999999999999999e-05 + (-61.9 * 1/((-0.39 + (4.76 * cos((0.2 + (0.683 * sin((-0.21100000000000002 + (13.1 * 1/((-44.0 + (-39.300000000000004 * x_0))))))))))))))))) * (9.05 + (9.43 * x_2)))))))) has forbidden control characters.
+problem with tree ((0.00045 + (-0.9560000000000001 * 1/((-0.39 + (-0.0075899999999999995 * (((-7.1000000000000005 + (-6.1000000000000005 * x_1)) - (-0.055200000000000006 + (-0.604 * x_2))))**2))))) * ((0.00283 + (0.00188 * x_0)) * (0.067 + (0.0023 * abs(((1.28 + (-88.10000000000001 * cos((9.999999999999999e-05 + (-61.9 * 1/((-0.39 + (4.76 * cos((0.2 + (0.683 * sin((-0.21100000000000002 + (13.1 * 1/((-44.0 + (-39.300000000000004 * x_0))))))))))))))))) * (9.05 + (9.43 * x_2))))))))
+Expression ((0.00045 + (-0.9560000000000001 * 1/((-0.39 + (-0.0075899999999999995 * (((-7.1000000000000005 + (-6.1000000000000005 * x_1)) - (-0.055200000000000006 + (-0.604 * x_2))))**2))))) * ((0.00283 + (0.00188 * x_0)) * (0.067 + (0.0023 * abs(((1.28 + (-88.10000000000001 * cos((9.999999999999999e-05 + (-61.9 * 1/((-0.39 + (4.76 * cos((0.2 + (0.683 * sin((-0.21100000000000002 + (13.1 * 1/((-44.0 + (-39.300000000000004 * x_0))))))))))))))))) * (9.05 + (9.43 * x_2)))))))) has forbidden control characters.
+problem with tree ((0.00045 + (-0.9560000000000001 * 1/((-0.39 + (-0.0075899999999999995 * (((-7.1000000000000005 + (-6.1000000000000005 * x_1)) - (-0.055200000000000006 + (-0.604 * x_2))))**2))))) * ((0.00283 + (0.00188 * x_0)) * (0.067 + (0.0023 * abs(((1.28 + (-88.10000000000001 * cos((9.999999999999999e-05 + (-61.9 * 1/((-0.39 + (4.76 * cos((0.2 + (0.683 * sin((-0.21100000000000002 + (13.1 * 1/((-44.0 + (-39.300000000000004 * x_0))))))))))))))))) * (9.05 + (9.43 * x_2))))))))
+Example feynman-i.27.6.txt Time: 3.1520 seconds
+Example feynman-i.18.12.txt Time: 2.5265 seconds
+Example feynman-iii.7.38.txt Time: 2.3492 seconds
+Example feynman-ii.38.14.txt Time: 2.3231 seconds
+Example feynman-ii.10.9.txt Time: 2.3508 seconds
+Example feynman-ii.27.18.txt Time: 2.9487 seconds
+Expression (((0.0228 + x_0) * (-0.0031 + (0.005699999999999999 * cos((0.433 + (-0.00188 * x_0)))))) * (-9.999999999999999e-05 + (0.0689 * 1/((-63.9 + (83.3 * arctan((-0.0727 + (-47.1 * arctan((-0.097 + (-0.0936 * x_1)))))))))))) has forbidden control characters.
+problem with tree (((0.0228 + x_0) * (-0.0031 + (0.005699999999999999 * cos((0.433 + (-0.00188 * x_0)))))) * (-9.999999999999999e-05 + (0.0689 * 1/((-63.9 + (83.3 * arctan((-0.0727 + (-47.1 * arctan((-0.097 + (-0.0936 * x_1))))))))))))
+Expression ((0.0641 + (-0.0193 * 1/(((-0.13 + (-57.5 * ((92.5 + (-0.00228 * x_0)))**2)) - (-0.65 + (-6.72 * x_1)))))) * ((0.0011799999999999998 + (1.35 * 1/((6.45 + (6.69 * ((24.1 + (27.900000000000002 * x_1)))**2))))) * (7.000000000000001e-05 + (0.0030499999999999998 * x_0)))) has forbidden control characters.
+problem with tree ((0.0641 + (-0.0193 * 1/(((-0.13 + (-57.5 * ((92.5 + (-0.00228 * x_0)))**2)) - (-0.65 + (-6.72 * x_1)))))) * ((0.0011799999999999998 + (1.35 * 1/((6.45 + (6.69 * ((24.1 + (27.900000000000002 * x_1)))**2))))) * (7.000000000000001e-05 + (0.0030499999999999998 * x_0))))
+Expression ((-0.0003 + (0.00312 * 1/(((0.0422 + (-3.7800000000000002 * x_1)) - ((0.227 + (0.0035399999999999997 * x_1)) * (-0.11 + (6.8 * sqrt((5.04 + (7.000000000000001e-05 * x_1)))))))))) * ((0.00015999999999999999 + (0.00641 * exp((-6.63 + (-0.0013 * ((-0.903 + (17.2 * x_1)))**3))))) * (-0.0356 + (-2.1 * x_0)))) has forbidden control characters.
+problem with tree ((-0.0003 + (0.00312 * 1/(((0.0422 + (-3.7800000000000002 * x_1)) - ((0.227 + (0.0035399999999999997 * x_1)) * (-0.11 + (6.8 * sqrt((5.04 + (7.000000000000001e-05 * x_1)))))))))) * ((0.00015999999999999999 + (0.00641 * exp((-6.63 + (-0.0013 * ((-0.903 + (17.2 * x_1)))**3))))) * (-0.0356 + (-2.1 * x_0))))
+Expression (((0.0228 + x_0) * (-0.0031 + (0.005699999999999999 * cos((0.433 + (-0.00188 * x_0)))))) * (-9.999999999999999e-05 + (0.0689 * 1/((-63.9 + (83.3 * arctan((-0.0727 + (-47.1 * arctan((-0.097 + (-0.0936 * x_1)))))))))))) has forbidden control characters.
+problem with tree (((0.0228 + x_0) * (-0.0031 + (0.005699999999999999 * cos((0.433 + (-0.00188 * x_0)))))) * (-9.999999999999999e-05 + (0.0689 * 1/((-63.9 + (83.3 * arctan((-0.0727 + (-47.1 * arctan((-0.097 + (-0.0936 * x_1))))))))))))
+Expression ((0.0641 + (-0.0193 * 1/(((-0.13 + (-57.5 * ((92.5 + (-0.00228 * x_0)))**2)) - (-0.65 + (-6.72 * x_1)))))) * ((0.0011799999999999998 + (1.35 * 1/((6.45 + (6.69 * ((24.1 + (27.900000000000002 * x_1)))**2))))) * (7.000000000000001e-05 + (0.0030499999999999998 * x_0)))) has forbidden control characters.
+problem with tree ((0.0641 + (-0.0193 * 1/(((-0.13 + (-57.5 * ((92.5 + (-0.00228 * x_0)))**2)) - (-0.65 + (-6.72 * x_1)))))) * ((0.0011799999999999998 + (1.35 * 1/((6.45 + (6.69 * ((24.1 + (27.900000000000002 * x_1)))**2))))) * (7.000000000000001e-05 + (0.0030499999999999998 * x_0))))
+Expression ((-0.0003 + (0.00312 * 1/(((0.0422 + (-3.7800000000000002 * x_1)) - ((0.227 + (0.0035399999999999997 * x_1)) * (-0.11 + (6.8 * sqrt((5.04 + (7.000000000000001e-05 * x_1)))))))))) * ((0.00015999999999999999 + (0.00641 * exp((-6.63 + (-0.0013 * ((-0.903 + (17.2 * x_1)))**3))))) * (-0.0356 + (-2.1 * x_0)))) has forbidden control characters.
+problem with tree ((-0.0003 + (0.00312 * 1/(((0.0422 + (-3.7800000000000002 * x_1)) - ((0.227 + (0.0035399999999999997 * x_1)) * (-0.11 + (6.8 * sqrt((5.04 + (7.000000000000001e-05 * x_1)))))))))) * ((0.00015999999999999999 + (0.00641 * exp((-6.63 + (-0.0013 * ((-0.903 + (17.2 * x_1)))**3))))) * (-0.0356 + (-2.1 * x_0))))
+Example feynman-ii.13.17.txt Time: 2.4791 seconds
+Example feynman-i.47.23.txt Time: 3.3694 seconds
+Expression (-9.999999999999999e-05 + (3.69 * exp((0.773 + (5.5600000000000005 * cos(((0.7060000000000001 + (0.006189999999999999 * x_0)) + (((-0.328 * x_0) * ((0.79 + (-0.00641 * exp(((-0.009 + (-0.9510000000000001 * x_2)) * (-0.00761 + (-0.08130000000000001 * x_0)))))) + (-6.45 + (-0.219 * x_2)))) + (0.034300000000000004 + (-1.21 * exp((0.387 + (-28.1 * x_2))))))))))))) has forbidden control characters.
+problem with tree (-9.999999999999999e-05 + (3.69 * exp((0.773 + (5.5600000000000005 * cos(((0.7060000000000001 + (0.006189999999999999 * x_0)) + (((-0.328 * x_0) * ((0.79 + (-0.00641 * exp(((-0.009 + (-0.9510000000000001 * x_2)) * (-0.00761 + (-0.08130000000000001 * x_0)))))) + (-6.45 + (-0.219 * x_2)))) + (0.034300000000000004 + (-1.21 * exp((0.387 + (-28.1 * x_2)))))))))))))
+Expression (-9.999999999999999e-05 + (3.69 * exp((0.773 + (5.5600000000000005 * cos(((0.7060000000000001 + (0.006189999999999999 * x_0)) + (((-0.328 * x_0) * ((0.79 + (-0.00641 * exp(((-0.009 + (-0.9510000000000001 * x_2)) * (-0.00761 + (-0.08130000000000001 * x_0)))))) + (-6.45 + (-0.219 * x_2)))) + (0.034300000000000004 + (-1.21 * exp((0.387 + (-28.1 * x_2))))))))))))) has forbidden control characters.
+problem with tree (-9.999999999999999e-05 + (3.69 * exp((0.773 + (5.5600000000000005 * cos(((0.7060000000000001 + (0.006189999999999999 * x_0)) + (((-0.328 * x_0) * ((0.79 + (-0.00641 * exp(((-0.009 + (-0.9510000000000001 * x_2)) * (-0.00761 + (-0.08130000000000001 * x_0)))))) + (-6.45 + (-0.219 * x_2)))) + (0.034300000000000004 + (-1.21 * exp((0.387 + (-28.1 * x_2)))))))))))))
+Example feynman-i.30.5.txt Time: 3.2777 seconds
+Example feynman-ii.15.5.txt Time: 2.6784 seconds
+Example feynman-ii.38.3.txt Time: 2.6751 seconds
+Example feynman-ii.27.16.txt Time: 1.5795 seconds
+Example feynman-i.14.3.txt Time: 1.4178 seconds
+Example feynman-iii.15.27.txt Time: 3.0739 seconds
+Example feynman-i.12.1.txt Time: 1.6418 seconds
+Example feynman-i.18.16.txt Time: 2.8816 seconds
+Example feynman-i.12.5.txt Time: 0.7797 seconds
+Example feynman-ii.3.24.txt Time: 2.1821 seconds
+Example feynman-ii.34.11.txt Time: 2.7137 seconds
+Timeout occurred for example feynman-i.43.16.txt
+Example feynman-ii.4.23.txt Time: 2.9522 seconds
+Example feynman-i.25.13.txt Time: 2.2660 seconds
+Example feynman-i.12.4.txt Time: 2.3654 seconds
+Example feynman-ii.34.29b.txt Time: 3.4411 seconds
+Example feynman-i.26.2.txt Time: 2.4944 seconds
+Expression ((((-5.45 + (((-0.999 + (1.98 * 1/((-6.640000000000001 + x_1)))) * (((-6.25 + (0.004569999999999999 * x_3)) - (-0.0912 + (61.9 * 1/(((16.7 + (-0.0492 * x_3)) + (0.09090000000000001 + (18.6 * x_4))))))) - (-9.790000000000001 + (-0.061200000000000004 * x_2)))))**3) * ((-0.0335 + (9.999999999999999e-05 * x_2)) + (0.00849 + (-0.0302 * x_3)))) * ((0.0035199999999999997 + (-0.373 * x_1)) - (0.00741 + (-0.523 * x_2)))) * (-0.34 + (-0.325 * x_0))) has forbidden control characters.
+problem with tree ((((-5.45 + (((-0.999 + (1.98 * 1/((-6.640000000000001 + x_1)))) * (((-6.25 + (0.004569999999999999 * x_3)) - (-0.0912 + (61.9 * 1/(((16.7 + (-0.0492 * x_3)) + (0.09090000000000001 + (18.6 * x_4))))))) - (-9.790000000000001 + (-0.061200000000000004 * x_2)))))**3) * ((-0.0335 + (9.999999999999999e-05 * x_2)) + (0.00849 + (-0.0302 * x_3)))) * ((0.0035199999999999997 + (-0.373 * x_1)) - (0.00741 + (-0.523 * x_2)))) * (-0.34 + (-0.325 * x_0)))
+Expression ((((-5.45 + (((-0.999 + (1.98 * 1/((-6.640000000000001 + x_1)))) * (((-6.25 + (0.004569999999999999 * x_3)) - (-0.0912 + (61.9 * 1/(((16.7 + (-0.0492 * x_3)) + (0.09090000000000001 + (18.6 * x_4))))))) - (-9.790000000000001 + (-0.061200000000000004 * x_2)))))**3) * ((-0.0335 + (9.999999999999999e-05 * x_2)) + (0.00849 + (-0.0302 * x_3)))) * ((0.0035199999999999997 + (-0.373 * x_1)) - (0.00741 + (-0.523 * x_2)))) * (-0.34 + (-0.325 * x_0))) has forbidden control characters.
+problem with tree ((((-5.45 + (((-0.999 + (1.98 * 1/((-6.640000000000001 + x_1)))) * (((-6.25 + (0.004569999999999999 * x_3)) - (-0.0912 + (61.9 * 1/(((16.7 + (-0.0492 * x_3)) + (0.09090000000000001 + (18.6 * x_4))))))) - (-9.790000000000001 + (-0.061200000000000004 * x_2)))))**3) * ((-0.0335 + (9.999999999999999e-05 * x_2)) + (0.00849 + (-0.0302 * x_3)))) * ((0.0035199999999999997 + (-0.373 * x_1)) - (0.00741 + (-0.523 * x_2)))) * (-0.34 + (-0.325 * x_0)))
+Example feynman-ii.2.42.txt Time: 3.6520 seconds
+Example feynman-iii.12.43.txt Time: 2.4213 seconds
+Expression ((7.000000000000001e-05 + (7.000000000000001e-05 * x_0)) * (0.00282 + (0.0034 * x_0))) has forbidden control characters.
+problem with tree ((7.000000000000001e-05 + (7.000000000000001e-05 * x_0)) * (0.00282 + (0.0034 * x_0)))
+Example feynman-ii.8.31.txt Time: 1.6555 seconds
+Epoch 6/100, Loss: inf
+Epoch 6 Time: 92.1680 seconds
+Epoch 7/100
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 1.6642 seconds
+Example feynman-ii.15.4.txt Time: 2.7596 seconds
+Expression (9.999999999999999e-05 + (0.314 * abs(((-8.61 + (-6.98 * x_0)) * ((((((0.14400000000000002 + (-0.099 * x_0)) * (0.788 + (-0.0879 * x_1))) - (0.0809 + (-0.041 * exp((-0.772 + (-3.2600000000000002 * x_1)))))) - (-0.09100000000000001 + (0.07450000000000001 * x_2))) * (0.045200000000000004 + (-0.8230000000000001 * sin((0.41600000000000004 + (0.36000000000000004 * x_2)))))) * (-0.0459 + (0.00966 * x_1))))))) has forbidden control characters.
+problem with tree (9.999999999999999e-05 + (0.314 * abs(((-8.61 + (-6.98 * x_0)) * ((((((0.14400000000000002 + (-0.099 * x_0)) * (0.788 + (-0.0879 * x_1))) - (0.0809 + (-0.041 * exp((-0.772 + (-3.2600000000000002 * x_1)))))) - (-0.09100000000000001 + (0.07450000000000001 * x_2))) * (0.045200000000000004 + (-0.8230000000000001 * sin((0.41600000000000004 + (0.36000000000000004 * x_2)))))) * (-0.0459 + (0.00966 * x_1)))))))
+Expression (9.999999999999999e-05 + (0.314 * abs(((-8.61 + (-6.98 * x_0)) * ((((((0.14400000000000002 + (-0.099 * x_0)) * (0.788 + (-0.0879 * x_1))) - (0.0809 + (-0.041 * exp((-0.772 + (-3.2600000000000002 * x_1)))))) - (-0.09100000000000001 + (0.07450000000000001 * x_2))) * (0.045200000000000004 + (-0.8230000000000001 * sin((0.41600000000000004 + (0.36000000000000004 * x_2)))))) * (-0.0459 + (0.00966 * x_1))))))) has forbidden control characters.
+problem with tree (9.999999999999999e-05 + (0.314 * abs(((-8.61 + (-6.98 * x_0)) * ((((((0.14400000000000002 + (-0.099 * x_0)) * (0.788 + (-0.0879 * x_1))) - (0.0809 + (-0.041 * exp((-0.772 + (-3.2600000000000002 * x_1)))))) - (-0.09100000000000001 + (0.07450000000000001 * x_2))) * (0.045200000000000004 + (-0.8230000000000001 * sin((0.41600000000000004 + (0.36000000000000004 * x_2)))))) * (-0.0459 + (0.00966 * x_1)))))))
+Example feynman-i.27.6.txt Time: 2.9878 seconds
+Example feynman-i.18.12.txt Time: 2.6874 seconds
+Example feynman-iii.7.38.txt Time: 1.9803 seconds
+Expression (((-0.05380000000000001 + 1/((0.672 + (1.5 * 1/((-0.0009699999999999999 + (-0.0059099999999999995 * sqrt((-0.0005 + (91.7 * 1/((0.00419 + (0.0008799999999999999 * x_1))))))))))))) * ((56.0 + (63.300000000000004 * x_0)) - ((-0.892 + (0.00422 * x_0)) * (0.00484 + (0.561 * x_1))))) * (0.0228 + (-7.000000000000001e-05 * 1/((2.49 + (-0.18000000000000002 * x_1)))))) has forbidden control characters.
+problem with tree (((-0.05380000000000001 + 1/((0.672 + (1.5 * 1/((-0.0009699999999999999 + (-0.0059099999999999995 * sqrt((-0.0005 + (91.7 * 1/((0.00419 + (0.0008799999999999999 * x_1))))))))))))) * ((56.0 + (63.300000000000004 * x_0)) - ((-0.892 + (0.00422 * x_0)) * (0.00484 + (0.561 * x_1))))) * (0.0228 + (-7.000000000000001e-05 * 1/((2.49 + (-0.18000000000000002 * x_1))))))
+Expression (((-0.05380000000000001 + 1/((0.672 + (1.5 * 1/((-0.0009699999999999999 + (-0.0059099999999999995 * sqrt((-0.0005 + (91.7 * 1/((0.00419 + (0.0008799999999999999 * x_1))))))))))))) * ((56.0 + (63.300000000000004 * x_0)) - ((-0.892 + (0.00422 * x_0)) * (0.00484 + (0.561 * x_1))))) * (0.0228 + (-7.000000000000001e-05 * 1/((2.49 + (-0.18000000000000002 * x_1)))))) has forbidden control characters.
+problem with tree (((-0.05380000000000001 + 1/((0.672 + (1.5 * 1/((-0.0009699999999999999 + (-0.0059099999999999995 * sqrt((-0.0005 + (91.7 * 1/((0.00419 + (0.0008799999999999999 * x_1))))))))))))) * ((56.0 + (63.300000000000004 * x_0)) - ((-0.892 + (0.00422 * x_0)) * (0.00484 + (0.561 * x_1))))) * (0.0228 + (-7.000000000000001e-05 * 1/((2.49 + (-0.18000000000000002 * x_1))))))
+Example feynman-ii.38.14.txt Time: 1.8119 seconds
+Example feynman-ii.10.9.txt Time: 2.8215 seconds
+Example feynman-ii.27.18.txt Time: 2.3837 seconds
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-9.999999999999999e-05 * exp((-2.0 + (-6.9 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-9.999999999999999e-05 * exp((-2.0 + (-6.9 * x_1))))))
+Expression (((0.00682 + 1/((-0.029800000000000004 + (-0.031900000000000005 * exp((0.75 + (-0.00696 * 1/((0.00348 + (-4.93 * x_1)))))))))) * (9.999999999999999e-05 + (-0.00784 * x_0))) * ((0.00307 + (0.00656 * 1/((-32.6 + x_1)))) * (-0.0626 + (-0.042800000000000005 * arctan((31.5 + (0.8520000000000001 * 1/((-0.00274 + (-0.00279 * x_1)))))))))) has forbidden control characters.
+problem with tree (((0.00682 + 1/((-0.029800000000000004 + (-0.031900000000000005 * exp((0.75 + (-0.00696 * 1/((0.00348 + (-4.93 * x_1)))))))))) * (9.999999999999999e-05 + (-0.00784 * x_0))) * ((0.00307 + (0.00656 * 1/((-32.6 + x_1)))) * (-0.0626 + (-0.042800000000000005 * arctan((31.5 + (0.8520000000000001 * 1/((-0.00274 + (-0.00279 * x_1))))))))))
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-9.999999999999999e-05 * exp((-2.0 + (-6.9 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-9.999999999999999e-05 * exp((-2.0 + (-6.9 * x_1))))))
+Expression (((0.00682 + 1/((-0.029800000000000004 + (-0.031900000000000005 * exp((0.75 + (-0.00696 * 1/((0.00348 + (-4.93 * x_1)))))))))) * (9.999999999999999e-05 + (-0.00784 * x_0))) * ((0.00307 + (0.00656 * 1/((-32.6 + x_1)))) * (-0.0626 + (-0.042800000000000005 * arctan((31.5 + (0.8520000000000001 * 1/((-0.00274 + (-0.00279 * x_1)))))))))) has forbidden control characters.
+problem with tree (((0.00682 + 1/((-0.029800000000000004 + (-0.031900000000000005 * exp((0.75 + (-0.00696 * 1/((0.00348 + (-4.93 * x_1)))))))))) * (9.999999999999999e-05 + (-0.00784 * x_0))) * ((0.00307 + (0.00656 * 1/((-32.6 + x_1)))) * (-0.0626 + (-0.042800000000000005 * arctan((31.5 + (0.8520000000000001 * 1/((-0.00274 + (-0.00279 * x_1))))))))))
+Example feynman-ii.13.17.txt Time: 2.5606 seconds
+Expression ((7.000000000000001e-05 + (-0.00187 * sqrt(((0.0009 + (0.008199999999999999 * x_2)) + ((-0.378 + (-0.0563 * x_0)) * (48.9 + (0.0393 * ((-91.5 + (-2.95 * 1/((0.049400000000000006 + (0.00673 * x_2))))))**3))))))) * (-0.0296 + (-0.005039999999999999 * ((-0.523 + (-0.00509 * abs((0.9400000000000001 + (79.5 * 1/((-0.47800000000000004 + (-0.008879999999999999 * x_1)))))))))**3))) has forbidden control characters.
+problem with tree ((7.000000000000001e-05 + (-0.00187 * sqrt(((0.0009 + (0.008199999999999999 * x_2)) + ((-0.378 + (-0.0563 * x_0)) * (48.9 + (0.0393 * ((-91.5 + (-2.95 * 1/((0.049400000000000006 + (0.00673 * x_2))))))**3))))))) * (-0.0296 + (-0.005039999999999999 * ((-0.523 + (-0.00509 * abs((0.9400000000000001 + (79.5 * 1/((-0.47800000000000004 + (-0.008879999999999999 * x_1)))))))))**3)))
+Expression ((7.000000000000001e-05 + (-0.00187 * sqrt(((0.0009 + (0.008199999999999999 * x_2)) + ((-0.378 + (-0.0563 * x_0)) * (48.9 + (0.0393 * ((-91.5 + (-2.95 * 1/((0.049400000000000006 + (0.00673 * x_2))))))**3))))))) * (-0.0296 + (-0.005039999999999999 * ((-0.523 + (-0.00509 * abs((0.9400000000000001 + (79.5 * 1/((-0.47800000000000004 + (-0.008879999999999999 * x_1)))))))))**3))) has forbidden control characters.
+problem with tree ((7.000000000000001e-05 + (-0.00187 * sqrt(((0.0009 + (0.008199999999999999 * x_2)) + ((-0.378 + (-0.0563 * x_0)) * (48.9 + (0.0393 * ((-91.5 + (-2.95 * 1/((0.049400000000000006 + (0.00673 * x_2))))))**3))))))) * (-0.0296 + (-0.005039999999999999 * ((-0.523 + (-0.00509 * abs((0.9400000000000001 + (79.5 * 1/((-0.47800000000000004 + (-0.008879999999999999 * x_1)))))))))**3)))
+Example feynman-i.47.23.txt Time: 2.4999 seconds
+Example feynman-i.30.5.txt Time: 3.3111 seconds
+Example feynman-ii.15.5.txt Time: 3.1579 seconds
+Example feynman-ii.38.3.txt Time: 3.4057 seconds
+Expression (-7.000000000000001e-05 + (0.0096 * ((((0.0017599999999999998 * x_0) + (-0.386 + (0.004 * x_0))) + ((-0.506 + (0.767 * x_0)) + (1.9100000000000001 + (0.604 * x_0)))))**2)) has forbidden control characters.
+problem with tree (-7.000000000000001e-05 + (0.0096 * ((((0.0017599999999999998 * x_0) + (-0.386 + (0.004 * x_0))) + ((-0.506 + (0.767 * x_0)) + (1.9100000000000001 + (0.604 * x_0)))))**2))
+Expression (-7.000000000000001e-05 + (0.0096 * ((((0.0017599999999999998 * x_0) + (-0.386 + (0.004 * x_0))) + ((-0.506 + (0.767 * x_0)) + (1.9100000000000001 + (0.604 * x_0)))))**2)) has forbidden control characters.
+problem with tree (-7.000000000000001e-05 + (0.0096 * ((((0.0017599999999999998 * x_0) + (-0.386 + (0.004 * x_0))) + ((-0.506 + (0.767 * x_0)) + (1.9100000000000001 + (0.604 * x_0)))))**2))
+Example feynman-ii.27.16.txt Time: 1.3327 seconds
+Example feynman-i.14.3.txt Time: 1.6349 seconds
+Example feynman-iii.15.27.txt Time: 2.9183 seconds
+Example feynman-i.12.1.txt Time: 1.6561 seconds
+Example feynman-i.18.16.txt Time: 3.1748 seconds
+Example feynman-i.12.5.txt Time: 1.7722 seconds
+Example feynman-ii.3.24.txt Time: 1.9791 seconds
+Example feynman-ii.34.11.txt Time: 3.0442 seconds

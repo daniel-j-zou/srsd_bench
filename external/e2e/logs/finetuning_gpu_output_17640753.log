@@ -1,0 +1,128 @@
+Starting job 17640753 at Tue Dec  3 00:10:29 EST 2024
+Loading CUDA module...
+Activating conda environment...
+# packages in environment at /home/zoudj/.conda/envs/srsd:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+ca-certificates           2024.11.26           h06a4308_0  
+certifi                   2024.8.30                pypi_0    pypi
+charset-normalizer        3.4.0                    pypi_0    pypi
+cython                    3.0.11                   pypi_0    pypi
+filelock                  3.16.1                   pypi_0    pypi
+fsspec                    2024.10.0                pypi_0    pypi
+huggingface-hub           0.26.3                   pypi_0    pypi
+idna                      3.10                     pypi_0    pypi
+jinja2                    3.1.4                    pypi_0    pypi
+joblib                    1.4.2                    pypi_0    pypi
+ld_impl_linux-64          2.40                 h12ee557_0  
+libffi                    3.4.4                h6a678d5_1  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libstdcxx-ng              11.2.0               h1234567_1  
+markupsafe                2.1.5                    pypi_0    pypi
+mpmath                    1.3.0                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0  
+networkx                  3.1                      pypi_0    pypi
+numexpr                   2.8.6                    pypi_0    pypi
+numpy                     1.24.4                   pypi_0    pypi
+nvidia-cublas-cu12        12.1.3.1                 pypi_0    pypi
+nvidia-cuda-cupti-cu12    12.1.105                 pypi_0    pypi
+nvidia-cuda-nvrtc-cu12    12.1.105                 pypi_0    pypi
+nvidia-cuda-runtime-cu12  12.1.105                 pypi_0    pypi
+nvidia-cudnn-cu12         9.1.0.70                 pypi_0    pypi
+nvidia-cufft-cu12         11.0.2.54                pypi_0    pypi
+nvidia-curand-cu12        10.3.2.106               pypi_0    pypi
+nvidia-cusolver-cu12      11.4.5.107               pypi_0    pypi
+nvidia-cusparse-cu12      12.1.0.106               pypi_0    pypi
+nvidia-nccl-cu12          2.20.5                   pypi_0    pypi
+nvidia-nvjitlink-cu12     12.6.85                  pypi_0    pypi
+nvidia-nvtx-cu12          12.1.105                 pypi_0    pypi
+openssl                   3.0.15               h5eee18b_0  
+packaging                 24.2                     pypi_0    pypi
+pandas                    2.0.3                    pypi_0    pypi
+pillow                    10.4.0                   pypi_0    pypi
+pip                       24.3.1                   pypi_0    pypi
+python                    3.8.20               he870216_0  
+python-dateutil           2.9.0.post0              pypi_0    pypi
+python-graphviz           0.20.3                   pypi_0    pypi
+pytz                      2024.2                   pypi_0    pypi
+pyyaml                    6.0.2                    pypi_0    pypi
+readline                  8.2                  h5eee18b_0  
+regex                     2024.11.6                pypi_0    pypi
+requests                  2.32.3                   pypi_0    pypi
+safetensors               0.4.5                    pypi_0    pypi
+scikit-learn              1.3.2                    pypi_0    pypi
+scipy                     1.10.1                   pypi_0    pypi
+setuptools                75.1.0           py38h06a4308_0  
+six                       1.16.0                   pypi_0    pypi
+sqlite                    3.45.3               h5eee18b_0  
+sympy                     1.13.3                   pypi_0    pypi
+threadpoolctl             3.5.0                    pypi_0    pypi
+tk                        8.6.14               h39e8969_0  
+tokenizers                0.20.3                   pypi_0    pypi
+torch                     2.4.1                    pypi_0    pypi
+torchdistill              1.1.1                    pypi_0    pypi
+torchvision               0.19.1                   pypi_0    pypi
+tqdm                      4.67.1                   pypi_0    pypi
+transformers              4.46.3                   pypi_0    pypi
+triton                    3.0.0                    pypi_0    pypi
+typing-extensions         4.12.2                   pypi_0    pypi
+tzdata                    2024.2                   pypi_0    pypi
+urllib3                   2.2.3                    pypi_0    pypi
+wheel                     0.44.0           py38h06a4308_0  
+xz                        5.4.6                h5eee18b_1  
+zlib                      1.2.13               h5eee18b_1  
+zss                       1.2.0                    pypi_0    pypi
+Printing the content of finetuning_easy.py:
+Python version and path being used:
+Python 3.8.20
+/home/zoudj/.conda/envs/srsd/bin/python
+# conda environments:
+#
+cnsr                     /home/zoudj/.conda/envs/cnsr
+dso_cheml                /home/zoudj/.conda/envs/dso_cheml
+dsoenv                   /home/zoudj/.conda/envs/dsoenv
+endtoend                 /home/zoudj/.conda/envs/endtoend
+srsd                  *  /home/zoudj/.conda/envs/srsd
+transfer                 /home/zoudj/.conda/envs/transfer
+base                     /sw/pkgs/arc/python3.10-anaconda/2023.03
+
+Running Python script...
+Importing Libraries
+Importing Libraries
+Imported os in 0.0000 seconds
+Imported numpy in 0.2741 seconds
+Imported torch in 1.9755 seconds
+Imported torch.optim in 0.0000 seconds
+Imported torch.nn in 0.0000 seconds
+Imported sympy in 0.7030 seconds
+Imported re in 0.0000 seconds
+Imported time in 0.0000 seconds
+Imported SymbolicTransformerRegressor in 0.9586 seconds
+Imported subprocess in 0.0000 seconds
+Loading model from: resource/ckpt/model_original.pt
+Epoch 1/1
+Generating training data...
+Data generation complete.
+Example feynman-i.14.4.txt Time: 2.1593 seconds
+Example feynman-ii.15.4.txt Time: 3.3185 seconds
+Example feynman-i.27.6.txt Time: 3.0557 seconds
+Example feynman-i.18.12.txt Time: 2.3180 seconds
+Example feynman-iii.7.38.txt Time: 2.2980 seconds
+Example feynman-ii.38.14.txt Time: 2.0654 seconds
+Expression ((0.058100000000000006 + (0.61 * x_0)) * ((9.450000000000001 + (81.60000000000001 * (((6.8 + (-0.00733 * x_1)) * (75.5 + (77.5 * 1/((-0.0040999999999999995 + (0.642 * sqrt(((0.525 + (-0.804 * x_1)) - (-0.0296 + (0.00134 * 1/(((-0.5680000000000001 + (-7.62 * x_0)) - (-0.024900000000000002 + (0.015300000000000001 * 1/((26.1 + (-0.31 * sqrt((0.0893 + (2.83 * sqrt(((0.0038699999999999997 + (0.030500000000000003 * x_1)) - (-0.3 + (0.0492 * x_0)))))))))))))))))))))))))**2)) + (80.3 + (9.999999999999999e-05 * x_0)))) has forbidden control characters.
+problem with tree ((0.058100000000000006 + (0.61 * x_0)) * ((9.450000000000001 + (81.60000000000001 * (((6.8 + (-0.00733 * x_1)) * (75.5 + (77.5 * 1/((-0.0040999999999999995 + (0.642 * sqrt(((0.525 + (-0.804 * x_1)) - (-0.0296 + (0.00134 * 1/(((-0.5680000000000001 + (-7.62 * x_0)) - (-0.024900000000000002 + (0.015300000000000001 * 1/((26.1 + (-0.31 * sqrt((0.0893 + (2.83 * sqrt(((0.0038699999999999997 + (0.030500000000000003 * x_1)) - (-0.3 + (0.0492 * x_0)))))))))))))))))))))))))**2)) + (80.3 + (9.999999999999999e-05 * x_0))))
+Expression ((0.058100000000000006 + (0.61 * x_0)) * ((9.450000000000001 + (81.60000000000001 * (((6.8 + (-0.00733 * x_1)) * (75.5 + (77.5 * 1/((-0.0040999999999999995 + (0.642 * sqrt(((0.525 + (-0.804 * x_1)) - (-0.0296 + (0.00134 * 1/(((-0.5680000000000001 + (-7.62 * x_0)) - (-0.024900000000000002 + (0.015300000000000001 * 1/((26.1 + (-0.31 * sqrt((0.0893 + (2.83 * sqrt(((0.0038699999999999997 + (0.030500000000000003 * x_1)) - (-0.3 + (0.0492 * x_0)))))))))))))))))))))))))**2)) + (80.3 + (9.999999999999999e-05 * x_0)))) has forbidden control characters.
+problem with tree ((0.058100000000000006 + (0.61 * x_0)) * ((9.450000000000001 + (81.60000000000001 * (((6.8 + (-0.00733 * x_1)) * (75.5 + (77.5 * 1/((-0.0040999999999999995 + (0.642 * sqrt(((0.525 + (-0.804 * x_1)) - (-0.0296 + (0.00134 * 1/(((-0.5680000000000001 + (-7.62 * x_0)) - (-0.024900000000000002 + (0.015300000000000001 * 1/((26.1 + (-0.31 * sqrt((0.0893 + (2.83 * sqrt(((0.0038699999999999997 + (0.030500000000000003 * x_1)) - (-0.3 + (0.0492 * x_0)))))))))))))))))))))))))**2)) + (80.3 + (9.999999999999999e-05 * x_0))))
+Example feynman-ii.10.9.txt Time: 2.8890 seconds
+Example feynman-ii.27.18.txt Time: 2.8570 seconds
+Example feynman-ii.13.17.txt Time: 2.0449 seconds
+Example feynman-i.47.23.txt Time: 2.2663 seconds
+Example feynman-i.30.5.txt Time: 2.8649 seconds
+Example feynman-ii.15.5.txt Time: 3.3074 seconds
+Example feynman-ii.38.3.txt Time: 3.5052 seconds
+Example feynman-ii.27.16.txt Time: 1.7768 seconds
+Example feynman-i.14.3.txt Time: 1.8981 seconds
+slurmstepd: error: *** JOB 17640753 ON gl1014 CANCELLED AT 2024-12-03T00:29:21 ***
