@@ -9,7 +9,7 @@
 #SBATCH --gres=gpu:1                        # Request 1 GPU
 #SBATCH --cpus-per-task=2                   # Number of CPU cores per task
 #SBATCH --mem=4G                           # Total memory per node
-#SBATCH --time=00:05:00                     # Time limit (adjust if needed)
+#SBATCH --time=00:20:00                     # Time limit (adjust if needed)
 #SBATCH --output=logs/finetuning_gpu_output_%j.log    # Standard output and error log file (%j will be replaced by job ID)
 
 # Load necessary modules
@@ -18,5 +18,5 @@ module load cuda/11.2.2                  # Load CUDA module, adjust version to m
 # Activate the Conda environment
 eval "$(conda shell.bash hook)"
 conda activate srsd                    # Activate the conda environment (adjust name if needed)
-python finetuning.py
+python finetuning_easy.py
 conda deactivate
