@@ -3,43 +3,46 @@ import time
 
 # Profiling library imports
 
-def profile_import(module_name, import_statement):
+def profile_import(module_name, import_statement, globals_dict):
     start = time.time()
-    exec(import_statement)
+    exec(import_statement, globals_dict)
     end = time.time()
     print(f"Imported {module_name} in {end - start:.4f} seconds", flush=True)
 
 print("Importing Libraries", flush=True)
 
+# Import libraries globally
+globals_dict = globals()
+
 # Import os
-profile_import("os", "import os")
+profile_import("os", "import os", globals_dict)
 
 # Import numpy as np
-profile_import("numpy", "import numpy as np")
+profile_import("numpy", "import numpy as np", globals_dict)
 
 # Import torch
-profile_import("torch", "import torch")
+profile_import("torch", "import torch", globals_dict)
 
 # Import torch.optim as optim
-profile_import("torch.optim", "import torch.optim as optim")
+profile_import("torch.optim", "import torch.optim as optim", globals_dict)
 
 # Import torch.nn as nn
-profile_import("torch.nn", "import torch.nn as nn")
+profile_import("torch.nn", "import torch.nn as nn", globals_dict)
 
 # Import sympy as sp
-profile_import("sympy", "import sympy as sp")
+profile_import("sympy", "import sympy as sp", globals_dict)
 
 # Import re
-profile_import("re", "import re")
+profile_import("re", "import re", globals_dict)
 
 # Import time
-profile_import("time", "import time")
+profile_import("time", "import time", globals_dict)
 
 # Import SymbolicTransformerRegressor from symbolicregression.model
-profile_import("SymbolicTransformerRegressor", "from symbolicregression.model import SymbolicTransformerRegressor")
+profile_import("SymbolicTransformerRegressor", "from symbolicregression.model import SymbolicTransformerRegressor", globals_dict)
 
 # Import subprocess
-profile_import("subprocess", "import subprocess")
+profile_import("subprocess", "import subprocess", globals_dict)
 
 
 # Load the model state_dict
