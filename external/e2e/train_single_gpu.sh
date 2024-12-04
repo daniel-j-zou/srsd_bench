@@ -20,12 +20,12 @@ eval "$(conda shell.bash hook)"
 conda activate srsd                    # Activate the conda environment (adjust name if needed)
 
 # Define checkpoint file
-CKPT_FILE=./resource/ckpt/model_easy_epoch5.pt
+CKPT_FILE=./resource/ckpt/model_easy_epoch20_gc01.pt
 
 # Iterate over dataset groups: easy, medium, hard
-for group_name in easy; do
+for group_name in medium hard; do
     # Define output directory
-    OUT_DIR=./e2e-epoch5_lr6/srsd-feynman_${group_name}
+    OUT_DIR=./e2e-epoch20_gc01_wc/srsd-feynman_${group_name}
     mkdir -p ${OUT_DIR}                     # Create the output directory if it doesn't exist
 
     # Iterate over all training files in the dataset group

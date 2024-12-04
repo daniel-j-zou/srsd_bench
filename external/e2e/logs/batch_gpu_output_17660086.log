@@ -1,0 +1,418 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.12.1.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.12.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', val=None)
+Fitting
+Expression (((0.9800000000000001 + (-0.29200000000000004 * ((0.00747 + (-9.999999999999999e-05 * x_0)))**2)) - (7.5200000000000005 + (0.082 * x_1))) - (((0.6980000000000001 + x_0) - (-0.192 + (-99.10000000000001 * x_0))) * (0.0378 + (-8.53 * ((-6.99 + (80.5 * 1/((-0.028700000000000003 + (-0.41000000000000003 * log((0.9700000000000001 + (0.0717 * x_1)))))))))**2)))) has forbidden control characters.
+problem with tree (((0.9800000000000001 + (-0.29200000000000004 * ((0.00747 + (-9.999999999999999e-05 * x_0)))**2)) - (7.5200000000000005 + (0.082 * x_1))) - (((0.6980000000000001 + x_0) - (-0.192 + (-99.10000000000001 * x_0))) * (0.0378 + (-8.53 * ((-6.99 + (80.5 * 1/((-0.028700000000000003 + (-0.41000000000000003 * log((0.9700000000000001 + (0.0717 * x_1)))))))))**2))))
+Expression (((0.9800000000000001 + (-0.29200000000000004 * ((0.00747 + (-9.999999999999999e-05 * x_0)))**2)) - (7.5200000000000005 + (0.082 * x_1))) - (((0.6980000000000001 + x_0) - (-0.192 + (-99.10000000000001 * x_0))) * (0.0378 + (-8.53 * ((-6.99 + (80.5 * 1/((-0.028700000000000003 + (-0.41000000000000003 * log((0.9700000000000001 + (0.0717 * x_1)))))))))**2)))) has forbidden control characters.
+problem with tree (((0.9800000000000001 + (-0.29200000000000004 * ((0.00747 + (-9.999999999999999e-05 * x_0)))**2)) - (7.5200000000000005 + (0.082 * x_1))) - (((0.6980000000000001 + x_0) - (-0.192 + (-99.10000000000001 * x_0))) * (0.0378 + (-8.53 * ((-6.99 + (80.5 * 1/((-0.028700000000000003 + (-0.41000000000000003 * log((0.9700000000000001 + (0.0717 * x_1)))))))))**2))))
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.12.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.14.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.14.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.18.12.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.18.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.25.13.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.26.2.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.27.6.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', val=None)
+Fitting
+Expression ((0.00872 + (-0.00959 * 1/(((0.00943 + (-0.256 * x_1)) + ((-0.371 + (-0.029800000000000004 * x_0)) + (0.0038699999999999997 + (-0.112 * x_2))))))) * (((0.00195 + sqrt((0.7000000000000001 + (0.7240000000000001 * arctan((0.0688 + (0.374 * exp((-0.0021 + (-9.999999999999999e-05 * x_2)))))))))) * ((0.062000000000000006 + (0.677 * sqrt((0.8400000000000001 + (-0.8580000000000001 * cos((0.00767 + (5.62 * 1/((-0.8 + (0.52 * x_0))))))))))) * (0.892 + (-0.007339999999999999 * sqrt((0.029400000000000003 + (0.00597 * x_0))))))) * ((-3.91 + (-2.84 * x_2)) * (-0.0766 + (0.0052 * x_1))))) has forbidden control characters.
+problem with tree ((0.00872 + (-0.00959 * 1/(((0.00943 + (-0.256 * x_1)) + ((-0.371 + (-0.029800000000000004 * x_0)) + (0.0038699999999999997 + (-0.112 * x_2))))))) * (((0.00195 + sqrt((0.7000000000000001 + (0.7240000000000001 * arctan((0.0688 + (0.374 * exp((-0.0021 + (-9.999999999999999e-05 * x_2)))))))))) * ((0.062000000000000006 + (0.677 * sqrt((0.8400000000000001 + (-0.8580000000000001 * cos((0.00767 + (5.62 * 1/((-0.8 + (0.52 * x_0))))))))))) * (0.892 + (-0.007339999999999999 * sqrt((0.029400000000000003 + (0.00597 * x_0))))))) * ((-3.91 + (-2.84 * x_2)) * (-0.0766 + (0.0052 * x_1)))))
+Expression (9.999999999999999e-05 + (0.0159 * abs(((0.033400000000000006 + (-0.0073 * x_0)) * ((0.859 + (0.9720000000000001 * x_2)) * ((0.00843 + (0.248 * 1/((1.08 + x_1)))) * (67.7 + (99.2 * sin((-0.0575 + (5.99 * arctan(((-0.387 + (-78.60000000000001 * x_2)) - (79.10000000000001 + (63.1 * x_0))))))))))))))) has forbidden control characters.
+problem with tree (9.999999999999999e-05 + (0.0159 * abs(((0.033400000000000006 + (-0.0073 * x_0)) * ((0.859 + (0.9720000000000001 * x_2)) * ((0.00843 + (0.248 * 1/((1.08 + x_1)))) * (67.7 + (99.2 * sin((-0.0575 + (5.99 * arctan(((-0.387 + (-78.60000000000001 * x_2)) - (79.10000000000001 + (63.1 * x_0)))))))))))))))
+Expression ((0.00872 + (-0.00959 * 1/(((0.00943 + (-0.256 * x_1)) + ((-0.371 + (-0.029800000000000004 * x_0)) + (0.0038699999999999997 + (-0.112 * x_2))))))) * (((0.00195 + sqrt((0.7000000000000001 + (0.7240000000000001 * arctan((0.0688 + (0.374 * exp((-0.0021 + (-9.999999999999999e-05 * x_2)))))))))) * ((0.062000000000000006 + (0.677 * sqrt((0.8400000000000001 + (-0.8580000000000001 * cos((0.00767 + (5.62 * 1/((-0.8 + (0.52 * x_0))))))))))) * (0.892 + (-0.007339999999999999 * sqrt((0.029400000000000003 + (0.00597 * x_0))))))) * ((-3.91 + (-2.84 * x_2)) * (-0.0766 + (0.0052 * x_1))))) has forbidden control characters.
+problem with tree ((0.00872 + (-0.00959 * 1/(((0.00943 + (-0.256 * x_1)) + ((-0.371 + (-0.029800000000000004 * x_0)) + (0.0038699999999999997 + (-0.112 * x_2))))))) * (((0.00195 + sqrt((0.7000000000000001 + (0.7240000000000001 * arctan((0.0688 + (0.374 * exp((-0.0021 + (-9.999999999999999e-05 * x_2)))))))))) * ((0.062000000000000006 + (0.677 * sqrt((0.8400000000000001 + (-0.8580000000000001 * cos((0.00767 + (5.62 * 1/((-0.8 + (0.52 * x_0))))))))))) * (0.892 + (-0.007339999999999999 * sqrt((0.029400000000000003 + (0.00597 * x_0))))))) * ((-3.91 + (-2.84 * x_2)) * (-0.0766 + (0.0052 * x_1)))))
+Expression (9.999999999999999e-05 + (0.0159 * abs(((0.033400000000000006 + (-0.0073 * x_0)) * ((0.859 + (0.9720000000000001 * x_2)) * ((0.00843 + (0.248 * 1/((1.08 + x_1)))) * (67.7 + (99.2 * sin((-0.0575 + (5.99 * arctan(((-0.387 + (-78.60000000000001 * x_2)) - (79.10000000000001 + (63.1 * x_0))))))))))))))) has forbidden control characters.
+problem with tree (9.999999999999999e-05 + (0.0159 * abs(((0.033400000000000006 + (-0.0073 * x_0)) * ((0.859 + (0.9720000000000001 * x_2)) * ((0.00843 + (0.248 * 1/((1.08 + x_1)))) * (67.7 + (99.2 * sin((-0.0575 + (5.99 * arctan(((-0.387 + (-78.60000000000001 * x_2)) - (79.10000000000001 + (63.1 * x_0)))))))))))))))
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.30.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', val=None)
+Fitting
+Expression (9.999999999999999e-05 + (24.2 * exp(((((0.009859999999999999 + x_1) + (-9.82 + (-0.8410000000000001 * x_2))) * (0.433 + (0.281 * arctan(((0.07940000000000001 + (-54.7 * x_1)) + (1.6500000000000001 + (-48.9 * arctan((((-7.33 + ((18.2 * x_0))**2) + (0.0814 + (64.1 * x_2))) * (0.00869 + (-5.69 * x_1))))))))))) + (2.48 + (-0.7240000000000001 * x_1)))))) has forbidden control characters.
+problem with tree (9.999999999999999e-05 + (24.2 * exp(((((0.009859999999999999 + x_1) + (-9.82 + (-0.8410000000000001 * x_2))) * (0.433 + (0.281 * arctan(((0.07940000000000001 + (-54.7 * x_1)) + (1.6500000000000001 + (-48.9 * arctan((((-7.33 + ((18.2 * x_0))**2) + (0.0814 + (64.1 * x_2))) * (0.00869 + (-5.69 * x_1))))))))))) + (2.48 + (-0.7240000000000001 * x_1))))))
+Expression (9.999999999999999e-05 + (24.2 * exp(((((0.009859999999999999 + x_1) + (-9.82 + (-0.8410000000000001 * x_2))) * (0.433 + (0.281 * arctan(((0.07940000000000001 + (-54.7 * x_1)) + (1.6500000000000001 + (-48.9 * arctan((((-7.33 + ((18.2 * x_0))**2) + (0.0814 + (64.1 * x_2))) * (0.00869 + (-5.69 * x_1))))))))))) + (2.48 + (-0.7240000000000001 * x_1)))))) has forbidden control characters.
+problem with tree (9.999999999999999e-05 + (24.2 * exp(((((0.009859999999999999 + x_1) + (-9.82 + (-0.8410000000000001 * x_2))) * (0.433 + (0.281 * arctan(((0.07940000000000001 + (-54.7 * x_1)) + (1.6500000000000001 + (-48.9 * arctan((((-7.33 + ((18.2 * x_0))**2) + (0.0814 + (64.1 * x_2))) * (0.00869 + (-5.69 * x_1))))))))))) + (2.48 + (-0.7240000000000001 * x_1))))))
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.43.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-i.47.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.10.9.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.13.17.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', val=None)
+Fitting
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression ((-0.0016099999999999999 + (-37.2 * 1/(((-63.9 + (-6.4 * x_1)) * (67.0 + (-55.0 * cos((2.94 + (0.00331 * x_0))))))))) * (((-0.006549999999999999 + x_0) - ((9.999999999999999e-05 + (0.008499999999999999 * x_0)) * (0.151 + (0.028 * x_0)))) * ((0.0921 + (-0.00694 * exp((0.0926 + x_1)))) * (-8e-05 + (0.00403 * 1/((6.37 + (7.3500000000000005 * x_1)))))))) has forbidden control characters.
+problem with tree ((-0.0016099999999999999 + (-37.2 * 1/(((-63.9 + (-6.4 * x_1)) * (67.0 + (-55.0 * cos((2.94 + (0.00331 * x_0))))))))) * (((-0.006549999999999999 + x_0) - ((9.999999999999999e-05 + (0.008499999999999999 * x_0)) * (0.151 + (0.028 * x_0)))) * ((0.0921 + (-0.00694 * exp((0.0926 + x_1)))) * (-8e-05 + (0.00403 * 1/((6.37 + (7.3500000000000005 * x_1))))))))
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression ((-0.0016099999999999999 + (-37.2 * 1/(((-63.9 + (-6.4 * x_1)) * (67.0 + (-55.0 * cos((2.94 + (0.00331 * x_0))))))))) * (((-0.006549999999999999 + x_0) - ((9.999999999999999e-05 + (0.008499999999999999 * x_0)) * (0.151 + (0.028 * x_0)))) * ((0.0921 + (-0.00694 * exp((0.0926 + x_1)))) * (-8e-05 + (0.00403 * 1/((6.37 + (7.3500000000000005 * x_1)))))))) has forbidden control characters.
+problem with tree ((-0.0016099999999999999 + (-37.2 * 1/(((-63.9 + (-6.4 * x_1)) * (67.0 + (-55.0 * cos((2.94 + (0.00331 * x_0))))))))) * (((-0.006549999999999999 + x_0) - ((9.999999999999999e-05 + (0.008499999999999999 * x_0)) * (0.151 + (0.028 * x_0)))) * ((0.0921 + (-0.00694 * exp((0.0926 + x_1)))) * (-8e-05 + (0.00403 * 1/((6.37 + (7.3500000000000005 * x_1))))))))
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.15.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.15.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.2.42.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.27.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.27.18.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', val=None)
+Fitting
+Expression (((-0.09580000000000001 * x_0) + (0.0698 + (0.6930000000000001 * x_0))) + (0.00773 + (1.8e-05 * ((-0.00451 + (-55.9 * exp((0.26 + (7.3500000000000005 * cos((-0.0044599999999999996 + (6.8100000000000005 * arctan((-0.0883 + (0.00107 * (((7.36 + (0.0023 * x_0)) - (-8.39 + (-24.7 * x_0))))**3))))))))))))**2))) has forbidden control characters.
+problem with tree (((-0.09580000000000001 * x_0) + (0.0698 + (0.6930000000000001 * x_0))) + (0.00773 + (1.8e-05 * ((-0.00451 + (-55.9 * exp((0.26 + (7.3500000000000005 * cos((-0.0044599999999999996 + (6.8100000000000005 * arctan((-0.0883 + (0.00107 * (((7.36 + (0.0023 * x_0)) - (-8.39 + (-24.7 * x_0))))**3))))))))))))**2)))
+Expression (((-0.09580000000000001 * x_0) + (0.0698 + (0.6930000000000001 * x_0))) + (0.00773 + (1.8e-05 * ((-0.00451 + (-55.9 * exp((0.26 + (7.3500000000000005 * cos((-0.0044599999999999996 + (6.8100000000000005 * arctan((-0.0883 + (0.00107 * (((7.36 + (0.0023 * x_0)) - (-8.39 + (-24.7 * x_0))))**3))))))))))))**2))) has forbidden control characters.
+problem with tree (((-0.09580000000000001 * x_0) + (0.0698 + (0.6930000000000001 * x_0))) + (0.00773 + (1.8e-05 * ((-0.00451 + (-55.9 * exp((0.26 + (7.3500000000000005 * cos((-0.0044599999999999996 + (6.8100000000000005 * arctan((-0.0883 + (0.00107 * (((7.36 + (0.0023 * x_0)) - (-8.39 + (-24.7 * x_0))))**3))))))))))))**2)))
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.3.24.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.34.11.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.34.29b.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.38.14.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.38.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.4.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-ii.8.31.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-iii.12.43.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-iii.15.27.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch50_gc01.pt', out='./e2e-epoch50_gc01_wc/srsd-feynman_easy/feynman-iii.7.38.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt', val=None)
+Fitting
+Traceback (most recent call last):
+  File "runner.py", line 87, in <module>
+    main(argparser.parse_args())
+  File "runner.py", line 79, in main
+    sympy_eq = e2e_w_transformer2sympy(eq_str)
+  File "runner.py", line 66, in e2e_w_transformer2sympy
+    return updated_expr
+UnboundLocalError: local variable 'updated_expr' referenced before assignment
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt

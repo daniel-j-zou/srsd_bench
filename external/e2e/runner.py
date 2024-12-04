@@ -54,7 +54,8 @@ def e2e_w_transformer2sympy(eq_str, threshold = 1e-2):
     eq_str_w_normalized_vars = re.sub(r'\bx_([0-9]*[0-9])\b', r'x\1', eq_str)
    # eq_str_w_normalized_vars = eq_str_w_normalized_vars.replace('arctan', 'atan')
     sympy_expr = sympy.parse_expr(eq_str_w_normalized_vars)
-    while True:
+    updated_expr = sympy_expr
+    while False:
         print("Simplifying once")
         print(sympy_expr)
         updated_expr = sympy_expr.xreplace({c: 0 for c in sympy_expr.atoms(sympy.Number) if abs(float(c)) < threshold})

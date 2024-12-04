@@ -1,0 +1,188 @@
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.12.1.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt', val=None)
+Fitting
+(0.149 + 0.448/(0.905406852502206 - 0.006520003662640902*x1))*(0.3802625687092823*x0 + 0.0007770866057525607)*(4.024693618914137*x1 + 0.0005725295024707894)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.1.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.12.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt', val=None)
+Fitting
+(2.87848688286083*x0 - 0.015018458473489357)*(679.936*(0.02665625 - 1/(-0.0004491279221352043*x1 - 1.234757338401365e-6))**2 + 6.93)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.12.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt', val=None)
+Fitting
+(11.8 + 0.385/(2.013621992382371*x1 + 58.24049250785673))*(0.30423007518564305*x0 - 0.00029917344424173352)*(0.2782837473248203*x1 + 0.00015608847518496038)
+../../resource/datasets/srsd/easy_set/train/feynman-i.12.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.14.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt', val=None)
+Fitting
+(0.3691157458280455*x0 + 0.0001647477298559463)*(26.58554522030797*x1 + 0.0038005470126139661)
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.14.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt', val=None)
+Fitting
+(0.006562632993381821 - 3.0582279072120342*x1)*(-0.002969683473801367*x0 - 0.1093256157294458)*(54.67740803803333*x1 + 0.07156807678499172 - 0.030000000000000002/(5.008184705250317*(0.001096720241513999*x0 - 1)**2 + 0.4785 + 65.3/(0.001070250109974656 - 0.52515024669297555*x1)))
+../../resource/datasets/srsd/easy_set/train/feynman-i.14.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.18.12.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt', val=None)
+Fitting
+(0.00398084145359178*x0 + 0.001460428028751216)*(0.0402538174925429*x1 + 0.01522474530468457)*(41.50892974933303*x2 - 130.45675662988532)*(49.1*sin(0.9962143139839927*x2 - 4.5453621591172479) - 60.0)
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.12.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.18.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt', val=None)
+Fitting
+(0.16534788839264431 - 0.0517713685481803*x3)*(0.0021960537074077499*x0 + 0.001474585713877378)*(4375.8225*(0.00096529833292648357*x0 + 0.0317460317460317*(-1.04*sin(0.27130807307835281*x2 - 96.3913245312898) - 0.41300000000000003)*(-80.7*cos(0.55608344305242*x3 + 86.669088202012419) - 1.75)*(0.02505753589221664*x0 + 0.4012239378164396*x1 + 0.0013683706592759944*x2 + 0.3277440127820807) - 0.0011883628119708717 + 1/(5618.1345853287706*(3.3166567692074232e-5*x1 + 1)**3 - 0.41200000000000003))**2 - 0.030500000000000003)
+../../resource/datasets/srsd/easy_set/train/feynman-i.18.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.25.13.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt', val=None)
+Fitting
+(1236.0818489737016*x0 - 0.0010318059087457461)*(Abs(0.00075 - 8.91/(290799.643283055*x1 - 0.41155928474819109)) + 0.058600000000000006)*(-11945.71148756118*x1 + 21.56641799551455 + 1.1500000000000001/(9.9311735777493951*x0 + 4.42997652504835))
+../../resource/datasets/srsd/easy_set/train/feynman-i.25.13.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.26.2.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt', val=None)
+Fitting
+(0.0018599999999999999 - 0.0747*sin(1.0365674897721539*x0 + 0.029799215305865915*x1 - 0.057063186285276246))*(0.007005690000000002*(0.59498207885304657*Abs(0.00114198113279983*x0 + 0.0029310639018753456) - 1)**2 + 2.94)*(-2.1411288034585138*x1 + 1.848705982464626 - 6.36/(1.1544436744420646*x1 + 0.01461955790824812))
+../../resource/datasets/srsd/easy_set/train/feynman-i.26.2.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.27.6.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt', val=None)
+Fitting
+(0.010546027348797818 - 0.088138642132795958*x0)*(2.652064074937493*x0 + 0.002145544796262937)*(0.24600000000000002*atan(98.45002671832422*x2 - 1.273400222457834) + 0.315)*(27.94350672102545*x0 + Abs(259.0790176798006*x2 - 6.561670059099562 + 1.71/(0.024346777957478408*x1 + 0.020192531528332965)) + 2.5427911947981801)
+../../resource/datasets/srsd/easy_set/train/feynman-i.27.6.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.30.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt', val=None)
+Fitting
+-0.00712 - 5.96/(-352031851500024.79*(-x0 + 1.8401937766540969e-9*x1 + 5.4209195050779426e-8*x2 + 4.5730692308041997e-7*atan(54.5*tan(316256619.2727009*x0 - 0.011272893351852325*x2 + 63.18237178221026 - 0.306/(0.5596214790705883 - 2150703734.577213*x0)) + 0.561) + 7.4798777810138828e-7)**2 - 0.0003)
+../../resource/datasets/srsd/easy_set/train/feynman-i.30.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.43.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-i.47.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt', val=None)
+Fitting
+(0.3 + 0.3/(0.37797249821785627*x2 + 0.1335943015543204))*(0.00019999999999999998*sqrt((76.269982207893739*x0 - 24.224711716861341)*(345418.238353004*x1 - 0.455152111818555)) + 0.001)
+../../resource/datasets/srsd/easy_set/train/feynman-i.47.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.10.9.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt', val=None)
+Fitting
+(2265.7641011474676*x0 - 0.02858729988453726)*(441000.0*(1 + 0.00857142857142857/(0.0002779513833631498*x1 + 0.001028146236530839))**2 + 0.030000000000000002)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.10.9.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.13.17.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt', val=None)
+Fitting
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+Expression ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1)))))) has forbidden control characters.
+problem with tree ((1e-05 + (-0.001 * x_0)) * (-9.999999999999999e-05 + (-0.00019999999999999998 * exp((-3.0 + (-8.2 * x_1))))))
+(-0.00754 - 0.00836/(39.89586470715864*x1 + 0.1388231343227273))*(0.00793 - 2.6/(86.12870746270909 - 159.5834588286346*x1))*(30.190617608600718*x0 + 0.00302955885457934)*(0.00246*Abs(0.00133*cos(0.07650000000000001 + 36.9/(79.63975462739273 - 3734.252936590049*x1)) + 1.27) - 0.00173)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.13.17.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.15.4.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt', val=None)
+Fitting
+-89.8*atan(0.028 - 17.0/((-0.9590000000000001 + 72.9/((0.56087989946127708 - 0.318554376549956*x2)*(3.0536644911014327e+23*x0 - 0.015500755744925943)*(-2.3348812606936025*x1 - 2.4901111497015754)*(1393.0549674695942*x1 + 0.45231499704877569)))*(0.87995121144830713 - 0.02449159504639216*x2)*(-4.1*sin(91.4*atan((138.36432035363878 - 44.01941470476275*x2)*(9.8022630164355992e+22*x0 - 0.86465305259412121)) - 58.1) - 0.0582))) - 0.017
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.4.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.15.5.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt', val=None)
+Fitting
+-(-0.0017076810013653929*x1 - 0.0007296597354460779)*(-2.225979160929976e+22*x0 + 0.5489011673219165*x2 - 1.772583469834555) + 41.6*atan(0.0378 + 2.5/(52.903529000000017*(cos(3.3200000000000003 - 0.603/(0.0049599715500929335 - 2.8067735607548205e-5*x1)) - 0.218952618453865)**2 - 50.7)) + 0.0217
+../../resource/datasets/srsd/easy_set/train/feynman-ii.15.5.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.2.42.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt', val=None)
+Fitting
+(357.58584435241403*x3 + 0.106488978395564)*(8.64*Abs(0.3368805854097392*x0 + 0.01001600939997531) + 0.036500000000000005)*(-0.06580000000000001*Abs(0.0013499999999999999*sqrt((0.05321177377962328 - 0.002579179982524505*x0)*(6.483699375620694*x3 + 0.8557209540038756)) + (0.06290000000000001 + 36.9/(0.8094442789736107 - 1.5639468796951734*x3))*(0.032935870260194984*x4 - 0.1080410026193184 + 1/(382.15064775585092*x4 - 3.016417951421147)) - 6.8 - 0.79/(-0.18280195933888128*x4 - 0.00071070316550576364)) - 0.00243)*(-0.003423988397921626*x1 + 0.00396913097388562*x2 - 0.12928022157864334)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.2.42.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.27.16.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt', val=None)
+Fitting
+(0.0036479900051263632*x0 + 8.884566284378501e-5)*(0.73575321475720688*x0 - 0.047557449552428917)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.16.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.27.18.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt', val=None)
+Fitting
+9.17 - 9.9*cos(8.700000000000001 - 66.6/(0.00039999999999999996 + 0.059000000000000004/(0.151*Abs(1.8800000000000001*atan(26.27824186283841*x0 - 57.01596801528879) - 0.0206) + 0.10200000000000001)))
+../../resource/datasets/srsd/easy_set/train/feynman-ii.27.18.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.3.24.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt', val=None)
+Fitting
+(-0.00938 - 81.9/(110.1810813874692*(x1 - 0.001554932744832429)**2 + 0.0038))*(0.0036716634333308557 - 0.077510541903215568*x0)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.3.24.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.34.11.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt', val=None)
+Fitting
+Expression ((((51.7 + x_3) * ((0.00015999999999999999 + (0.595 * x_0)) * (((0.0094 + sqrt((0.0678 + (0.056600000000000004 * sqrt((60.4 + (-0.343 * x_1))))))) * (0.08520000000000001 + (-4.15 * x_1))) * (8.85 + (88.3 * ((-44.2 + (0.029 * 1/((-8.01 + (7.19 * x_0))))))**3))))) * ((-0.6970000000000001 + (-0.233 * 1/((0.0637 + (0.008879999999999999 * x_3))))) - ((0.442 + (0.0097 * abs((-0.0859 + (-5.13 * x_2))))) - (-9.999999999999999e-05 + (0.0553 * 1/((-0.00451 + (-0.005399999999999999 * x_3)))))))) * (-0.0718 + (-9.76 * x_2))) has forbidden control characters.
+problem with tree ((((51.7 + x_3) * ((0.00015999999999999999 + (0.595 * x_0)) * (((0.0094 + sqrt((0.0678 + (0.056600000000000004 * sqrt((60.4 + (-0.343 * x_1))))))) * (0.08520000000000001 + (-4.15 * x_1))) * (8.85 + (88.3 * ((-44.2 + (0.029 * 1/((-8.01 + (7.19 * x_0))))))**3))))) * ((-0.6970000000000001 + (-0.233 * 1/((0.0637 + (0.008879999999999999 * x_3))))) - ((0.442 + (0.0097 * abs((-0.0859 + (-5.13 * x_2))))) - (-9.999999999999999e-05 + (0.0553 * 1/((-0.00451 + (-0.005399999999999999 * x_3)))))))) * (-0.0718 + (-9.76 * x_2)))
+Expression ((((51.7 + x_3) * ((0.00015999999999999999 + (0.595 * x_0)) * (((0.0094 + sqrt((0.0678 + (0.056600000000000004 * sqrt((60.4 + (-0.343 * x_1))))))) * (0.08520000000000001 + (-4.15 * x_1))) * (8.85 + (88.3 * ((-44.2 + (0.029 * 1/((-8.01 + (7.19 * x_0))))))**3))))) * ((-0.6970000000000001 + (-0.233 * 1/((0.0637 + (0.008879999999999999 * x_3))))) - ((0.442 + (0.0097 * abs((-0.0859 + (-5.13 * x_2))))) - (-9.999999999999999e-05 + (0.0553 * 1/((-0.00451 + (-0.005399999999999999 * x_3)))))))) * (-0.0718 + (-9.76 * x_2))) has forbidden control characters.
+problem with tree ((((51.7 + x_3) * ((0.00015999999999999999 + (0.595 * x_0)) * (((0.0094 + sqrt((0.0678 + (0.056600000000000004 * sqrt((60.4 + (-0.343 * x_1))))))) * (0.08520000000000001 + (-4.15 * x_1))) * (8.85 + (88.3 * ((-44.2 + (0.029 * 1/((-8.01 + (7.19 * x_0))))))**3))))) * ((-0.6970000000000001 + (-0.233 * 1/((0.0637 + (0.008879999999999999 * x_3))))) - ((0.442 + (0.0097 * abs((-0.0859 + (-5.13 * x_2))))) - (-9.999999999999999e-05 + (0.0553 * 1/((-0.00451 + (-0.005399999999999999 * x_3)))))))) * (-0.0718 + (-9.76 * x_2)))
+(0.019313522911772265 - 908507267.07704*x2)*(0.024220596476529127 - 23782730544.9683*x1)*(-161.06804277846349*x0 - 0.11106244485699306)*(1.7244972460220929*x0 - 89.789838731853777)*(3049068018.5856795*x1 + 0.916*Abs((4.1153318686147618e+29*x3 + 15.668177775640391)*(1.40750225*(1 + 0.032085561497326204/(3.707833320840163e+26*x3 + 0.0006727993880524686))**2 + 0.934)*(1.7244972460220929*x0 + 107327194.25421592*x1 + 74.614268785454432)) + 0.040299923528650118)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.11.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.34.29b.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.38.14.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt', val=None)
+Fitting
+(50.0 + 102.4678901202454*exp(-1.37782934923047*x1))*(0.003230876172335931*x0 + 1.160155233517171e-6)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.14.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.38.3.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt', val=None)
+Fitting
+(0.0902 - 137.94048068912854*sqrt(sqrt((-1 + 0.0101925254813137/(0.217 - 0.1942947*(1 + 0.06287581699346406/(27311.77530262859*x1 - 57.59501813823407))**2))**2 + 1.52174326749061e-7) + 1.0228629375800743e-5))*(-0.0018200622780248922*x0 - 0.00044371758185305711)*(0.8260725091533104*x1 + 0.00061853172346006947)*(30.116901014767922*x2 - 0.0014044416578266121)*(0.034800000000000005*Abs(-0.00034378954140470187*x0 + 1.097232742234539 + 0.09530000000000001/((0.018973647639303788*x2 - 0.074310901798244436)*(0.18810875576362546*x3 + 0.00076379232766345269))) + 0.00511)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.38.3.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.4.23.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt', val=None)
+Fitting
+Expression (((((44.7 + x_1) - (9.21 + (0.046200000000000005 * x_1))) * (0.377 + (36.1 * x_0))) * (16.4 + (-0.00526 * x_0))) * (-7.000000000000001e-05 + (5.34 * abs((-0.9740000000000001 + (84.2 * 1/((-0.00712 + (-0.00809 * x_1))))))))) has forbidden control characters.
+problem with tree (((((44.7 + x_1) - (9.21 + (0.046200000000000005 * x_1))) * (0.377 + (36.1 * x_0))) * (16.4 + (-0.00526 * x_0))) * (-7.000000000000001e-05 + (5.34 * abs((-0.9740000000000001 + (84.2 * 1/((-0.00712 + (-0.00809 * x_1)))))))))
+Expression (((((44.7 + x_1) - (9.21 + (0.046200000000000005 * x_1))) * (0.377 + (36.1 * x_0))) * (16.4 + (-0.00526 * x_0))) * (-7.000000000000001e-05 + (5.34 * abs((-0.9740000000000001 + (84.2 * 1/((-0.00712 + (-0.00809 * x_1))))))))) has forbidden control characters.
+problem with tree (((((44.7 + x_1) - (9.21 + (0.046200000000000005 * x_1))) * (0.377 + (36.1 * x_0))) * (16.4 + (-0.00526 * x_0))) * (-7.000000000000001e-05 + (5.34 * abs((-0.9740000000000001 + (84.2 * 1/((-0.00712 + (-0.00809 * x_1)))))))))
+(30.88614766963237*x0 - 0.00241084597053963)*(-3.428362391329193*x0 - 0.03301299229272863*x1 + 70.50689901893131)*(0.174774665079152*x1 + 3147596.0828440925*(0.036861426207495314*x0 - 1)**2*(0.0931644561776749*x1 + 1 - 0.083922532368189649/(-0.232636572338916*x1 - 0.005565488334049689))**2 + 39.92673403808401)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.4.23.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-ii.8.31.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt', val=None)
+Fitting
+Expression ((0.0374 + (0.038000000000000006 * x_0)) * ((-0.0023699999999999997 + (-7.000000000000001e-05 * x_0)) * (-0.00233 + (-0.00243 * x_0)))) has forbidden control characters.
+problem with tree ((0.0374 + (0.038000000000000006 * x_0)) * ((-0.0023699999999999997 + (-7.000000000000001e-05 * x_0)) * (-0.00233 + (-0.00243 * x_0))))
+(4.022938058155927e-8*x0 + 1.364991660336884e-6)*(0.0001005734514538982*x0 - 0.00088752084915778818)
+../../resource/datasets/srsd/easy_set/train/feynman-ii.8.31.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-iii.12.43.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt', val=None)
+Fitting
+-0.021409918088008964*x0 + 48.2*exp((0.628 - 26.2*cos(3.5075417597242384*(1 - 3.4853883306666175e-5*x0)**2 + 0.31))*(0.00633363811590642*exp(2.52*cos(5.92 + 0.0834/(0.00025280440739098531*x0 + 0.0017450853742711375))) - 0.049)) + 2.2717403558893136
+../../resource/datasets/srsd/easy_set/train/feynman-iii.12.43.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-iii.15.27.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt', val=None)
+Fitting
+(1.274683924209901*x0 - 0.03224322640811085)*(72900.0*(1 + 0.1/((0.7000000000000001 - 0.58449766637013843*exp(-0.03155921621543379*x1))*(2443759.468740926*x2 + 0.0008385678757682209)))**2 + 0.030000000000000002)
+../../resource/datasets/srsd/easy_set/train/feynman-iii.15.27.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
+Namespace(ckpt='./resource/ckpt/model_easy_epoch100_gc01.pt', out='./e2e-epoch100_gc01_wc/srsd-feynman_easy/feynman-iii.7.38.txt', test='../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt', train='../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt', val=None)
+Fitting
+(0.009416581463506338 - 974.38657027454706*x1)*(89508513858.515966*x0 - 0.005389687955558695)*(30.737746696357952*x1 - 1.4766108869680863e+20*exp(5556736.5985991451*x0) - 0.08811033380011062)
+../../resource/datasets/srsd/easy_set/train/feynman-iii.7.38.txt
